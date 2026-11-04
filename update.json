@@ -2,11 +2,9 @@
   "versionCode": 80,
   "versionName": "2.11.7",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.7.apk",
-  "notes": "Bản 2.11.7",
+  "notes": "2.11.7: bản kiểm chứng nhật ký thay đổi từng bản",
   "changelog": [
     "2.11.7: bản kiểm chứng nhật ký thay đổi từng bản"
   ],
-  "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2358750,
-  "sha256": "d1381912ff663f8e6ed59cebbfb3dc4ba47553f0805e8df87c13ead12ee5c308"
+  "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
