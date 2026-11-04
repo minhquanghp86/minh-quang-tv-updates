@@ -3,6 +3,8 @@
   "versionName": "2.11.9",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.9.apk",
   "notes": "2.11.9: kiểm chứng CI đẩy bằng fine-grained token (chỉ repo cập nhật)",
+  "size": 2358750,
+  "sha256": "00d82a1970722e6e8b0286f1de74e1d5d481d6465459e0385305770b7f61d933",
   "changelog": [
     "2.11.9: kiểm chứng CI đẩy bằng fine-grained token (chỉ repo cập nhật)",
     "CI: xác thực HTTPS bằng username minhquanghp86 (hỗ trợ fine-grained token)"
