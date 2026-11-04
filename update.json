@@ -1,12 +1,12 @@
 {
-  "versionCode": 86,
-  "versionName": "2.11.13",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.13.apk",
-  "notes": "Bản 2.11.13",
+  "versionCode": 87,
+  "versionName": "2.11.14",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.14.apk",
+  "notes": "Bản 2.11.14",
   "changelog": [
-    "2.11.13: sửa splash ngang trên điện thoại dọc + chờ nhập số 2 giây"
+    "2.11.14: hết nhịp xoay ngang-rồi-dọc khi mở trình phát trên điện thoại"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2359837,
-  "sha256": "44e1a847941ec4531d11278b4b8ad628f0a0abf21573958ff5986b2854ee9e89"
+  "size": 2359883,
+  "sha256": "7d8a82f31fe5535f63544364e9ca074a13d28ec1e87418ac18f2af5b071f2f83"
 }
