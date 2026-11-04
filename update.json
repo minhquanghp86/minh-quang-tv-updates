@@ -1,12 +1,12 @@
 {
-  "versionCode": 95,
-  "versionName": "2.11.22",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.22.apk",
-  "notes": "Bản 2.11.22",
+  "versionCode": 96,
+  "versionName": "2.11.23",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.23.apk",
+  "notes": "Bản 2.11.23",
   "changelog": [
-    "2.11.22: điện thoại xoay ngang mặc định đầy chiều cao (không cắt hình), bỏ nút chỉnh khung"
+    "2.11.23: tự kiểm tra cập nhật 30 phút/lần (trước 24h/6h)"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2360256,
-  "sha256": "fb969bba29f8664755b6167c83fe1bb9bb60d7d1b0a3d497db1878c3be6aa1fc"
+  "size": 2360251,
+  "sha256": "579d509a4997d9e96c2357994473670e801f3d2299cb9f2e395737e901c51eb3"
 }
