@@ -1,8 +1,8 @@
 {
-  "versionCode": 74,
-  "versionName": "2.11.1",
+  "versionCode": 76,
+  "versionName": "2.11.3",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.3.apk",
-  "notes": "Bản 2.11.1",
-  "size": 2356926,
-  "sha256": "cfb62fc8478925b0ae0ef9c47b686fc5b349ba67dab6b1e173e3914225780f92"
+  "notes": "Bản 2.11.3",
+  "size": 2356887,
+  "sha256": "6d9bb19d4556d8e5aed9d60aaddf871add01897134eef727056798567ed733af"
 }
