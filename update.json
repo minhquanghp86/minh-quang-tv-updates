@@ -2,15 +2,10 @@
   "versionCode": 78,
   "versionName": "2.11.5",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.5.apk",
-  "notes": "2.11.5: bản kiểm chứng nhật ký thay đổi",
+  "notes": "Bản 2.11.5",
   "changelog": [
-    "2.11.3: kiểm chữ ký thay vì so hash (tránh lỗi Checksum không khớp), thử lại khi tải lỗi",
-    "CI: publish sang repo công khai qua HTTPS + PAT (deploy key bị GitHub từ chối), có retry",
-    "2.11.1: bản kiểm chứng luồng thông báo cập nhật",
-    "2.11.0: thông báo trước khi cài, notification hệ thống, xác nhận sau cập nhật",
-    "docs: phân tích bảo mật APK + kiến trúc cập nhật mới",
-    "2.10.3: bản phát hành để kiểm chứng chuông cập nhật",
-    "2.10.2: chuông đỏ báo bản mới, nhận diện điện thoại theo màn hình cảm ứng, chẩn đoán màn hình dọc",
-    "2.10.1: nút chuông đỏ báo bản mới + kiểm chữ ký APK/ứng dụng, R8 mạnh hơn, allowBackup=false"
-  ]
+    "2.11.5: Nhật ký thay đổi trong popup cập nhật + sửa script publish công khai"
+  ],
+  "size": 2357622,
+  "sha256": "a5eab9b2b34d39245aeef898863b0e2ed7abf1d32cfaa5449b7ccf83c188768b"
 }
