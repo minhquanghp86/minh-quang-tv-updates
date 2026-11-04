@@ -3,6 +3,8 @@
   "versionName": "2.11.6",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.6.apk",
   "notes": "2.11.6: nhật ký thay đổi theo từng bản + liên kết xem tất cả + thông tin liên hệ",
-  "changelog": [],
+  "changelog": [
+    "2.11.6: nhật ký thay đổi theo từng bản + liên kết xem tất cả + thông tin liên hệ"
+  ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
