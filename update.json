@@ -1,12 +1,12 @@
 {
-  "versionCode": 89,
-  "versionName": "2.11.16",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.16.apk",
-  "notes": "Bản 2.11.16",
+  "versionCode": 91,
+  "versionName": "2.11.18",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.18.apk",
+  "notes": "Bản 2.11.18",
   "changelog": [
-    "2.11.16: chặn triệt để xuống dòng ở header danh sách kênh trên điện thoại"
+    "2.11.18: nút phóng to vừa khung (zoom-to-fill) cho điện thoại xoay ngang"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2360223,
-  "sha256": "cb9c87d97ef033a0ba53905aeaddc39c41ae7dcf3afdf7a87dac7f471d82d41c"
+  "size": 2361717,
+  "sha256": "3f91c2e28863ba9c1d388f5dfab1a4b823253b0ee3000a7a9327967882bd7b07"
 }
