@@ -1,12 +1,12 @@
 {
-  "versionCode": 96,
-  "versionName": "2.11.23",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.23.apk",
-  "notes": "Bản 2.11.23",
+  "versionCode": 97,
+  "versionName": "2.11.24",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.24.apk",
+  "notes": "Bản 2.11.24",
   "changelog": [
-    "2.11.23: tự kiểm tra cập nhật 30 phút/lần (trước 24h/6h)"
+    "2.11.24: số cột danh sách kênh theo hướng màn hình (dọc 3, ngang 5), hết bị đảo sau khi xoay"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2360251,
-  "sha256": "8c864e927d47f74cca9d885356a47fb9056debbaabf3aa5366151c2de6ed265b"
+  "size": 2360239,
+  "sha256": "f2f93eec8cbf1d37983cd6e6f8e0866426eb6a54d24edd04f4da2606d580a0c7"
 }
