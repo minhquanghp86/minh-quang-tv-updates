@@ -1,12 +1,12 @@
 {
-  "versionCode": 85,
-  "versionName": "2.11.12",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.12.apk",
-  "notes": "Bản 2.11.12",
+  "versionCode": 86,
+  "versionName": "2.11.13",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.13.apk",
+  "notes": "Bản 2.11.13",
   "changelog": [
-    "2.11.12: chọn kênh bằng phím số ngay trên màn hình chính"
+    "2.11.13: sửa splash ngang trên điện thoại dọc + chờ nhập số 2 giây"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2359842,
-  "sha256": "37d528e9531729afc04e7c9db653ad2e3d72b80dee179cf96a36e087dd6e643f"
+  "size": 2359837,
+  "sha256": "966b8bfa9782486dcd92f50660a1b654c455a77e149af01d2139cb85347b6ca4"
 }
