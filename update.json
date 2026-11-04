@@ -1,13 +1,12 @@
 {
-  "versionCode": 83,
-  "versionName": "2.11.10",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.10.apk",
-  "notes": "Bản 2.11.10",
+  "versionCode": 84,
+  "versionName": "2.11.11",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.11.apk",
+  "notes": "Bản 2.11.11",
   "changelog": [
-    "2.11.10: bàn giao cho agent kế tiếp + rà soát bảo mật/riêng tư 2 repo",
-    "publish-local: ghi size/sha256 của đúng APK được phát hành (manifest luôn khớp file)"
+    "2.11.11: CI tự sinh + đẩy trang nhật ký GitHub Pages mỗi lần phát hành"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2358810,
-  "sha256": "b7b2af5d743f70fcb6511ec862c03108586daff2411f1657090bd1d15fe79094"
+  "size": 2358825,
+  "sha256": "e881c8e16f66e17bc4b1d9b473d77cc4743680f16dbec4c1a972317478a7ddfb"
 }
