@@ -1,12 +1,12 @@
 {
-  "versionCode": 87,
-  "versionName": "2.11.14",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.14.apk",
-  "notes": "Bản 2.11.14",
+  "versionCode": 88,
+  "versionName": "2.11.15",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.15.apk",
+  "notes": "Bản 2.11.15",
   "changelog": [
-    "2.11.14: hết nhịp xoay ngang-rồi-dọc khi mở trình phát trên điện thoại"
+    "2.11.15: sửa bố cục danh sách kênh trên điện thoại màn hẹp"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2359883,
-  "sha256": "917372b443d60eb6ba0b5e4ce56cff5afefdc477936a80be29411ca7b115e7b8"
+  "size": 2360175,
+  "sha256": "1445d5ecfa2848c055c278b7c44cfbc4c004fec731092eea091441790232fd68"
 }
