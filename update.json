@@ -4,9 +4,10 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.24.apk",
   "notes": "Bản 2.11.24",
   "changelog": [
+    "docs: kiểm chứng 2.11.24 trên tivi + cập nhật bàn giao/README",
     "2.11.24: số cột danh sách kênh theo hướng màn hình (dọc 3, ngang 5), hết bị đảo sau khi xoay"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2360239,
-  "sha256": "f2f93eec8cbf1d37983cd6e6f8e0866426eb6a54d24edd04f4da2606d580a0c7"
+  "size": 2360244,
+  "sha256": "ab0c6224bc20ad29fd57ed0b1fdcdca7c58ceb37bff4c91e6acf90c0a0f636d6"
 }
