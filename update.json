@@ -1,11 +1,8 @@
 {
-  "versionCode": 78,
-  "versionName": "2.11.5",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.5.apk",
-  "notes": "Bản 2.11.5",
-  "changelog": [
-    "2.11.5: Nhật ký thay đổi trong popup cập nhật + sửa script publish công khai"
-  ],
-  "size": 2357622,
-  "sha256": "04ffb46fd5bd1ab35c7b5363173ad260a075af4f0254030c6da56044e6a0f7ef"
+  "versionCode": 79,
+  "versionName": "2.11.6",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.6.apk",
+  "notes": "2.11.6: nhật ký thay đổi theo từng bản + liên kết xem tất cả + thông tin liên hệ",
+  "changelog": [],
+  "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
