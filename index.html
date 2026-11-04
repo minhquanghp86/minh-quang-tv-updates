@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MINH QUANG TV — Nhật ký thay đổi</title>
+<style>
+  :root { color-scheme: dark; }
+  body { margin:0; padding:24px 18px 48px; background:#0b0f14; color:#e6edf3;
+         font-family:-apple-system,Roboto,Segoe UI,sans-serif; line-height:1.55; }
+  .wrap { max-width:760px; margin:0 auto; }
+  h1 { color:#c6f32c; font-size:24px; margin:0 0 4px; }
+  .sub { color:#8fa3b8; font-size:14px; margin-bottom:22px; }
+  h2 { color:#c6f32c; font-size:18px; margin:26px 0 8px; }
+  ul { margin:0 0 6px; padding-left:22px; }
+  li { margin:4px 0; }
+  p { margin:6px 0; color:#c9d6e3; }
+  a { color:#7cc4ff; }
+  .tag { display:inline-block; background:#16202c; border:1px solid #243040;
+          border-radius:999px; padding:2px 10px; font-size:12px; color:#8fa3b8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>MINH QUANG TV</h1>
+  <div class="sub">Nhật ký thay đổi các phiên bản · <a href="https://github.com/minhquanghp86/minh-quang-tv-updates">kênh cập nhật</a></div>
+  <p>Liên hệ: Zalo 0376957258 · Email minhquanghp86@gmail.com</p>
+<h2>2.11.6</h2>
+<ul>
+<li>Popup cập nhật chỉ hiển thị thay đổi của **bản mới so với bản trước**.</li>
+<li>Thêm nút **“Tất cả thay đổi”** mở trang nhật ký đầy đủ: https://minhquanghp86.github.io/minh-quang-tv-updates/</li>
+<li>Trang Cài đặt: thêm thông tin liên hệ Zalo/Email ở cuối trang.</li>
+</ul>
+<h2>2.11.4</h2>
+<ul>
+<li>Thêm mục **Nhật ký thay đổi** trong popup cập nhật (lấy từ `changelog` trong `update.json`).</li>
+<li>CI và script phát hành tự sinh danh sách thay đổi từ commit gần nhất.</li>
+</ul>
+<h2>2.11.3</h2>
+<ul>
+<li>Sửa lỗi “Checksum không khớp”: dùng **chữ ký APK** làm điều kiện quyết định, sha256 chỉ ghi log.</li>
+<li>Thử tải lại 2 lần khi lỗi mạng; xoá file tải hỏng trước khi thử lại.</li>
+<li>`UpdateChecker` thêm tham số chống cache CDN khi đọc manifest.</li>
+</ul>
+<h2>2.11.1 → 2.11.2</h2>
+<ul>
+<li>Trước khi cài: hộp thoại “Đang cài đặt bản X — app sẽ tạm đóng”.</li>
+<li>Notification hệ thống “Đang cập nhật…” (xin quyền `POST_NOTIFICATIONS` trên Android 13+).</li>
+<li>Mở lại app sau cập nhật: hộp thoại **“Đã cập nhật lên X”** + notification bấm để mở.</li>
+</ul>
+<h2>2.11.0</h2>
+<ul>
+<li>Chuông đỏ báo bản mới cạnh nút Cài đặt (dock trình phát + màn hình chính), chỉ hiện khi có bản mới.</li>
+<li>Không tự bật popup khi kiểm tra nền; chỉ toast 1 lần/phiên bản.</li>
+</ul>
+<h2>2.10.x</h2>
+<ul>
+<li>Nhận diện điện thoại theo màn hình cảm ứng; sửa bố cục danh sách kênh trên màn hình dọc.</li>
+<li>Chẩn đoán màn hình (dp, hướng, số cột) trong Cài đặt.</li>
+</ul>
+<h2>2.10.0</h2>
+<ul>
+<li>Chặn cài APK giả: kiểm chữ ký trước khi cài; app tự kiểm chữ ký khi chạy.</li>
+<li>R8 mạnh hơn, `allowBackup=false`.</li>
+</ul>
+<h2>2.9.0</h2>
+<ul>
+<li>Cập nhật chỉ đọc từ repo công khai `minh-quang-tv-updates` (bỏ nguồn LAN).</li>
+</ul>
+<h2>2.8.x</h2>
+<ul>
+<li>GitHub Actions build + tự đẩy `update.json`/APK sang repo công khai.</li>
+<li>Cập nhật trong app: tải có tiến trình, cài bằng `PackageInstaller`.</li>
+</ul>
+</div>
+</body>
+</html>
