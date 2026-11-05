@@ -4,10 +4,11 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.7.apk",
   "notes": "Bản 2.12.7",
   "changelog": [
+    "docs: bổ sung thiết kế thanh toán tự động (QR + webhook + tự kích hoạt)",
     "docs: kế hoạch thu phí (dùng thử 30 ngày, mua 1 lần vĩnh viễn)",
     "2.12.7: điện thoại — Back lần 1 đóng lớp phủ/cụm nút, lần 2 mới thoát app"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2368323,
-  "sha256": "727c66c4cfa218893e80af6dca522f56bbe752b10ad54ff036ccb4795a8bffef"
+  "size": 2368327,
+  "sha256": "897a5f9dce68312d4abea0f356c1a2bbb72284b7bcd0f2db3d96ff73607847fb"
 }
