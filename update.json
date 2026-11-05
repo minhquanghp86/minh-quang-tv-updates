@@ -7,6 +7,7 @@
   "sha256": "300ec465e26acbf5bf8cd1a7f788d3589dc67c3dc16a7e82aab7c024804b534f",
   "changelog": [
     "Watchdog dùng khung hình đầu tiên (onRenderedFirstFrame) thay vì trạng thái READY: kênh \"READY nhưng đen\" (ví dụ stream DASH có DRM PlayReady/Widevine) giờ bị coi là lỗi → tự chuyển luồng/kênh, không treo màn hình đen.",
+    "Kênh DRM không mở được khoá: báo lỗi ngắn rồi tự chuyển kênh (trước đây đứng im ở màn hình đen, không auto-next).",
     "Ưu tiên HLS hơn DASH khi kênh có cả hai luồng."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
