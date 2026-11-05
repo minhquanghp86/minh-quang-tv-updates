@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.15.apk",
   "notes": "Bản 2.12.15",
   "size": 2372262,
-  "sha256": "a00f0b4e0511c04e8de19fb6adaf2165df22cbe4f87064dbc1c289ddee9f6604",
+  "sha256": "80cf276774abdec884533d9bacb254f5a70c40677e08926696ef4a797763cc61",
   "changelog": [
     "Bỏ Danh sách 3 khỏi mặc định (máy đã cài cũng tự xoá) — chỉ còn Danh sách 1 & 2. Nguồn mq-tv-lists sẽ được thêm thủ công sau khi danh sách ổn định."
   ],
