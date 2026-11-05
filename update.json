@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.21.apk",
   "notes": "Bản 2.12.21",
   "size": 2376760,
-  "sha256": "705bb85e8873349ade6fc2604f33d97882b064cee82093aa3e48595475379877",
+  "sha256": "151bbef43da7436998957c5780456ab03b55f090cdda094b9dc50064b0194945",
   "changelog": [
     "Kênh lỗi DRM: thử phát lại không dùng DRM một lần (một số kênh bị gắn cờ DRM nhưng không mã hoá) rồi mới bỏ kênh.",
     "🐞 Nhật ký phát ghi thêm kết quả kiểm tra cập nhật (bản tìm thấy / lỗi mạng) để chẩn đoán trường hợp app không nhận bản mới."
