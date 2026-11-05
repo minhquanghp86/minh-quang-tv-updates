@@ -1,12 +1,12 @@
 {
-  "versionCode": 104,
-  "versionName": "2.12.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.1.apk",
-  "notes": "Bản 2.12.1",
+  "versionCode": 105,
+  "versionName": "2.12.2",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.2.apk",
+  "notes": "Bản 2.12.2",
   "changelog": [
-    "2.12.1: A3 dải nhóm kênh + A4 tìm không dấu & lịch sử tìm"
+    "2.12.2: hiện đủ nút trong dock khi chạm màn hình (thêm nút Cửa sổ nổi)"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2368414,
-  "sha256": "c63231ea2058dc90d4ba018356db1abe883f775793545af20000e4f766960e9e"
+  "size": 2368089,
+  "sha256": "235e2f82fcf4241916f0548cd882f3f9b009a9574859115e8c5f4a918fd9182d"
 }
