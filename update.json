@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.16.apk",
   "notes": "Bản 2.12.16",
   "size": 2373213,
-  "sha256": "d78e4f59a83bf5d10f4f5108ae223dd10a11faf0e2674661f535d335659de157",
+  "sha256": "607946e1d86f2e70bbe1605ad8f262f0e42ac157cd3c729284ccd13bebd61071",
   "changelog": [
     "Gộp nhóm trùng nhau sau khi chuẩn hoá (khác hoa/thường, dấu tiếng Việt, khoảng trắng, ký tự trang trí) — ví dụ \"THỂ THAO QUỐC TẾ\" và \"⚽| Thể thao quốc tế\" giờ chỉ còn 1 chip."
   ],
