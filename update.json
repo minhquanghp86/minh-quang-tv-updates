@@ -1,13 +1,13 @@
 {
-  "versionCode": 124,
-  "versionName": "2.12.21",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.21.apk",
-  "notes": "Bản 2.12.21",
-  "size": 2376760,
-  "sha256": "151bbef43da7436998957c5780456ab03b55f090cdda094b9dc50064b0194945",
+  "versionCode": 125,
+  "versionName": "2.12.22",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.22.apk",
+  "notes": "Bản 2.12.22",
+  "size": 2377144,
+  "sha256": "e6342e0fb3e3c9fdc260676668336c4d3b24ee17d0b4be0f5309561c18df4100",
   "changelog": [
-    "Kênh lỗi DRM: thử phát lại không dùng DRM một lần (một số kênh bị gắn cờ DRM nhưng không mã hoá) rồi mới bỏ kênh.",
-    "🐞 Nhật ký phát ghi thêm kết quả kiểm tra cập nhật (bản tìm thấy / lỗi mạng) để chẩn đoán trường hợp app không nhận bản mới."
+    "Tự chuyển kênh không bị dừng nữa: kênh DRM không phát được trên máy sẽ bị bỏ qua ngay (1,2 giây) và không tính vào hạn mức chuyển kênh; chọn kênh thủ công đặt lại bộ đếm.",
+    "Cập nhật có nguồn dự phòng: đọc update.json và tải APK qua jsDelivr nếu raw.githubusercontent.com bị mạng chặn."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
