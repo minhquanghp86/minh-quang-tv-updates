@@ -1,12 +1,12 @@
 {
-  "versionCode": 105,
-  "versionName": "2.12.2",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.2.apk",
-  "notes": "Bản 2.12.2",
+  "versionCode": 106,
+  "versionName": "2.12.3",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.3.apk",
+  "notes": "Bản 2.12.3",
   "changelog": [
-    "2.12.2: hiện đủ nút trong dock khi chạm màn hình (thêm nút Cửa sổ nổi)"
+    "2.12.3: sửa PiP — ẩn overlay khi ở PiP + TextureView trên điện thoại"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2368089,
-  "sha256": "7fbfc074f9c79046597cb77aa3d2a50d7bf8d8d26dc8c8613e9584d41d0ce78d"
+  "size": 2368836,
+  "sha256": "e21a034b019a2ec237cd820d23401df7ce78efb657b9ad40e7857f84077244af"
 }
