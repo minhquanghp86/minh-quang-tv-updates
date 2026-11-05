@@ -3,8 +3,8 @@
   "versionName": "2.12.11",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.11.apk",
   "notes": "Bản 2.12.11",
-  "size": 2369630,
-  "sha256": "0b0be882deae59b17d43da12fe36552d0005394bcacf3698536fc7617aea13ef",
+  "size": 2369632,
+  "sha256": "d29537de9b16447c5e0da3758b57546861352b638bac1479e3a9ef02be05d486",
   "changelog": [
     "Danh sách do người dùng tự thêm cũng hiển thị số kênh cạnh tên (ví dụ “List của tôi (120)”)."
   ],
