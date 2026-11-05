@@ -1,13 +1,12 @@
 {
-  "versionCode": 98,
-  "versionName": "2.11.25",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.25.apk",
-  "notes": "Bản 2.11.25",
+  "versionCode": 99,
+  "versionName": "2.11.26",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.26.apk",
+  "notes": "Bản 2.11.26",
   "changelog": [
-    "2.11.25: sửa khôi phục kênh cuối (bỏ đánh dấu bad + khớp tên mờ + theo số kênh)",
-    "docs: kiểm chứng 2.11.24 trên tivi + cập nhật bàn giao/README"
+    "2.11.26: xoay theo cảm biến áp dụng ngay khi bật/tắt tự xoay (ContentObserver + SCREEN_ORIENTATION_USER)"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2360740,
-  "sha256": "1a349a63de04dc79f0878363a895187e5f66c9f9020ba18509a02ae201bcbe98"
+  "size": 2361079,
+  "sha256": "bd918c93c71ec7f340b659dae14b4a13db660ab40a5416eace14f19a68d278ba"
 }
