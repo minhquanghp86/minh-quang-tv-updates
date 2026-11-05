@@ -1,12 +1,13 @@
 {
-  "versionCode": 119,
-  "versionName": "2.12.16",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.16.apk",
-  "notes": "Bản 2.12.16",
-  "size": 2373213,
-  "sha256": "607946e1d86f2e70bbe1605ad8f262f0e42ac157cd3c729284ccd13bebd61071",
+  "versionCode": 120,
+  "versionName": "2.12.17",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.17.apk",
+  "notes": "Bản 2.12.17",
+  "size": 2374449,
+  "sha256": "5df43d11228deae4bdfb3603db92465142bcb16468dcc3ee1788946a182dfda7",
   "changelog": [
-    "Gộp nhóm trùng nhau sau khi chuẩn hoá (khác hoa/thường, dấu tiếng Việt, khoảng trắng, ký tự trang trí) — ví dụ \"THỂ THAO QUỐC TẾ\" và \"⚽| Thể thao quốc tế\" giờ chỉ còn 1 chip."
+    "Watchdog dùng khung hình đầu tiên (onRenderedFirstFrame) thay vì trạng thái READY: kênh \"READY nhưng đen\" (ví dụ stream DASH có DRM PlayReady/Widevine) giờ bị coi là lỗi → tự chuyển luồng/kênh, không treo màn hình đen.",
+    "Ưu tiên HLS hơn DASH khi kênh có cả hai luồng."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
