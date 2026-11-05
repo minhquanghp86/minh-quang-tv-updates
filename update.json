@@ -1,12 +1,14 @@
 {
-  "versionCode": 116,
-  "versionName": "2.12.13",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.13.apk",
-  "notes": "Bản 2.12.13",
-  "size": 2371792,
-  "sha256": "4c282ffc17424f3cd9e50afb088fe76f0499f5437534214b9eaaa8a749a17bc6",
+  "versionCode": 117,
+  "versionName": "2.12.14",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.14.apk",
+  "notes": "Bản 2.12.14",
+  "size": 2372380,
+  "sha256": "38d5a86ba030c373a868e9a68d51a57abce1938a4793917cd4c0ef95230eb4c0",
   "changelog": [
-    "Thêm Danh sách 3 — nguồn mq-tv-lists do dự án tự vận hành: 447 kênh, 100% kênh được kiểm tra còn sống trước khi phát hành, tự cập nhật 01:00 ICT hằng ngày (EPG epg.io.vn, nhóm đầy đủ VTV → VTC → SCTV → Quốc Tế → VTVcab → HTV → …)."
+    "Thêm Danh sách 3 — nguồn mq-tv-lists của dự án (tự cập nhật 01:00 ICT, EPG epg.io.vn).",
+    "Watchdog phát hình: kênh không lên hình sau 12 giây (màn hình đen, không báo lỗi) được coi là lỗi → tự thử mimetype khác, thử lại, rồi tự chuyển kênh tiếp theo.",
+    "Luồng dự phòng: mỗi kênh giữ tối đa 3 luồng từ các danh sách khác nhau; luồng chính lỗi/đen sẽ tự thử luồng kế tiếp cùng kênh trước khi chuyển kênh."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
