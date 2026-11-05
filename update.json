@@ -1,14 +1,12 @@
 {
-  "versionCode": 120,
-  "versionName": "2.12.17",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.17.apk",
-  "notes": "Bản 2.12.17",
-  "size": 2374449,
-  "sha256": "300ec465e26acbf5bf8cd1a7f788d3589dc67c3dc16a7e82aab7c024804b534f",
+  "versionCode": 121,
+  "versionName": "2.12.18",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.18.apk",
+  "notes": "Bản 2.12.18",
+  "size": 2374697,
+  "sha256": "3123eab5275e0a1b15723166f57c9c416da68c5cb47d48e3ad0a457a56bd20e1",
   "changelog": [
-    "Watchdog dùng khung hình đầu tiên (onRenderedFirstFrame) thay vì trạng thái READY: kênh \"READY nhưng đen\" (ví dụ stream DASH có DRM PlayReady/Widevine) giờ bị coi là lỗi → tự chuyển luồng/kênh, không treo màn hình đen.",
-    "Kênh DRM không mở được khoá: báo lỗi ngắn rồi tự chuyển kênh (trước đây đứng im ở màn hình đen, không auto-next).",
-    "Ưu tiên HLS hơn DASH khi kênh có cả hai luồng."
+    "Gặp lỗi khởi tạo bộ giải mã (mã ERROR_CODE_DECODER_INIT_FAILED, thiết bị hết/kẹt codec cứng): tự giải phóng player rồi tạo lại để đòi codec mới trước khi chuyển kênh."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
