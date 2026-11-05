@@ -1,12 +1,12 @@
 {
-  "versionCode": 115,
-  "versionName": "2.12.12",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.12.apk",
-  "notes": "Bản 2.12.12",
-  "size": 2371553,
-  "sha256": "02127fc0d162361970ca7b6f26cd85ce506f6994883c5b02fafceeb8fbb30008",
+  "versionCode": 116,
+  "versionName": "2.12.13",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.13.apk",
+  "notes": "Bản 2.12.13",
+  "size": 2371793,
+  "sha256": "c8bcfe5709b7da582a141489f65e67a305fe60af496dbeebbca6bd02edaf9b86",
   "changelog": [
-    "Gia cố tương thích TV: xin quyền thông báo trên mọi thiết bị (trước chỉ điện thoại), xử lý inset cho Android 15 edge-to-edge (dock/panel không sát mép), và tự chuyển audio track khi thiết bị không giải mã được AC3/EAC3 (kèm cảnh báo nếu không có track thay thế)."
+    "Thêm Danh sách 3 — nguồn mq-tv-lists do dự án tự vận hành: 447 kênh, 100% kênh được kiểm tra còn sống trước khi phát hành, tự cập nhật 01:00 ICT hằng ngày (EPG epg.io.vn, nhóm đầy đủ VTV → VTC → SCTV → Quốc Tế → VTVcab → HTV → …)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
