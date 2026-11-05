@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.14.apk",
   "notes": "Bản 2.12.14",
   "size": 2372380,
-  "sha256": "38d5a86ba030c373a868e9a68d51a57abce1938a4793917cd4c0ef95230eb4c0",
+  "sha256": "ee35bcb8a4229f2733ff6c04abc59ae8dd6f8844d77577f4b4688034e2b85952",
   "changelog": [
     "Thêm Danh sách 3 — nguồn mq-tv-lists của dự án (tự cập nhật 01:00 ICT, EPG epg.io.vn).",
     "Watchdog phát hình: kênh không lên hình sau 12 giây (màn hình đen, không báo lỗi) được coi là lỗi → tự thử mimetype khác, thử lại, rồi tự chuyển kênh tiếp theo.",
