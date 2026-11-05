@@ -1,13 +1,12 @@
 {
-  "versionCode": 100,
-  "versionName": "2.11.27",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.27.apk",
-  "notes": "Bản 2.11.27",
+  "versionCode": 101,
+  "versionName": "2.11.28",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.28.apk",
+  "notes": "Bản 2.11.28",
   "changelog": [
-    "2.11.27: bo tròn góc logo kênh khi hiển thị (Coil transformation)",
-    "docs: quy ước luôn cài bản mới lên TV sau mỗi lần phát hành (tới khi người dùng bảo dừng)"
+    "2.11.28: khung logo bo tròn đồng nhất cho lưới kênh và màn hình chính"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2362671,
-  "sha256": "8810dbf65c8a7eae53cfe8067490b0ba62393f16ba8e5dd0d1b537cddb9c26aa"
+  "size": 2363229,
+  "sha256": "5cd20c5a87a21e6270cc14f83ee237f2b09139bbb9cd867faaf8d0d86b831943"
 }
