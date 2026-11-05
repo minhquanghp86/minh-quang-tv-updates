@@ -1,12 +1,12 @@
 {
-  "versionCode": 109,
-  "versionName": "2.12.6",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.6.apk",
-  "notes": "Bản 2.12.6",
+  "versionCode": 110,
+  "versionName": "2.12.7",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.7.apk",
+  "notes": "Bản 2.12.7",
   "changelog": [
-    "2.12.6: bỏ nút Tìm kiếm khỏi dock (chỉ còn Yêu thích + Cài đặt) và kiểm chứng điều hướng dải nhóm trên TV"
+    "2.12.7: điện thoại — Back lần 1 đóng lớp phủ/cụm nút, lần 2 mới thoát app"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2368390,
-  "sha256": "b99edf6c164bc6d3cf9611c246b7748fc0fdc9bbc5b9d0aa59df586a0125c806"
+  "size": 2368331,
+  "sha256": "8b89e299ac9aa55075da7ca024d72036d1a90f35351136b07c113ca48bb64cdf"
 }
