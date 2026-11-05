@@ -4,9 +4,10 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.7.apk",
   "notes": "Bản 2.12.7",
   "changelog": [
+    "docs: kế hoạch thu phí (dùng thử 30 ngày, mua 1 lần vĩnh viễn)",
     "2.12.7: điện thoại — Back lần 1 đóng lớp phủ/cụm nút, lần 2 mới thoát app"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2368331,
-  "sha256": "8b89e299ac9aa55075da7ca024d72036d1a90f35351136b07c113ca48bb64cdf"
+  "size": 2368323,
+  "sha256": "727c66c4cfa218893e80af6dca522f56bbe752b10ad54ff036ccb4795a8bffef"
 }
