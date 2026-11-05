@@ -1,12 +1,12 @@
 {
-  "versionCode": 114,
-  "versionName": "2.12.11",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.11.apk",
-  "notes": "Bản 2.12.11",
-  "size": 2369632,
-  "sha256": "d29537de9b16447c5e0da3758b57546861352b638bac1479e3a9ef02be05d486",
+  "versionCode": 115,
+  "versionName": "2.12.12",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.12.apk",
+  "notes": "Bản 2.12.12",
+  "size": 2371561,
+  "sha256": "0eaa514233f182c893269ee76bf1c378c09c24088d43cd3e3105f2473f548371",
   "changelog": [
-    "Danh sách do người dùng tự thêm cũng hiển thị số kênh cạnh tên (ví dụ “List của tôi (120)”)."
+    "Gia cố tương thích TV: xin quyền thông báo trên mọi thiết bị (trước chỉ điện thoại), xử lý inset cho Android 15 edge-to-edge (dock/panel không sát mép), và tự chuyển audio track khi thiết bị không giải mã được AC3/EAC3 (kèm cảnh báo nếu không có track thay thế)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
