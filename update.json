@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.13.apk",
   "notes": "Bản 2.12.13",
   "size": 2371793,
-  "sha256": "c8bcfe5709b7da582a141489f65e67a305fe60af496dbeebbca6bd02edaf9b86",
+  "sha256": "0bf7d05e617037a4d927f0cc14769e3d5239d022b2c494bbb612eea0e4a9e619",
   "changelog": [
     "Thêm Danh sách 3 — nguồn mq-tv-lists do dự án tự vận hành: 447 kênh, 100% kênh được kiểm tra còn sống trước khi phát hành, tự cập nhật 01:00 ICT hằng ngày (EPG epg.io.vn, nhóm đầy đủ VTV → VTC → SCTV → Quốc Tế → VTVcab → HTV → …)."
   ],
