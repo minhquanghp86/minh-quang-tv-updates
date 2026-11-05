@@ -1,14 +1,12 @@
 {
-  "versionCode": 112,
-  "versionName": "2.12.9",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.9.apk",
-  "notes": "Bản 2.12.9",
-  "size": 2369575,
-  "sha256": "658e41b4c5bb8a80635e870e41996b54d93d68ade0c7b25b372e995de15b4cf3",
+  "versionCode": 114,
+  "versionName": "2.12.11",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.11.apk",
+  "notes": "Bản 2.12.11",
+  "size": 2369645,
+  "sha256": "6dcb21b1def5687a8ba89ab8b966f9a3c526044b6bb142e9492e7227eb8166a2",
   "changelog": [
-    "4 nguồn tích hợp sẵn thành cố định: chỉ bật/tắt (không sửa/xóa), hiển thị “Danh sách 1 (542)” … “Danh sách 4 (n)”, ẩn URL và tên gốc.",
-    "Chỉ các nguồn người dùng tự thêm mới được sửa/xóa.",
-    "Số kênh mỗi nguồn được đếm khi tải danh sách và hiện cạnh tên."
+    "Danh sách do người dùng tự thêm cũng hiển thị số kênh cạnh tên (ví dụ “List của tôi (120)”)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
