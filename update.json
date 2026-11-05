@@ -1,13 +1,13 @@
 {
-  "versionCode": 99,
-  "versionName": "2.11.26",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.26.apk",
-  "notes": "Bản 2.11.26",
+  "versionCode": 100,
+  "versionName": "2.11.27",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.27.apk",
+  "notes": "Bản 2.11.27",
   "changelog": [
-    "docs: quy ước luôn cài bản mới lên TV sau mỗi lần phát hành (tới khi người dùng bảo dừng)",
-    "2.11.26: xoay theo cảm biến áp dụng ngay khi bật/tắt tự xoay (ContentObserver + SCREEN_ORIENTATION_USER)"
+    "2.11.27: bo tròn góc logo kênh khi hiển thị (Coil transformation)",
+    "docs: quy ước luôn cài bản mới lên TV sau mỗi lần phát hành (tới khi người dùng bảo dừng)"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2361085,
-  "sha256": "1a8409b86f0dfc392da87cfdeec728b1270179598ca346a8e022426509b1f4ea"
+  "size": 2362671,
+  "sha256": "8afdc3cf178831515d6eaa02d71b0e40d6ee5cb4b568117bd9ebc9d7a31dc6c9"
 }
