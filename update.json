@@ -1,12 +1,12 @@
 {
-  "versionCode": 101,
-  "versionName": "2.11.28",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.28.apk",
-  "notes": "Bản 2.11.28",
+  "versionCode": 102,
+  "versionName": "2.11.29",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.29.apk",
+  "notes": "Bản 2.11.29",
   "changelog": [
-    "2.11.28: khung logo bo tròn đồng nhất cho lưới kênh và màn hình chính"
+    "2.11.29: logo kênh luôn hiển thị ở góc khi đang xem"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2363229,
-  "sha256": "2d33b87f518e504ac00c204f1a22c1226ed46c775e9ee2d5b0269204b2301071"
+  "size": 2363793,
+  "sha256": "0fb8166dfffd150f199e4d494a5d96db02c66572e9cdb9150a6a82f7715cbd2f"
 }
