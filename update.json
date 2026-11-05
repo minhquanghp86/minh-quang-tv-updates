@@ -2,9 +2,9 @@
   "versionCode": 111,
   "versionName": "2.12.8",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.8.apk",
-  "notes": "2.12.8: tiêu đề mục trong danh sách kênh có số lượng",
-  "size": 2368590,
-  "sha256": "4a6f1e6d34b96c429ce79c5de669c0d2d4432bcee85ad1e585e34f7b2a432247",
+  "notes": "Bản 2.12.8",
+  "size": 2368587,
+  "sha256": "3684ec6c4015d707b9458e4c1d2b924fb38260ed197422bcb36be6a92557ab0a",
   "changelog": [
     "Danh sách kênh (và màn hình chính): tiêu đề mục có số lượng kênh — “Kênh yêu thích (10)”, “Vừa xem (8)”, mỗi nhóm “VTV (22)”."
   ],
