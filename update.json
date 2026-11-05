@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.20.apk",
   "notes": "Bản 2.12.20",
   "size": 2376423,
-  "sha256": "2fe73c055bc3ef14271abcbc45424479bf7e17c8eed745c01bd319544c082cc1",
+  "sha256": "bb801f61ab42677e18c91cbec5ee4561f2af08dbf42e4774956200214d778fad",
   "changelog": [
     "Sửa lỗi DRM ClearKey trên Android 12+ (ERROR_CODE_DRM_SYSTEM_ERROR): chuẩn hoá JSON khoá về đúng kty/kid/k (bỏ trường lạ như \"type\" kiểu Windows mà MediaDrm mới từ chối) — các kênh DASH có khoá ClearKey (Cartoon Network, Cinema World…) phát được trên điện thoại.",
     "Kênh lỗi DRM/DASH: chuyển kênh ngay thay vì thử lại nhiều lần."
