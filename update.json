@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.9.apk",
   "notes": "Bản 2.12.9",
   "size": 2369575,
-  "sha256": "2641ee968cc6e3c133db9d4b525a33c7472f1a70441d66b581b2901424b5ccb2",
+  "sha256": "658e41b4c5bb8a80635e870e41996b54d93d68ade0c7b25b372e995de15b4cf3",
   "changelog": [
     "4 nguồn tích hợp sẵn thành cố định: chỉ bật/tắt (không sửa/xóa), hiển thị “Danh sách 1 (542)” … “Danh sách 4 (n)”, ẩn URL và tên gốc.",
     "Chỉ các nguồn người dùng tự thêm mới được sửa/xóa.",
