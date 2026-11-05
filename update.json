@@ -2,16 +2,11 @@
   "versionCode": 111,
   "versionName": "2.12.8",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.8.apk",
-  "notes": "Bản 2.12.8",
-  "changelog": [
-    "2.12.8: tiêu đề mục trong danh sách kênh có số lượng (Kênh yêu thích (N), Vừa xem (N), nhóm (N))",
-    "docs: backup mốc trước thu phí + tạo docs/deploy.md (nhật ký triển khai) và docs/BAN-GIAO-THU-PHI.md (bàn giao riêng)",
-    "docs: biểu phí PayOS, giá 120k/2 thiết bị (+50k/thiết bị), chính sách hoàn tiền đề xuất, hostname",
-    "docs: chốt PayOS + add-on HA + Cloudflare Tunnel, giá 120k/2 thiết bị; kế hoạch triển khai GĐ1.5",
-    "docs: bổ sung thiết kế thanh toán tự động (QR + webhook + tự kích hoạt)",
-    "docs: kế hoạch thu phí (dùng thử 30 ngày, mua 1 lần vĩnh viễn)"
-  ],
-  "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
+  "notes": "2.12.8: tiêu đề mục trong danh sách kênh có số lượng",
   "size": 2368590,
-  "sha256": "10cc02f7db6d936c32d034a73d2bcf786e54442a5484724381885ea02bd4aa59"
+  "sha256": "4a6f1e6d34b96c429ce79c5de669c0d2d4432bcee85ad1e585e34f7b2a432247",
+  "changelog": [
+    "Danh sách kênh (và màn hình chính): tiêu đề mục có số lượng kênh — “Kênh yêu thích (10)”, “Vừa xem (8)”, mỗi nhóm “VTV (22)”."
+  ],
+  "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
