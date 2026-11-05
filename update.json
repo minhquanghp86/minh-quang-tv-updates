@@ -4,9 +4,10 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.11.26.apk",
   "notes": "Bản 2.11.26",
   "changelog": [
+    "docs: quy ước luôn cài bản mới lên TV sau mỗi lần phát hành (tới khi người dùng bảo dừng)",
     "2.11.26: xoay theo cảm biến áp dụng ngay khi bật/tắt tự xoay (ContentObserver + SCREEN_ORIENTATION_USER)"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2361079,
-  "sha256": "2ad52cc3be87eb3300f8d99c5606433429c14c23d6d3736fd6f1506564bc89da"
+  "size": 2361085,
+  "sha256": "1a8409b86f0dfc392da87cfdeec728b1270179598ca346a8e022426509b1f4ea"
 }
