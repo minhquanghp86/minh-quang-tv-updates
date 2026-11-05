@@ -1,17 +1,17 @@
 {
-  "versionCode": 110,
-  "versionName": "2.12.7",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.7.apk",
-  "notes": "Bản 2.12.7",
+  "versionCode": 111,
+  "versionName": "2.12.8",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.8.apk",
+  "notes": "Bản 2.12.8",
   "changelog": [
+    "2.12.8: tiêu đề mục trong danh sách kênh có số lượng (Kênh yêu thích (N), Vừa xem (N), nhóm (N))",
     "docs: backup mốc trước thu phí + tạo docs/deploy.md (nhật ký triển khai) và docs/BAN-GIAO-THU-PHI.md (bàn giao riêng)",
     "docs: biểu phí PayOS, giá 120k/2 thiết bị (+50k/thiết bị), chính sách hoàn tiền đề xuất, hostname",
     "docs: chốt PayOS + add-on HA + Cloudflare Tunnel, giá 120k/2 thiết bị; kế hoạch triển khai GĐ1.5",
     "docs: bổ sung thiết kế thanh toán tự động (QR + webhook + tự kích hoạt)",
-    "docs: kế hoạch thu phí (dùng thử 30 ngày, mua 1 lần vĩnh viễn)",
-    "2.12.7: điện thoại — Back lần 1 đóng lớp phủ/cụm nút, lần 2 mới thoát app"
+    "docs: kế hoạch thu phí (dùng thử 30 ngày, mua 1 lần vĩnh viễn)"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2368323,
-  "sha256": "99514da99c604bd836d33179bceecdff357ac2dae423d2693d1f2ac542251872"
+  "size": 2368590,
+  "sha256": "1929b3b07ff9b8837d739710e3d72c9583a9ba929a07eaafccfbde5727fab455"
 }
