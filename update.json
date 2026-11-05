@@ -1,12 +1,12 @@
 {
-  "versionCode": 118,
-  "versionName": "2.12.15",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.15.apk",
-  "notes": "Bản 2.12.15",
-  "size": 2372262,
-  "sha256": "80cf276774abdec884533d9bacb254f5a70c40677e08926696ef4a797763cc61",
+  "versionCode": 119,
+  "versionName": "2.12.16",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.16.apk",
+  "notes": "Bản 2.12.16",
+  "size": 2373213,
+  "sha256": "d78e4f59a83bf5d10f4f5108ae223dd10a11faf0e2674661f535d335659de157",
   "changelog": [
-    "Bỏ Danh sách 3 khỏi mặc định (máy đã cài cũng tự xoá) — chỉ còn Danh sách 1 & 2. Nguồn mq-tv-lists sẽ được thêm thủ công sau khi danh sách ổn định."
+    "Gộp nhóm trùng nhau sau khi chuẩn hoá (khác hoa/thường, dấu tiếng Việt, khoảng trắng, ký tự trang trí) — ví dụ \"THỂ THAO QUỐC TẾ\" và \"⚽| Thể thao quốc tế\" giờ chỉ còn 1 chip."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
