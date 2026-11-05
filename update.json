@@ -4,11 +4,12 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.7.apk",
   "notes": "Bản 2.12.7",
   "changelog": [
+    "docs: chốt PayOS + add-on HA + Cloudflare Tunnel, giá 120k/2 thiết bị; kế hoạch triển khai GĐ1.5",
     "docs: bổ sung thiết kế thanh toán tự động (QR + webhook + tự kích hoạt)",
     "docs: kế hoạch thu phí (dùng thử 30 ngày, mua 1 lần vĩnh viễn)",
     "2.12.7: điện thoại — Back lần 1 đóng lớp phủ/cụm nút, lần 2 mới thoát app"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2368327,
-  "sha256": "897a5f9dce68312d4abea0f356c1a2bbb72284b7bcd0f2db3d96ff73607847fb"
+  "size": 2368338,
+  "sha256": "c8eb73aac1763e8e574794c80b7995317304d0f6d02c9749eb88cbbb332610ae"
 }
