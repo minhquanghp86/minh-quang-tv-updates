@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.22.apk",
   "notes": "Bản 2.12.22",
   "size": 2377144,
-  "sha256": "e6342e0fb3e3c9fdc260676668336c4d3b24ee17d0b4be0f5309561c18df4100",
+  "sha256": "dbef02800f667ef9aeaca00d224acecc4de27f453bc685fb5ad93e1389cedea8",
   "changelog": [
     "Tự chuyển kênh không bị dừng nữa: kênh DRM không phát được trên máy sẽ bị bỏ qua ngay (1,2 giây) và không tính vào hạn mức chuyển kênh; chọn kênh thủ công đặt lại bộ đếm.",
     "Cập nhật có nguồn dự phòng: đọc update.json và tải APK qua jsDelivr nếu raw.githubusercontent.com bị mạng chặn."
