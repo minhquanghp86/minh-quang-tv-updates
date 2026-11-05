@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.19.apk",
   "notes": "Bản 2.12.19",
   "size": 2376019,
-  "sha256": "2665df439eef46a551ab4f4b31fc540ee53a75efbc9dcb0879d7f69dd2b15df4",
+  "sha256": "c89bd5845fda7c5cb533096ee38ec7ae7294eae1cd07328a9ec5b021dff4033a",
   "changelog": [
     "Thêm Chia sẻ nhật ký phát (Cài đặt → 🐞): ghi lại kênh/URL/mã lỗi mỗi lần phát lỗi hoặc phát thành công, gửi qua Zalo/Gmail để chẩn đoán máy không phát được kênh nào đó."
   ],
