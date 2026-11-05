@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.18.apk",
   "notes": "Bản 2.12.18",
   "size": 2374697,
-  "sha256": "3123eab5275e0a1b15723166f57c9c416da68c5cb47d48e3ad0a457a56bd20e1",
+  "sha256": "7c04fa37bc36b2c7c84bd8558472f51729e15da9b19a74c96080892072f1f513",
   "changelog": [
     "Gặp lỗi khởi tạo bộ giải mã (mã ERROR_CODE_DECODER_INIT_FAILED, thiết bị hết/kẹt codec cứng): tự giải phóng player rồi tạo lại để đòi codec mới trước khi chuyển kênh."
   ],
