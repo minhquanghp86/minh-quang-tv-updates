@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.23.apk",
   "notes": "Bản 2.12.23",
   "size": 2377165,
-  "sha256": "93e863f0cb7ab48514e60fcf16c9d467e43a72753a5326c584a68f347997d661",
+  "sha256": "882e7a3767d97667ae9a92bb070e8b5e9503604842eae83e058e7ad81930228b",
   "changelog": [
     "Kênh DRM không phát được: bỏ qua sau 0,8 giây và không tính vào hạn mức chuyển kênh (trước đây vẫn bị đếm, hết 5 lần là dừng auto-next)."
   ],
