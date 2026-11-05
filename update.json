@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.17.apk",
   "notes": "Bản 2.12.17",
   "size": 2374449,
-  "sha256": "5df43d11228deae4bdfb3603db92465142bcb16468dcc3ee1788946a182dfda7",
+  "sha256": "300ec465e26acbf5bf8cd1a7f788d3589dc67c3dc16a7e82aab7c024804b534f",
   "changelog": [
     "Watchdog dùng khung hình đầu tiên (onRenderedFirstFrame) thay vì trạng thái READY: kênh \"READY nhưng đen\" (ví dụ stream DASH có DRM PlayReady/Widevine) giờ bị coi là lỗi → tự chuyển luồng/kênh, không treo màn hình đen.",
     "Ưu tiên HLS hơn DASH khi kênh có cả hai luồng."
