@@ -1,12 +1,12 @@
 {
-  "versionCode": 106,
-  "versionName": "2.12.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.3.apk",
-  "notes": "Bản 2.12.3",
+  "versionCode": 107,
+  "versionName": "2.12.4",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.4.apk",
+  "notes": "Bản 2.12.4",
   "changelog": [
-    "2.12.3: sửa PiP — ẩn overlay khi ở PiP + TextureView trên điện thoại"
+    "2.12.4: không giải phóng/pause trình phát khi ở PiP (sửa cửa sổ nổi đen)"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2368836,
-  "sha256": "47fc64c2366fbc23ef7a788c3ef77aa31ee53c799c677f4fcc044a10d6aa6f8a"
+  "size": 2368981,
+  "sha256": "a21c6b7b6240b62367f90742e10e2fd694548d687f5ed79c0f483925208675b1"
 }
