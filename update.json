@@ -1,12 +1,14 @@
 {
-  "versionCode": 111,
-  "versionName": "2.12.8",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.8.apk",
-  "notes": "Bản 2.12.8",
-  "size": 2368587,
-  "sha256": "3684ec6c4015d707b9458e4c1d2b924fb38260ed197422bcb36be6a92557ab0a",
+  "versionCode": 112,
+  "versionName": "2.12.9",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.9.apk",
+  "notes": "Bản 2.12.9",
+  "size": 2369575,
+  "sha256": "2641ee968cc6e3c133db9d4b525a33c7472f1a70441d66b581b2901424b5ccb2",
   "changelog": [
-    "Danh sách kênh (và màn hình chính): tiêu đề mục có số lượng kênh — “Kênh yêu thích (10)”, “Vừa xem (8)”, mỗi nhóm “VTV (22)”."
+    "4 nguồn tích hợp sẵn thành cố định: chỉ bật/tắt (không sửa/xóa), hiển thị “Danh sách 1 (542)” … “Danh sách 4 (n)”, ẩn URL và tên gốc.",
+    "Chỉ các nguồn người dùng tự thêm mới được sửa/xóa.",
+    "Số kênh mỗi nguồn được đếm khi tải danh sách và hiện cạnh tên."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
