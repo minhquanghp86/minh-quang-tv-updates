@@ -1,12 +1,12 @@
 {
-  "versionCode": 107,
-  "versionName": "2.12.4",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.4.apk",
-  "notes": "Bản 2.12.4",
+  "versionCode": 109,
+  "versionName": "2.12.6",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.6.apk",
+  "notes": "Bản 2.12.6",
   "changelog": [
-    "2.12.4: không giải phóng/pause trình phát khi ở PiP (sửa cửa sổ nổi đen)"
+    "2.12.6: bỏ nút Tìm kiếm khỏi dock (chỉ còn Yêu thích + Cài đặt) và kiểm chứng điều hướng dải nhóm trên TV"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/",
-  "size": 2368981,
-  "sha256": "a21c6b7b6240b62367f90742e10e2fd694548d687f5ed79c0f483925208675b1"
+  "size": 2368390,
+  "sha256": "0c43082ce080977e18474da948c86114190b52c68f5248e85836ba4cf0f9271f"
 }
