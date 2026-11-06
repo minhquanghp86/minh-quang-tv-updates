@@ -1,12 +1,13 @@
 {
-  "versionCode": 126,
-  "versionName": "2.12.23",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.23.apk",
-  "notes": "Bản 2.12.23",
-  "size": 2377165,
-  "sha256": "882e7a3767d97667ae9a92bb070e8b5e9503604842eae83e058e7ad81930228b",
+  "versionCode": 127,
+  "versionName": "2.12.24",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.24.apk",
+  "notes": "Bản 2.12.24",
+  "size": 2377327,
+  "sha256": "5e40de40a2fa09666456e05396ebca2d49ecf864459a9ae8b50c81bc7cffe7ee",
   "changelog": [
-    "Kênh DRM không phát được: bỏ qua sau 0,8 giây và không tính vào hạn mức chuyển kênh (trước đây vẫn bị đếm, hết 5 lần là dừng auto-next)."
+    "Luồng dự phòng không cần đuôi .m3u8: mọi luồng không phải DASH đều được nâng làm luồng chính khi luồng gốc là .mpd (sửa trường hợp Cinema World).",
+    "Kênh lỗi DRM: thử luồng dự phòng trước rồi mới bỏ kênh."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
