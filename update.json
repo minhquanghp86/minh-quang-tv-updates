@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.31.apk",
   "notes": "Bản 2.12.31",
   "size": 2380954,
-  "sha256": "6f69b17b8f808d2c62514a1437e71a728b53b867af8cc0ddb71b748e379c3cf1",
+  "sha256": "0b77845fb32e59e792c660d80ecb3246154523d92b742670fdaebbe5f1c28b51",
   "changelog": [
     "Thêm nút Cài đặt hệ thống ở hàng trên trang chính (cần khi MQTV đã đặt làm launcher mặc định, không còn đường vào Cài đặt của TV/điện thoại)."
   ],
