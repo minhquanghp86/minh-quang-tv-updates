@@ -1,13 +1,14 @@
 {
-  "versionCode": 135,
-  "versionName": "2.12.32",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.32.apk",
-  "notes": "Bản 2.12.32",
-  "size": 2383840,
-  "sha256": "8d2cc261c7cf84c1572ba78dc23559acf5998af50afc7ee43de9fac90a9f737b",
+  "versionCode": 136,
+  "versionName": "2.12.33",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.33.apk",
+  "notes": "Bản 2.12.33",
+  "size": 2388008,
+  "sha256": "351f21c00e6f1535ea7c9060c84536962798a4554bfff85c47a46c3b306256d2",
   "changelog": [
-    "Màn hình dọc (điện thoại): hàng nút trên cùng tách thành 2 dòng, cuộn ngang được — không còn bị tràn/mất nút.",
-    "Nút Ứng dụng: nếu mở launcher khác bị hệ thống chặn (Android 11+/MIUI), hiện hộp chọn gồm: các launcher đang có, \"Bỏ đặt MQTV làm mặc định\", \"Cài đặt trang chủ của hệ thống\" — luôn có tác dụng."
+    "Hàng nút trang chính chuyển sang chỉ icon (to hơn, không chữ): hết bị cắt chữ trên điện thoại dọc/ngang; thêm đủ 4 nút ở mọi hướng màn hình.",
+    "TV: khi focus vào nút, nhãn hiện ngay bên dưới nút.",
+    "Hai nút Cài đặt dùng icon khác nhau: 1 bánh răng = Cài đặt ứng dụng, 2 bánh răng = Cài đặt hệ thống."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
