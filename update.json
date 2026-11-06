@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.32.apk",
   "notes": "Bản 2.12.32",
   "size": 2383840,
-  "sha256": "9ccaf9e2b2e90ad9e4d2111360d7feb91cec3e22455f903f66bd432ae3dabff4",
+  "sha256": "8d2cc261c7cf84c1572ba78dc23559acf5998af50afc7ee43de9fac90a9f737b",
   "changelog": [
     "Màn hình dọc (điện thoại): hàng nút trên cùng tách thành 2 dòng, cuộn ngang được — không còn bị tràn/mất nút.",
     "Nút Ứng dụng: nếu mở launcher khác bị hệ thống chặn (Android 11+/MIUI), hiện hộp chọn gồm: các launcher đang có, \"Bỏ đặt MQTV làm mặc định\", \"Cài đặt trang chủ của hệ thống\" — luôn có tác dụng."
