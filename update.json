@@ -1,15 +1,13 @@
 {
-  "versionCode": 129,
-  "versionName": "2.12.26",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.26.apk",
-  "notes": "Bản 2.12.26",
-  "size": 2379236,
-  "sha256": "03098009ffa9b44ddae8142441fa37da660ea8dad94a3371ab1723443dd75197",
+  "versionCode": 131,
+  "versionName": "2.12.28",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.28.apk",
+  "notes": "Bản 2.12.28",
+  "size": 2379574,
+  "sha256": "66e3788bcf2a827a13ce858b705b549e0602eddf50df85ca1be44c9fede9d401",
   "changelog": [
-    "Phân loại lỗi: HTTP 4xx (trừ 408/429) bỏ kênh ngay; 5xx/timeout mới thử lại.",
-    "Giới hạn 720p trên TV (ABR cap) để giảm tải giải mã.",
-    "Lỗi khoá DRM: tự tải lại danh sách kênh (khoá đổi theo thời gian) rồi thử lại 1 lần.",
-    "Trang chuyển tiếp: khi manifest lỗi, tìm luồng m3u8/mpd nhúng trong HTML rồi phát lại."
+    "Bộ kiểm tra định kỳ 2 giây: kênh không có hình sau 8 giây (kể cả kẹt \"Đang kết nối…\", player bị huỷ khi app ra/vào nền) luôn được xử lý — thử lại rồi chuyển kênh, không bao giờ đứng im.",
+    "Quay lại app: tạo lại player và phát lại kênh hiện tại (trước chỉ tạo player nên treo ở \"Đang kết nối…\")."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
