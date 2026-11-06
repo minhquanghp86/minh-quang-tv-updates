@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.28.apk",
   "notes": "Bản 2.12.28",
   "size": 2379574,
-  "sha256": "66e3788bcf2a827a13ce858b705b549e0602eddf50df85ca1be44c9fede9d401",
+  "sha256": "29f234606e18c99e795f86d8b21f05564f27b04dee3a4191c0553ddd2e9f4e61",
   "changelog": [
     "Bộ kiểm tra định kỳ 2 giây: kênh không có hình sau 8 giây (kể cả kẹt \"Đang kết nối…\", player bị huỷ khi app ra/vào nền) luôn được xử lý — thử lại rồi chuyển kênh, không bao giờ đứng im.",
     "Quay lại app: tạo lại player và phát lại kênh hiện tại (trước chỉ tạo player nên treo ở \"Đang kết nối…\")."
