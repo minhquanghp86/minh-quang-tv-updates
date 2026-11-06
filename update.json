@@ -1,13 +1,13 @@
 {
-  "versionCode": 131,
-  "versionName": "2.12.28",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.28.apk",
-  "notes": "Bản 2.12.28",
-  "size": 2379574,
-  "sha256": "29f234606e18c99e795f86d8b21f05564f27b04dee3a4191c0553ddd2e9f4e61",
+  "versionCode": 132,
+  "versionName": "2.12.29",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.29.apk",
+  "notes": "Bản 2.12.29",
+  "size": 2379766,
+  "sha256": "2c80111e7d1901705c8e3d598d169532d5c94c7bf43a99fe393bcf6fe1569f1a",
   "changelog": [
-    "Bộ kiểm tra định kỳ 2 giây: kênh không có hình sau 8 giây (kể cả kẹt \"Đang kết nối…\", player bị huỷ khi app ra/vào nền) luôn được xử lý — thử lại rồi chuyển kênh, không bao giờ đứng im.",
-    "Quay lại app: tạo lại player và phát lại kênh hiện tại (trước chỉ tạo player nên treo ở \"Đang kết nối…\")."
+    "Sửa vòng lặp DRM: sau khi tải lại danh sách để lấy khoá mới, app phát lại ở chế độ thử lại (không reset cờ) nên không quay lại \"DRM off retry\" mãi.",
+    "Chốt chặn: cùng một kênh lỗi quá 6 lần thì bỏ và chuyển kênh — không thể đứng im trong bất kỳ trường hợp nào."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
