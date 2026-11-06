@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.25.apk",
   "notes": "Bản 2.12.25",
   "size": 2377293,
-  "sha256": "3454f659e9402a51233587be5364a1360a4b8941d32ee4d4020d9d34aeb22ce2",
+  "sha256": "e3e480ca8863279f7d411c8b49676a6fe379a07c673d7153804f99a541c47519",
   "changelog": [
     "Nhịp xử lý kênh lỗi gọn lại: 8 giây không có hình là bỏ (kể cả stream có phản hồi nhưng đen/không lên hình), thử lại 1 lần rồi chuyển kênh (1,5 giây), cho phép chuyển tối đa 15 kênh liên tiếp trước khi dừng báo lỗi."
   ],
