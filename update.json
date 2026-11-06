@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.26.apk",
   "notes": "Bản 2.12.26",
   "size": 2379236,
-  "sha256": "3a501112445f4aad422d21e29e38fd5776aa6738093d12a6c7e192a53559ca01",
+  "sha256": "03098009ffa9b44ddae8142441fa37da660ea8dad94a3371ab1723443dd75197",
   "changelog": [
     "Phân loại lỗi: HTTP 4xx (trừ 408/429) bỏ kênh ngay; 5xx/timeout mới thử lại.",
     "Giới hạn 720p trên TV (ABR cap) để giảm tải giải mã.",
