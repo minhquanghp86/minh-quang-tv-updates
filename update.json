@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.29.apk",
   "notes": "Bản 2.12.29",
   "size": 2379766,
-  "sha256": "2c80111e7d1901705c8e3d598d169532d5c94c7bf43a99fe393bcf6fe1569f1a",
+  "sha256": "f874176396ba5e7c6637d706a6fc1d2e1cc91a40bd206bd35062738d8aa81a05",
   "changelog": [
     "Sửa vòng lặp DRM: sau khi tải lại danh sách để lấy khoá mới, app phát lại ở chế độ thử lại (không reset cờ) nên không quay lại \"DRM off retry\" mãi.",
     "Chốt chặn: cùng một kênh lỗi quá 6 lần thì bỏ và chuyển kênh — không thể đứng im trong bất kỳ trường hợp nào."
