@@ -3,8 +3,8 @@
   "versionName": "2.12.24",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.24.apk",
   "notes": "Bản 2.12.24",
-  "size": 2377327,
-  "sha256": "5e40de40a2fa09666456e05396ebca2d49ecf864459a9ae8b50c81bc7cffe7ee",
+  "size": 2377319,
+  "sha256": "83bb20434e6ac10e42a1dacab48e139e8a0368817d4cd672e1dabb8187509a10",
   "changelog": [
     "Luồng dự phòng không cần đuôi .m3u8: mọi luồng không phải DASH đều được nâng làm luồng chính khi luồng gốc là .mpd (sửa trường hợp Cinema World).",
     "Kênh lỗi DRM: thử luồng dự phòng trước rồi mới bỏ kênh."
