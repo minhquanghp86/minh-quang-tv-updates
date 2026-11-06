@@ -1,14 +1,12 @@
 {
-  "versionCode": 136,
-  "versionName": "2.12.33",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.33.apk",
-  "notes": "Bản 2.12.33",
-  "size": 2388008,
-  "sha256": "9821d339f59d2887832150f9dc18d4c20ce9d39f6dcd54f533360517d9e5805d",
+  "versionCode": 137,
+  "versionName": "2.12.34",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.34.apk",
+  "notes": "Bản 2.12.34",
+  "size": 2396340,
+  "sha256": "025751bca345f1a4d1f6d0dc9a4e1c2c25918ac66569dd42ab1dd1e1c86281b1",
   "changelog": [
-    "Hàng nút trang chính chuyển sang chỉ icon (to hơn, không chữ): hết bị cắt chữ trên điện thoại dọc/ngang; thêm đủ 4 nút ở mọi hướng màn hình.",
-    "TV: khi focus vào nút, nhãn hiện ngay bên dưới nút.",
-    "Hai nút Cài đặt dùng icon khác nhau: 1 bánh răng = Cài đặt ứng dụng, 2 bánh răng = Cài đặt hệ thống."
+    "Đổi icon Cài đặt hệ thống sang dạng 2 bánh răng lồng nhau (bánh lớn dưới-trái, bánh nhỏ trên-phải, có lỗ giữa) đúng mẫu."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
