@@ -1,13 +1,12 @@
 {
-  "versionCode": 132,
-  "versionName": "2.12.29",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.29.apk",
-  "notes": "Bản 2.12.29",
-  "size": 2379766,
-  "sha256": "f874176396ba5e7c6637d706a6fc1d2e1cc91a40bd206bd35062738d8aa81a05",
+  "versionCode": 133,
+  "versionName": "2.12.30",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.30.apk",
+  "notes": "Bản 2.12.30",
+  "size": 2380327,
+  "sha256": "bfece06e825e50581156cdc05400f47b0ccf26e5eda145cad21681a0102f805e",
   "changelog": [
-    "Sửa vòng lặp DRM: sau khi tải lại danh sách để lấy khoá mới, app phát lại ở chế độ thử lại (không reset cờ) nên không quay lại \"DRM off retry\" mãi.",
-    "Chốt chặn: cùng một kênh lỗi quá 6 lần thì bỏ và chuyển kênh — không thể đứng im trong bất kỳ trường hợp nào."
+    "Nút Ứng dụng trên trang chính hoạt động trên điện thoại Android 11+: khai báo <queries> để thấy launcher khác; nếu ROM chặn thì mở trang cài đặt \"Ứng dụng mặc định → Trang chủ\" + thông báo rõ."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
