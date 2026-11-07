@@ -2,9 +2,9 @@
   "versionCode": 147,
   "versionName": "2.14.1",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.14.1.apk",
-  "notes": "2.14.1: logo kênh thành dải sát mép trên khi ẩn điều khiển",
-  "size": 2499672,
-  "sha256": "ee95c0b19dac24ab28b855d733fa8c464b029e5e148aeb2051e6ab32b2c9e432",
+  "notes": "Bản 2.14.1",
+  "size": 2499670,
+  "sha256": "a315497bcd6e285c9206c7fd04ef8f33bef1c24168c0ddc2ead8920fd276879a",
   "changelog": [
     "Trình phát: khi đã ẩn thanh điều khiển, logo kênh hiển thị thành dải sát mép trên, chạm cả hai mép trái/phải thay vì khung logo nổi bên trong khung hình."
   ],
