@@ -2,13 +2,11 @@
   "versionCode": 138,
   "versionName": "2.12.35",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.35.apk",
-  "notes": "2.12.35: sửa âm thanh còn phát nền khi thoát app",
-  "size": 2396953,
-  "sha256": "5ed3dbabf7d08099467211ebbd2246925312fb19d04120ab34e93844ac2713fd",
+  "notes": "Bản 2.12.35",
+  "size": 2396947,
+  "sha256": "351c5e23fff73123d2a126e1a88ac7b255854cb56b77aaa20e1850d1d1996b07",
   "changelog": [
-    "Sửa lỗi âm thanh vẫn phát khi đã thoát ra màn hình chính: chỉ cho phép một player duy nhất — khi tạo lại (sau khi làm mới danh sách) sẽ giải phóng player cũ.",
-    "Dừng và giải phóng player triệt để khi rời app (không áp dụng cho cửa sổ nổi PiP).",
-    "Huỷ tác vụ tạo player trễ 400ms nếu app đã về nền."
+    "Bản 2.12.35"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
