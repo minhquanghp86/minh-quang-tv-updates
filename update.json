@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.35.apk",
   "notes": "Bản 2.12.35",
   "size": 2396951,
-  "sha256": "3454bf97cb94c67b430f181d0c14ad2f0c9fdc29eb88ddfb8afc18e9ac00aa6a",
+  "sha256": "c93871fc2befbf6d8216666adf6746c062c4f93d74f55e16421398d1c760d3b8",
   "changelog": [
     "Sửa lỗi âm thanh vẫn phát khi đã thoát ra màn hình chính: chỉ cho phép một player duy nhất — khi tạo lại (sau khi làm mới danh sách) sẽ giải phóng player cũ.",
     "Dừng và giải phóng player triệt để khi rời app (không áp dụng cho cửa sổ nổi PiP).",
