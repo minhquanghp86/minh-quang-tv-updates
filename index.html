@@ -25,6 +25,132 @@
   <h1>MINH QUANG TV</h1>
   <div class="sub">Nhật ký thay đổi các phiên bản · <a href="https://github.com/minhquanghp86/minh-quang-tv-updates">kênh cập nhật</a></div>
   <p>Liên hệ: Zalo 0376957258 · Email minhquanghp86@gmail.com</p>
+<h2>2.12.35</h2>
+<ul>
+<li>**Sửa lỗi âm thanh vẫn phát khi đã thoát ra màn hình chính**: chỉ cho phép một player duy nhất — khi tạo lại (sau khi làm mới danh sách) sẽ giải phóng player cũ.</li>
+<li>Dừng và giải phóng player triệt để khi rời app (không áp dụng cho cửa sổ nổi PiP).</li>
+<li>Huỷ tác vụ tạo player trễ 400ms nếu app đã về nền.</li>
+</ul>
+<h2>2.12.34</h2>
+<ul>
+<li>Đổi icon **Cài đặt hệ thống** sang dạng **2 bánh răng lồng nhau** (bánh lớn dưới-trái, bánh nhỏ trên-phải, có lỗ giữa) đúng mẫu.</li>
+</ul>
+<h2>2.12.33</h2>
+<ul>
+<li>Hàng nút trang chính chuyển sang **chỉ icon** (to hơn, không chữ): hết bị cắt chữ trên điện thoại dọc/ngang; thêm đủ 4 nút ở mọi hướng màn hình.</li>
+<li>**TV**: khi focus vào nút, nhãn hiện ngay bên dưới nút.</li>
+<li>Hai nút Cài đặt dùng icon khác nhau: **1 bánh răng** = Cài đặt ứng dụng, **2 bánh răng** = Cài đặt hệ thống.</li>
+</ul>
+<h2>2.12.32</h2>
+<ul>
+<li>**Màn hình dọc (điện thoại)**: hàng nút trên cùng tách thành 2 dòng, cuộn ngang được — không còn bị tràn/mất nút.</li>
+<li>**Nút Ứng dụng**: nếu mở launcher khác bị hệ thống chặn (Android 11+/MIUI), hiện hộp chọn gồm: các launcher đang có, &quot;Bỏ đặt MQTV làm mặc định&quot;, &quot;Cài đặt trang chủ của hệ thống&quot; — luôn có tác dụng.</li>
+</ul>
+<h2>2.12.31</h2>
+<ul>
+<li>Thêm nút **Cài đặt hệ thống** ở hàng trên trang chính (cần khi MQTV đã đặt làm launcher mặc định, không còn đường vào Cài đặt của TV/điện thoại).</li>
+</ul>
+<h2>2.12.30</h2>
+<ul>
+<li>Nút **Ứng dụng** trên trang chính hoạt động trên điện thoại Android 11+: khai báo `&lt;queries&gt;` để thấy launcher khác; nếu ROM chặn thì mở trang cài đặt &quot;Ứng dụng mặc định → Trang chủ&quot; + thông báo rõ.</li>
+</ul>
+<h2>2.12.29</h2>
+<ul>
+<li>Sửa **vòng lặp DRM**: sau khi tải lại danh sách để lấy khoá mới, app phát lại ở chế độ thử lại (không reset cờ) nên không quay lại &quot;DRM off retry&quot; mãi.</li>
+<li>**Chốt chặn**: cùng một kênh lỗi quá **6 lần** thì bỏ và chuyển kênh — không thể đứng im trong bất kỳ trường hợp nào.</li>
+</ul>
+<h2>2.12.28</h2>
+<ul>
+<li>Bộ kiểm tra **định kỳ 2 giây**: kênh không có hình sau 8 giây (kể cả kẹt &quot;Đang kết nối…&quot;, player bị huỷ khi app ra/vào nền) luôn được xử lý — thử lại rồi chuyển kênh, không bao giờ đứng im.</li>
+<li>Quay lại app: tạo lại player **và phát lại kênh hiện tại** (trước chỉ tạo player nên treo ở &quot;Đang kết nối…&quot;).</li>
+</ul>
+<h2>2.12.26</h2>
+<ul>
+<li>**Phân loại lỗi**: HTTP 4xx (trừ 408/429) bỏ kênh ngay; 5xx/timeout mới thử lại.</li>
+<li>**Giới hạn 720p trên TV** (ABR cap) để giảm tải giải mã.</li>
+<li>**Lỗi khoá DRM**: tự tải lại danh sách kênh (khoá đổi theo thời gian) rồi thử lại 1 lần.</li>
+<li>**Trang chuyển tiếp**: khi manifest lỗi, tìm luồng `m3u8/mpd` nhúng trong HTML rồi phát lại.</li>
+</ul>
+<h2>2.12.25</h2>
+<ul>
+<li>Nhịp xử lý kênh lỗi gọn lại: **8 giây không có hình là bỏ** (kể cả stream có phản hồi nhưng đen/không lên hình), **thử lại 1 lần** rồi chuyển kênh (1,5 giây), cho phép chuyển tối đa 15 kênh liên tiếp trước khi dừng báo lỗi.</li>
+</ul>
+<h2>2.12.24</h2>
+<ul>
+<li>Luồng dự phòng không cần đuôi `.m3u8`: mọi luồng **không phải DASH** đều được nâng làm luồng chính khi luồng gốc là `.mpd` (sửa trường hợp Cinema World).</li>
+<li>Kênh lỗi DRM: **thử luồng dự phòng trước** rồi mới bỏ kênh.</li>
+</ul>
+<h2>2.12.23</h2>
+<ul>
+<li>Kênh DRM không phát được: bỏ qua sau **0,8 giây** và **không tính** vào hạn mức chuyển kênh (trước đây vẫn bị đếm, hết 5 lần là dừng auto-next).</li>
+</ul>
+<h2>2.12.22</h2>
+<ul>
+<li>**Tự chuyển kênh không bị dừng nữa**: kênh DRM không phát được trên máy sẽ bị bỏ qua ngay (1,2 giây) và **không tính** vào hạn mức chuyển kênh; chọn kênh thủ công đặt lại bộ đếm.</li>
+<li>**Cập nhật có nguồn dự phòng**: đọc `update.json` và tải APK qua jsDelivr nếu `raw.githubusercontent.com` bị mạng chặn.</li>
+</ul>
+<h2>2.12.21</h2>
+<ul>
+<li>Kênh lỗi DRM: thử phát lại **không dùng DRM** một lần (một số kênh bị gắn cờ DRM nhưng không mã hoá) rồi mới bỏ kênh.</li>
+<li>🐞 Nhật ký phát ghi thêm kết quả **kiểm tra cập nhật** (bản tìm thấy / lỗi mạng) để chẩn đoán trường hợp app không nhận bản mới.</li>
+</ul>
+<h2>2.12.20</h2>
+<ul>
+<li>**Sửa lỗi DRM ClearKey trên Android 12+** (`ERROR_CODE_DRM_SYSTEM_ERROR`): chuẩn hoá JSON khoá về đúng `kty/kid/k` (bỏ trường lạ như `&quot;type&quot;` kiểu Windows mà MediaDrm mới từ chối) — các kênh DASH có khoá ClearKey (Cartoon Network, Cinema World…) phát được trên điện thoại.</li>
+<li>Kênh lỗi DRM/DASH: chuyển kênh ngay thay vì thử lại nhiều lần.</li>
+</ul>
+<h2>2.12.19</h2>
+<ul>
+<li>Thêm **Chia sẻ nhật ký phát** (Cài đặt → 🐞): ghi lại kênh/URL/mã lỗi mỗi lần phát lỗi hoặc phát thành công, gửi qua Zalo/Gmail để chẩn đoán máy không phát được kênh nào đó.</li>
+</ul>
+<h2>2.12.18</h2>
+<ul>
+<li>Gặp lỗi **khởi tạo bộ giải mã** (mã `ERROR_CODE_DECODER_INIT_FAILED`, thiết bị hết/kẹt codec cứng): tự giải phóng player rồi tạo lại để đòi codec mới trước khi chuyển kênh.</li>
+</ul>
+<h2>2.12.17</h2>
+<ul>
+<li>Watchdog dùng **khung hình đầu tiên** (`onRenderedFirstFrame`) thay vì trạng thái READY: kênh &quot;READY nhưng đen&quot; (ví dụ stream DASH có DRM PlayReady/Widevine) giờ bị coi là lỗi → tự chuyển luồng/kênh, không treo màn hình đen.</li>
+<li>Kênh **DRM không mở được khoá**: báo lỗi ngắn rồi **tự chuyển kênh** (trước đây đứng im ở màn hình đen, không auto-next).</li>
+<li>Ưu tiên **HLS** hơn DASH khi kênh có cả hai luồng.</li>
+</ul>
+<h2>2.12.16</h2>
+<ul>
+<li>Gộp nhóm trùng nhau sau khi chuẩn hoá (khác hoa/thường, dấu tiếng Việt, khoảng trắng, ký tự trang trí) — ví dụ &quot;THỂ THAO QUỐC TẾ&quot; và &quot;⚽| Thể thao quốc tế&quot; giờ chỉ còn 1 chip.</li>
+</ul>
+<h2>2.12.15</h2>
+<ul>
+<li>Bỏ **Danh sách 3** khỏi mặc định (máy đã cài cũng tự xoá) — chỉ còn Danh sách 1 &amp; 2. Nguồn `mq-tv-lists` sẽ được thêm thủ công sau khi danh sách ổn định.</li>
+</ul>
+<h2>2.12.14</h2>
+<ul>
+<li>Thêm **Danh sách 3** — nguồn `mq-tv-lists` của dự án (tự cập nhật 01:00 ICT, EPG epg.io.vn).</li>
+<li>**Watchdog phát hình**: kênh không lên hình sau 12 giây (màn hình đen, không báo lỗi) được coi là lỗi → tự thử mimetype khác, thử lại, rồi tự chuyển kênh tiếp theo.</li>
+<li>**Luồng dự phòng**: mỗi kênh giữ tối đa 3 luồng từ các danh sách khác nhau; luồng chính lỗi/đen sẽ tự thử luồng kế tiếp cùng kênh trước khi chuyển kênh.</li>
+</ul>
+<h2>2.12.13</h2>
+<ul>
+<li>Thêm **Danh sách 3** — nguồn `mq-tv-lists` do dự án tự vận hành: 447 kênh, **100% kênh được kiểm tra còn sống** trước khi phát hành, tự cập nhật 01:00 ICT hằng ngày (EPG epg.io.vn, nhóm đầy đủ VTV → VTC → SCTV → Quốc Tế → VTVcab → HTV → …).</li>
+</ul>
+<h2>2.12.12</h2>
+<ul>
+<li>Gia cố tương thích TV: xin quyền thông báo trên **mọi thiết bị** (trước chỉ điện thoại), xử lý inset cho **Android 15 edge-to-edge** (dock/panel không sát mép), và **tự chuyển audio track** khi thiết bị không giải mã được AC3/EAC3 (kèm cảnh báo nếu không có track thay thế).</li>
+</ul>
+<h2>2.12.11</h2>
+<ul>
+<li>Danh sách do người dùng tự thêm cũng hiển thị **số kênh** cạnh tên (ví dụ “List của tôi (120)”).</li>
+</ul>
+<h2>2.12.10</h2>
+<ul>
+<li>Thay 3 nguồn cũ (iptv-org Việt Nam, iptv-org Tiếng Việt, TV tổng hợp) bằng **khanh71/All-In-One-IPTV** — tự cập nhật 1–3 ngày/lần, **88% kênh sống** trong test 50 mẫu (3 nguồn cũ: 56–68%, riêng Viettel 0%).</li>
+<li>Giờ có 2 danh sách tích hợp: **Danh sách 1** (VMTTV) và **Danh sách 2** (khanh71: VTV · HTV · Địa phương).</li>
+<li>Máy đã cài tự động bỏ 3 nguồn cũ, thêm nguồn mới (nguồn người dùng tự thêm giữ nguyên).</li>
+</ul>
+<h2>2.12.9</h2>
+<ul>
+<li>4 nguồn tích hợp sẵn thành **cố định**: chỉ bật/tắt (không sửa/xóa), hiển thị **“Danh sách 1 (542)” … “Danh sách 4 (n)”**, ẩn URL và tên gốc.</li>
+<li>Chỉ các nguồn người dùng tự thêm mới được sửa/xóa.</li>
+<li>Số kênh mỗi nguồn được đếm khi tải danh sách và hiện cạnh tên.</li>
+</ul>
 <h2>2.12.8</h2>
 <ul>
 <li>Danh sách kênh (và màn hình chính): tiêu đề mục có **số lượng kênh** — “Kênh yêu thích (10)”, “Vừa xem (8)”, mỗi nhóm “VTV (22)”.</li>
