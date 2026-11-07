@@ -1,12 +1,13 @@
 {
-  "versionCode": 149,
-  "versionName": "2.14.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.14.3.apk",
-  "notes": "Bản 2.14.3",
-  "size": 2500270,
-  "sha256": "90737ad89bd5453767712c89969914f7f57992d77edb0b754a0e990589adfde3",
+  "versionCode": 150,
+  "versionName": "2.15.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.0.apk",
+  "notes": "2.15.0: nút tắt tiếng (điện thoại); Back trên box luôn về MQTV Home",
+  "size": 2502104,
+  "sha256": "533fe2b906ff9eb2618c18f6646fe44268871d4b751c043d24481d01e55bdf9a",
   "changelog": [
-    "Sửa lỗi chọn giao diện màn hình chính không có tác dụng: extra ui bị giữ lại trong intent nên mỗi lần dựng lại màn hình chính lại áp giao diện cũ. Nay áp dụng đúng và không ghi đè về sau."
+    "Trình phát (chỉ điện thoại): thêm nút bật/tắt tiếng ở đầu cụm nút, trước nút xoay màn hình; giữ trạng thái tắt tiếng khi đổi kênh.",
+    "TV box: nhấn Back luôn quay về màn hình chính MQTV (không còn rơi về launcher cũ của TV); Back khi đang ở màn hình chính chỉ đưa focus lên thanh trên, không thoát app."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
