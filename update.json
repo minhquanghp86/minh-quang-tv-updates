@@ -1,13 +1,12 @@
 {
-  "versionCode": 148,
-  "versionName": "2.14.2",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.14.2.apk",
-  "notes": "Bản 2.14.2",
-  "size": 2500178,
-  "sha256": "eda6809d8f445d0156f9ad0b21c555cd3c563c97ad465c5b7b1de54ca3ca69f3",
+  "versionCode": 149,
+  "versionName": "2.14.3",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.14.3.apk",
+  "notes": "2.14.3: sửa lỗi chọn giao diện không áp dụng",
+  "size": 2500275,
+  "sha256": "ed48db84041bd101d3c19f2388ab5794eac1c41bd9b2bf6bc80c5d9f6e21695e",
   "changelog": [
-    "Dải logo ở trình phát: nền trong suốt hoàn toàn (chỉ còn logo, sát mép trên và hai mép).",
-    "Đồng hồ iOS: vẽ lại theo mẫu Clock 2025 dark — mặt vuông bo tròn, 60 vạch phút, số 12/3/6/9, kim trắng bo tròn, kim giây cam có đuôi đối trọng."
+    "Sửa lỗi chọn giao diện màn hình chính không có tác dụng: extra ui bị giữ lại trong intent nên mỗi lần dựng lại màn hình chính lại áp giao diện cũ. Nay áp dụng đúng và không ghi đè về sau."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
