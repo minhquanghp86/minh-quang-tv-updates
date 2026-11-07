@@ -3,10 +3,12 @@
   "versionName": "2.14.0",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.14.0.apk",
   "notes": "Bản 2.14.0",
-  "size": 2499379,
-  "sha256": "46ec13d2726bcb86d1efca0be26dac909692aa18bd0365f9d60fed102a2765b3",
+  "size": 2499392,
+  "sha256": "852e2b89fbe45934a6311d5f5b409c3dc2b971a23aaa536cf0fdfe01207c09fe",
   "changelog": [
-    "Bản 2.14.0"
+    "Màn hình chính: hàng kênh đầu tiên hiển thị toàn bộ kênh (bỏ tiêu đề \"Kênh yêu thích\").",
+    "Google TV: khoảng cách các mục menu trái đều nhau; hai thẻ thời tiết cao bằng nhau (250dp).",
+    "Điện thoại có layout riêng, gọn hơn: Google TV ngang (thanh IP/RAM/phiên bản + 3 nút sát mép, thẻ 130dp, đồng hồ không bị che); iOS dọc (đủ 3 nút + đồng hồ kim nhỏ); iOS ngang (3 thẻ thấp 130dp)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
