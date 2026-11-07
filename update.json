@@ -1,12 +1,12 @@
 {
-  "versionCode": 137,
-  "versionName": "2.12.34",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.34.apk",
-  "notes": "Bản 2.12.34",
-  "size": 2396341,
-  "sha256": "3ac3e2dc8595e77694b767509f20d32efb7bd575a9645d2aa7ab2762261c7721",
+  "versionCode": 138,
+  "versionName": "2.12.35",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.12.35.apk",
+  "notes": "Bản 2.12.35",
+  "size": 2396949,
+  "sha256": "0e3c3e89d01a6d4df7518bdc59c860591366e25a45ce45bdf9a99039e0db4bab",
   "changelog": [
-    "Đổi icon Cài đặt hệ thống sang dạng 2 bánh răng lồng nhau (bánh lớn dưới-trái, bánh nhỏ trên-phải, có lỗ giữa) đúng mẫu."
+    "Bản 2.12.35"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
