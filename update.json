@@ -2,9 +2,9 @@
   "versionCode": 150,
   "versionName": "2.15.0",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.0.apk",
-  "notes": "2.15.0: nút tắt tiếng (điện thoại); Back trên box luôn về MQTV Home",
-  "size": 2502104,
-  "sha256": "533fe2b906ff9eb2618c18f6646fe44268871d4b751c043d24481d01e55bdf9a",
+  "notes": "Bản 2.15.0",
+  "size": 2502095,
+  "sha256": "fd68bc3c5e22b8a33e70fd7627c6ef46f718b38b7e4ef6f28a98b8df2fda18a2",
   "changelog": [
     "Trình phát (chỉ điện thoại): thêm nút bật/tắt tiếng ở đầu cụm nút, trước nút xoay màn hình; giữ trạng thái tắt tiếng khi đổi kênh.",
     "TV box: nhấn Back luôn quay về màn hình chính MQTV (không còn rơi về launcher cũ của TV); Back khi đang ở màn hình chính chỉ đưa focus lên thanh trên, không thoát app."
