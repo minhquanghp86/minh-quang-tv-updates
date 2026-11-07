@@ -2,9 +2,9 @@
   "versionCode": 148,
   "versionName": "2.14.2",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.14.2.apk",
-  "notes": "2.14.2: dải logo trong suốt; đồng hồ iOS kiểu Clock 2025",
-  "size": 2500176,
-  "sha256": "4e1758928d4f72cddbde2179a77139b14cbc6a83a5502ec120bb14e29b3d5b6e",
+  "notes": "Bản 2.14.2",
+  "size": 2500178,
+  "sha256": "eda6809d8f445d0156f9ad0b21c555cd3c563c97ad465c5b7b1de54ca3ca69f3",
   "changelog": [
     "Dải logo ở trình phát: nền trong suốt hoàn toàn (chỉ còn logo, sát mép trên và hai mép).",
     "Đồng hồ iOS: vẽ lại theo mẫu Clock 2025 dark — mặt vuông bo tròn, 60 vạch phút, số 12/3/6/9, kim trắng bo tròn, kim giây cam có đuôi đối trọng."
