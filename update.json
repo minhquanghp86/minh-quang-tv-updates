@@ -1,14 +1,15 @@
 {
-  "versionCode": 160,
-  "versionName": "2.16.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.1.apk",
-  "notes": "Bản 2.16.1",
-  "size": 2714704,
-  "sha256": "79bfcda5727640f196520bffc7ed7e394003115b490451f098ca696dacf5300d",
+  "versionCode": 161,
+  "versionName": "2.16.2",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.2.apk",
+  "notes": "2.16.2: font Be Vietnam Pro, đồng hồ lớn + âm lịch",
+  "size": 2879053,
+  "sha256": "0085b5bee80878cc377ea20fe387aaf095b3eaa6b7429815717b4b2a241cf776",
   "changelog": [
-    "Màn hình chính (box + điện thoại): đúng thứ tự hàng — 1) Toàn bộ kênh (không tiêu đề) 2) Kênh yêu thích 3) Xem gần đây → các nhóm → ứng dụng.",
-    "Danh sách kênh: hàng Kênh yêu thích luôn ở đầu (kèm tiêu đề) ngay trên “Vừa xem”.",
-    "Đồng hồ kim iOS: kim giây cập nhật mỗi giây (trước đây 10 giây/lần)."
+    "Font mới Be Vietnam Pro cho toàn bộ màn hình chính (đồng hồ, ngày, các thẻ, tên kênh, tiêu đề) — dễ đọc hơn, hỗ trợ đầy đủ tiếng Việt.",
+    "Đồng hồ số cỡ lớn hơn, kèm âm lịch ngắn (30/9 Bính Ngọ) cạnh đồng hồ; ngày dương lịch bên dưới (kiểu 2 dòng giữ nguyên).",
+    "3 nút công cụ về lại giữa; ẩn chip “Trống GB” và “phiên bản”.",
+    "Nới chiều cao thẻ thời tiết/5 ngày để không còn bị cắt dòng “Bình minh/Hoàng hôn”."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
