@@ -2,9 +2,9 @@
   "versionCode": 160,
   "versionName": "2.16.1",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.1.apk",
-  "notes": "2.16.1: thứ tự hàng màn hình chính; kim giây mỗi giây",
-  "size": 2714697,
-  "sha256": "8304e7bc62b16c38dbe171cfa4421bda1a431c1cfc43868b60be45b4a18bc99b",
+  "notes": "Bản 2.16.1",
+  "size": 2714704,
+  "sha256": "79bfcda5727640f196520bffc7ed7e394003115b490451f098ca696dacf5300d",
   "changelog": [
     "Màn hình chính (box + điện thoại): đúng thứ tự hàng — 1) Toàn bộ kênh (không tiêu đề) 2) Kênh yêu thích 3) Xem gần đây → các nhóm → ứng dụng.",
     "Danh sách kênh: hàng Kênh yêu thích luôn ở đầu (kèm tiêu đề) ngay trên “Vừa xem”.",
