@@ -2,9 +2,9 @@
   "versionCode": 154,
   "versionName": "2.15.4",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.4.apk",
-  "notes": "2.15.4: nhấn giữ ô kênh để thêm/bỏ yêu thích",
-  "size": 2599031,
-  "sha256": "2619b022689973fe838903d61913d3dc08118e25ea8b1a591235795d96e84b7b",
+  "notes": "Bản 2.15.4",
+  "size": 2599044,
+  "sha256": "07a2012fa3f10fd25cdcd981c42da6ceb9a721854d0d1d5bf36604fe8d28f091",
   "changelog": [
     "Màn hình chính: nhấn giữ một ô kênh để thêm/bỏ yêu thích (có thông báo), danh sách cập nhật ngay."
   ],
