@@ -2,9 +2,9 @@
   "versionCode": 159,
   "versionName": "2.16.0",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.0.apk",
-  "notes": "2.16.0: 5 ảnh nền + chọn ảnh linh hoạt",
-  "size": 2714605,
-  "sha256": "ddd3c538c22951bdfe0825b04650b7be020957b95a3672cce0ee0fb83e96faf1",
+  "notes": "Bản 2.16.0",
+  "size": 2714612,
+  "sha256": "2803ed4a406aa7b68c0a4caec1ccff369101fce46f610d3b3f5851111f9d7fb0",
   "changelog": [
     "Ảnh nền: có 5 nền có sẵn (Cực quang · Xanh dương · Tối giản · Tím · Hoàng hôn) trong Cài đặt → 🖼 Ảnh nền màn hình chính.",
     "Chọn ảnh từ máy sửa cho đúng: nếu thiết bị không có app hỗ trợ chọn tệp → tự hiện danh sách ảnh trong máy (Pictures/DCIM/Download, xin quyền đọc ảnh khi cần); thêm mục Nhập địa chỉ ảnh (URL) để tải ảnh từ mạng.",
