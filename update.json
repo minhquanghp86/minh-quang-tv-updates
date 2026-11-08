@@ -2,9 +2,9 @@
   "versionCode": 156,
   "versionName": "2.15.6",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.6.apk",
-  "notes": "2.15.6: chip trạng thái ui/phone",
-  "size": 2599221,
-  "sha256": "266737285852bce36e6657b229d386c9e172f34bcf3a754a18711eaa48e3b0a6",
+  "notes": "Bản 2.15.6",
+  "size": 2599229,
+  "sha256": "6d08075c94ee3720c82b6ffbd35cc559c331e59157d2e496267604ff81ed499a",
   "changelog": [
     "Thanh trạng thái trên màn hình chính hiển thị thêm ui + phone/tv để tự chẩn đoán khi đổi giao diện có vấn đề."
   ],
