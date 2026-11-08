@@ -1,12 +1,13 @@
 {
-  "versionCode": 156,
-  "versionName": "2.15.6",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.6.apk",
-  "notes": "Bản 2.15.6",
-  "size": 2599229,
-  "sha256": "6d08075c94ee3720c82b6ffbd35cc559c331e59157d2e496267604ff81ed499a",
+  "versionCode": 157,
+  "versionName": "2.15.7",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.7.apk",
+  "notes": "2.15.7: Back không hiện hộp chọn màn hình chính",
+  "size": 2599346,
+  "sha256": "ed23cbd0d192a42c5846ea3accfe291c7aaae9b74b7a371cade2c13e063e26d7",
   "changelog": [
-    "Thanh trạng thái trên màn hình chính hiển thị thêm ui + phone/tv để tự chẩn đoán khi đổi giao diện có vấn đề."
+    "Bấm Back không còn hiện hộp chọn \"màn hình chính\" của hệ thống: ở trình phát → về ngay màn hình chính MQTV; ở màn hình chính → chỉ đưa focus lên thanh trên.",
+    "Đổi ảnh nền: hiện thông báo Toast xác nhận; ảnh chọn từ máy nếu không đọc được sẽ báo rõ và dùng nền mặc định."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
