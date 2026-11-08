@@ -1,13 +1,12 @@
 {
-  "versionCode": 153,
-  "versionName": "2.15.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.3.apk",
-  "notes": "Bản 2.15.3",
-  "size": 2598841,
-  "sha256": "a7f50ab12a3888ed6b7d3524fc7f054f2cb59614a795131316195f11ec2d74de",
+  "versionCode": 154,
+  "versionName": "2.15.4",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.4.apk",
+  "notes": "2.15.4: nhấn giữ ô kênh để thêm/bỏ yêu thích",
+  "size": 2599031,
+  "sha256": "2619b022689973fe838903d61913d3dc08118e25ea8b1a591235795d96e84b7b",
   "changelog": [
-    "Cài đặt → 🖼 Ảnh nền màn hình chính: chọn trong 3 nền có sẵn hoặc chọn ảnh từ máy.",
-    "Cài đặt → 🌐 Proxy luồng: tự nhập địa chỉ proxy riêng (không phụ thuộc máy chủ nào), chọn Tự động / Luôn dùng / Tắt. Không đặt proxy thì chỉ dùng luồng trực tiếp."
+    "Màn hình chính: nhấn giữ một ô kênh để thêm/bỏ yêu thích (có thông báo), danh sách cập nhật ngay."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
