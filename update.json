@@ -1,13 +1,15 @@
 {
-  "versionCode": 157,
-  "versionName": "2.15.7",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.7.apk",
-  "notes": "Bản 2.15.7",
-  "size": 2599347,
-  "sha256": "e3754ca32db02631147c34f71c361a2691e15cd4a24b147668444f8a67a5a7e6",
+  "versionCode": 159,
+  "versionName": "2.16.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.0.apk",
+  "notes": "2.16.0: 5 ảnh nền + chọn ảnh linh hoạt",
+  "size": 2714605,
+  "sha256": "ddd3c538c22951bdfe0825b04650b7be020957b95a3672cce0ee0fb83e96faf1",
   "changelog": [
-    "Bấm Back không còn hiện hộp chọn \"màn hình chính\" của hệ thống: ở trình phát → về ngay màn hình chính MQTV; ở màn hình chính → chỉ đưa focus lên thanh trên.",
-    "Đổi ảnh nền: hiện thông báo Toast xác nhận; ảnh chọn từ máy nếu không đọc được sẽ báo rõ và dùng nền mặc định."
+    "Ảnh nền: có 5 nền có sẵn (Cực quang · Xanh dương · Tối giản · Tím · Hoàng hôn) trong Cài đặt → 🖼 Ảnh nền màn hình chính.",
+    "Chọn ảnh từ máy sửa cho đúng: nếu thiết bị không có app hỗ trợ chọn tệp → tự hiện danh sách ảnh trong máy (Pictures/DCIM/Download, xin quyền đọc ảnh khi cần); thêm mục Nhập địa chỉ ảnh (URL) để tải ảnh từ mạng.",
+    "Sửa lỗi ảnh nền chỉ hiện nền Cực quang: gọi áp dụng ảnh nền ngay khi mở màn hình chính.",
+    "Sửa đồng hồ/NGày ở giao diện Google TV bị tràn ra mép phải (chip trạng thái ngắn lại, cỡ chữ gọn hơn)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
