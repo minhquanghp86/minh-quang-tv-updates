@@ -1,12 +1,13 @@
 {
-  "versionCode": 151,
-  "versionName": "2.15.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.1.apk",
-  "notes": "Bản 2.15.1",
-  "size": 2502539,
-  "sha256": "a7cb327d0ba24f8e207fc5f9129dd914b374a9f1424082c5e1cb511c5c17067b",
+  "versionCode": 153,
+  "versionName": "2.15.3",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.3.apk",
+  "notes": "2.15.3: đổi ảnh nền màn hình chính; proxy tự nhập",
+  "size": 2598838,
+  "sha256": "1dacbd8901b67cc91365b34d2a4b454d626f7a0fa382c80a4259cf37e3ac3331",
   "changelog": [
-    "Cài đặt → 🏠 Màn hình chính TV: dùng RoleManager để xin quyền launcher (Android 10+), hiện hộp thoại hệ thống \"Đặt làm màn hình chính\" — cần cho Google TV / Xiaomi TV; tự báo nếu MQTV đã là màn hình chính, có dự phòng mở Cài đặt hệ thống."
+    "Cài đặt → 🖼 Ảnh nền màn hình chính: chọn trong 3 nền có sẵn hoặc chọn ảnh từ máy.",
+    "Cài đặt → 🌐 Proxy luồng: tự nhập địa chỉ proxy riêng (không phụ thuộc máy chủ nào), chọn Tự động / Luôn dùng / Tắt. Không đặt proxy thì chỉ dùng luồng trực tiếp."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
