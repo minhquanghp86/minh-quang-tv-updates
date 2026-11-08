@@ -2,9 +2,9 @@
   "versionCode": 161,
   "versionName": "2.16.2",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.2.apk",
-  "notes": "2.16.2: font Be Vietnam Pro, đồng hồ lớn + âm lịch",
-  "size": 2879053,
-  "sha256": "0085b5bee80878cc377ea20fe387aaf095b3eaa6b7429815717b4b2a241cf776",
+  "notes": "Bản 2.16.2",
+  "size": 2879046,
+  "sha256": "87cccd5274067b2a64fe62beb1379e4119c04c83577e2e320c60d941acb77cf7",
   "changelog": [
     "Font mới Be Vietnam Pro cho toàn bộ màn hình chính (đồng hồ, ngày, các thẻ, tên kênh, tiêu đề) — dễ đọc hơn, hỗ trợ đầy đủ tiếng Việt.",
     "Đồng hồ số cỡ lớn hơn, kèm âm lịch ngắn (30/9 Bính Ngọ) cạnh đồng hồ; ngày dương lịch bên dưới (kiểu 2 dòng giữ nguyên).",
