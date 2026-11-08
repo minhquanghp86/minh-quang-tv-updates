@@ -2,9 +2,9 @@
   "versionCode": 153,
   "versionName": "2.15.3",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.3.apk",
-  "notes": "2.15.3: đổi ảnh nền màn hình chính; proxy tự nhập",
-  "size": 2598838,
-  "sha256": "1dacbd8901b67cc91365b34d2a4b454d626f7a0fa382c80a4259cf37e3ac3331",
+  "notes": "Bản 2.15.3",
+  "size": 2598841,
+  "sha256": "a7f50ab12a3888ed6b7d3524fc7f054f2cb59614a795131316195f11ec2d74de",
   "changelog": [
     "Cài đặt → 🖼 Ảnh nền màn hình chính: chọn trong 3 nền có sẵn hoặc chọn ảnh từ máy.",
     "Cài đặt → 🌐 Proxy luồng: tự nhập địa chỉ proxy riêng (không phụ thuộc máy chủ nào), chọn Tự động / Luôn dùng / Tắt. Không đặt proxy thì chỉ dùng luồng trực tiếp."
