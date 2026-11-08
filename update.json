@@ -2,9 +2,9 @@
   "versionCode": 151,
   "versionName": "2.15.1",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.1.apk",
-  "notes": "2.15.1: đặt làm màn hình chính bằng RoleManager (Google TV/Xiaomi)",
-  "size": 2502536,
-  "sha256": "8b22e65a359845f0b94a7c174977948bc455bd70750674693e561e8abafdfa06",
+  "notes": "Bản 2.15.1",
+  "size": 2502539,
+  "sha256": "a7cb327d0ba24f8e207fc5f9129dd914b374a9f1424082c5e1cb511c5c17067b",
   "changelog": [
     "Cài đặt → 🏠 Màn hình chính TV: dùng RoleManager để xin quyền launcher (Android 10+), hiện hộp thoại hệ thống \"Đặt làm màn hình chính\" — cần cho Google TV / Xiaomi TV; tự báo nếu MQTV đã là màn hình chính, có dự phòng mở Cài đặt hệ thống."
   ],
