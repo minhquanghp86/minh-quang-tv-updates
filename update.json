@@ -2,9 +2,9 @@
   "versionCode": 155,
   "versionName": "2.15.5",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.5.apk",
-  "notes": "2.15.5: sửa đổi ảnh nền không có tác dụng",
-  "size": 2599013,
-  "sha256": "42fa0d935f327d9c7eb1002b93cf90a21ea9abf19f8f4f06aa0eb4661392bb66",
+  "notes": "Bản 2.15.5",
+  "size": 2599014,
+  "sha256": "14f95136c4e843759112c1acfb2e50d30f899a002276a13b5f63480fa2415a7c",
   "changelog": [
     "Sửa lỗi đổi ảnh nền không có tác dụng: đọc lại cài đặt và áp ảnh nền ngay khi quay về màn hình chính (trước đây chỉ đọc lúc mở app)."
   ],
