@@ -1,12 +1,12 @@
 {
-  "versionCode": 154,
-  "versionName": "2.15.4",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.4.apk",
-  "notes": "Bản 2.15.4",
-  "size": 2599044,
-  "sha256": "07a2012fa3f10fd25cdcd981c42da6ceb9a721854d0d1d5bf36604fe8d28f091",
+  "versionCode": 155,
+  "versionName": "2.15.5",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.5.apk",
+  "notes": "2.15.5: sửa đổi ảnh nền không có tác dụng",
+  "size": 2599013,
+  "sha256": "42fa0d935f327d9c7eb1002b93cf90a21ea9abf19f8f4f06aa0eb4661392bb66",
   "changelog": [
-    "Màn hình chính: nhấn giữ một ô kênh để thêm/bỏ yêu thích (có thông báo), danh sách cập nhật ngay."
+    "Sửa lỗi đổi ảnh nền không có tác dụng: đọc lại cài đặt và áp ảnh nền ngay khi quay về màn hình chính (trước đây chỉ đọc lúc mở app)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
