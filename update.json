@@ -1,13 +1,12 @@
 {
-  "versionCode": 150,
-  "versionName": "2.15.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.0.apk",
-  "notes": "Bản 2.15.0",
-  "size": 2502095,
-  "sha256": "fd68bc3c5e22b8a33e70fd7627c6ef46f718b38b7e4ef6f28a98b8df2fda18a2",
+  "versionCode": 151,
+  "versionName": "2.15.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.15.1.apk",
+  "notes": "2.15.1: đặt làm màn hình chính bằng RoleManager (Google TV/Xiaomi)",
+  "size": 2502536,
+  "sha256": "8b22e65a359845f0b94a7c174977948bc455bd70750674693e561e8abafdfa06",
   "changelog": [
-    "Trình phát (chỉ điện thoại): thêm nút bật/tắt tiếng ở đầu cụm nút, trước nút xoay màn hình; giữ trạng thái tắt tiếng khi đổi kênh.",
-    "TV box: nhấn Back luôn quay về màn hình chính MQTV (không còn rơi về launcher cũ của TV); Back khi đang ở màn hình chính chỉ đưa focus lên thanh trên, không thoát app."
+    "Cài đặt → 🏠 Màn hình chính TV: dùng RoleManager để xin quyền launcher (Android 10+), hiện hộp thoại hệ thống \"Đặt làm màn hình chính\" — cần cho Google TV / Xiaomi TV; tự báo nếu MQTV đã là màn hình chính, có dự phòng mở Cài đặt hệ thống."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
