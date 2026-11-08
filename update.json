@@ -1,15 +1,14 @@
 {
-  "versionCode": 159,
-  "versionName": "2.16.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.0.apk",
-  "notes": "Bản 2.16.0",
-  "size": 2714612,
-  "sha256": "2803ed4a406aa7b68c0a4caec1ccff369101fce46f610d3b3f5851111f9d7fb0",
+  "versionCode": 160,
+  "versionName": "2.16.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.1.apk",
+  "notes": "2.16.1: thứ tự hàng màn hình chính; kim giây mỗi giây",
+  "size": 2714697,
+  "sha256": "8304e7bc62b16c38dbe171cfa4421bda1a431c1cfc43868b60be45b4a18bc99b",
   "changelog": [
-    "Ảnh nền: có 5 nền có sẵn (Cực quang · Xanh dương · Tối giản · Tím · Hoàng hôn) trong Cài đặt → 🖼 Ảnh nền màn hình chính.",
-    "Chọn ảnh từ máy sửa cho đúng: nếu thiết bị không có app hỗ trợ chọn tệp → tự hiện danh sách ảnh trong máy (Pictures/DCIM/Download, xin quyền đọc ảnh khi cần); thêm mục Nhập địa chỉ ảnh (URL) để tải ảnh từ mạng.",
-    "Sửa lỗi ảnh nền chỉ hiện nền Cực quang: gọi áp dụng ảnh nền ngay khi mở màn hình chính.",
-    "Sửa đồng hồ/NGày ở giao diện Google TV bị tràn ra mép phải (chip trạng thái ngắn lại, cỡ chữ gọn hơn)."
+    "Màn hình chính (box + điện thoại): đúng thứ tự hàng — 1) Toàn bộ kênh (không tiêu đề) 2) Kênh yêu thích 3) Xem gần đây → các nhóm → ứng dụng.",
+    "Danh sách kênh: hàng Kênh yêu thích luôn ở đầu (kèm tiêu đề) ngay trên “Vừa xem”.",
+    "Đồng hồ kim iOS: kim giây cập nhật mỗi giây (trước đây 10 giây/lần)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
