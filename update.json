@@ -2,9 +2,9 @@
   "versionCode": 167,
   "versionName": "2.18.3",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.3.apk",
-  "notes": "2.18.3: bóng chữ đậm, ô chỉ logo, iOS clock 200dp, video canh top",
-  "size": 5030459,
-  "sha256": "b87f4b23e15ef8e863633d46c4dc7d085ec8ff528796e74697d5b4888786a9b0",
+  "notes": "Bản 2.18.3",
+  "size": 5030458,
+  "sha256": "1312df59e8591aa33cb341fdc840fbb599c16e2779eea1f0480101cef2cfabb9",
   "changelog": [
     "Chữ trong thẻ thời tiết: bóng đổ đậm hơn (đen đặc) để đọc rõ trên video sáng.",
     "Ô kênh và ô ứng dụng: bỏ tên chữ, chỉ còn logo/icon (logo lớn hơn 78dp).",
