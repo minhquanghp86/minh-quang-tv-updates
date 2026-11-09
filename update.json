@@ -2,9 +2,9 @@
   "versionCode": 164,
   "versionName": "2.18.0",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.0.apk",
-  "notes": "2.18.0: nền video thật cho thẻ thời tiết",
-  "size": 5026729,
-  "sha256": "0f30d4598c1eefa5f20213145958ef5fbc22a54d9b643298cb1dab9b6688ddbe",
+  "notes": "Bản 2.18.0",
+  "size": 5026734,
+  "sha256": "f77591eb5e44749be83245638be4a9b92612785588d927892167663086a515e1",
   "changelog": [
     "Thẻ thời tiết dùng video nền thật (bộ mẫu Mixkit, miễn phí), lặp liền mạch, tắt tiếng, chọn theo mã thời tiết hiện tại:",
     "trời quang → nền trời nắng; ít mây/nhiều mây/sương mù → mây; mưa/mưa rào → mưa; dông → bão; tuyết → tuyết rơi.",
