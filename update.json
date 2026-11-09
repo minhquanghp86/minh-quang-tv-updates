@@ -1,15 +1,13 @@
 {
-  "versionCode": 161,
-  "versionName": "2.16.2",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.2.apk",
-  "notes": "Bản 2.16.2",
-  "size": 2879046,
-  "sha256": "87cccd5274067b2a64fe62beb1379e4119c04c83577e2e320c60d941acb77cf7",
+  "versionCode": 162,
+  "versionName": "2.16.3",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.3.apk",
+  "notes": "2.16.3: màn hình chính chỉ 2 hàng",
+  "size": 2878481,
+  "sha256": "7b884b2e2ce5c70030d8c2a5fde71b3a054039d0c09473cd58ba5a9c3e957a07",
   "changelog": [
-    "Font mới Be Vietnam Pro cho toàn bộ màn hình chính (đồng hồ, ngày, các thẻ, tên kênh, tiêu đề) — dễ đọc hơn, hỗ trợ đầy đủ tiếng Việt.",
-    "Đồng hồ số cỡ lớn hơn, kèm âm lịch ngắn (30/9 Bính Ngọ) cạnh đồng hồ; ngày dương lịch bên dưới (kiểu 2 dòng giữ nguyên).",
-    "3 nút công cụ về lại giữa; ẩn chip “Trống GB” và “phiên bản”.",
-    "Nới chiều cao thẻ thời tiết/5 ngày để không còn bị cắt dòng “Bình minh/Hoàng hôn”."
+    "Màn hình chính (Google TV + iOS) gọn còn 2 hàng: hàng 1 = toàn bộ kênh, hàng 2 = ứng dụng của box. Không còn hàng Yêu thích / Vừa xem / các nhóm kênh trên màn hình chính (vẫn xem được trong Danh sách kênh).",
+    "Thu gọn thẻ thông tin (158dp) để cả 2 hàng hiện trọn trong màn hình; đồng hồ nhỏ lại tránh chạm nút."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
