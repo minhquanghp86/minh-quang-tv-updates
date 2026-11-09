@@ -1,13 +1,13 @@
 {
-  "versionCode": 193,
-  "versionName": "2.22.6",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.22.6.apk",
-  "notes": "2.22.6: khung logo 16:9; Cổ điển app→kênh→yêu thích→nhóm; điện thoại chỉ Cổ điển, chỉ kênh",
-  "size": 7589352,
-  "sha256": "16d2321c85bace8a70015cf6afe7ca1fb30543a57e3f7eb36f18afb875ccdc73",
+  "versionCode": 174,
+  "versionName": "2.21.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.0.apk",
+  "notes": "Bản 2.21.0",
+  "size": 7586609,
+  "sha256": "0a5c3fdd85127f9a24baa014f7efb0263aa053df58aee703df30e5faabb2a244",
   "changelog": [
-    "Logo màn hình chính (bản chốt): khung tối bo góc 12dp, tỉ lệ 16:9, ảnh thu vào trong với lề 5dp, viền 1dp — giống logo góc trình phát.",
-    "Khung logo kênh và ứng dụng cùng kích thước; bỏ khung vuông gây 2 dải đen."
+    "Thay bộ ảnh nền bằng 10 ảnh thiên nhiên thật (Wikimedia Commons, giấy phép CC/PD): rừng nắng, thác, lá thu, biển, lavender, thung lũng sông, hồ phản chiếu, hoa anh đào, đồng cỏ, thác đá. Cài đặt → 🖼 Ảnh nền màn hình chính để chọn; nền cũ tự chuyển sang nền 1.",
+    "Quản lý hàng ứng dụng: nhấn giữ một ứng dụng trên màn hình chính → popup: Đưa lên đầu / Sang trái / Sang phải / Ẩn khỏi màn hình chính / Thêm–bớt ứng dụng…. Thứ tự và danh sách ẩn được lưu lại."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
