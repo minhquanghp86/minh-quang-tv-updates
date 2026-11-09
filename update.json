@@ -2,9 +2,9 @@
   "versionCode": 176,
   "versionName": "2.21.2",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.2.apk",
-  "notes": "2.21.2: đủ ứng dụng trên điện thoại",
-  "size": 7586893,
-  "sha256": "9f7044672762df087373ba59ac4cb51de00db33412af243cf0f51d2e9651b7e5",
+  "notes": "Bản 2.21.2",
+  "size": 7586901,
+  "sha256": "2368cb4f85beb7db357ca4bfe554687173598ec79393b7cfed95fac026b30e15",
   "changelog": [
     "Sửa thiếu ứng dụng trên điện thoại: thêm quyền QUERY_ALL_PACKAGES + <queries> cho LAUNCHER/LEANBACK/INFO.",
     "Dò ứng dụng theo 2 lớp: queryIntentActivities (3 category) và quét getInstalledApplications (chỉ lấy app mở được) → đủ bộ app của từng máy.",
