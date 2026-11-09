@@ -1,12 +1,12 @@
 {
-  "versionCode": 177,
-  "versionName": "2.21.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.3.apk",
-  "notes": "Bản 2.21.3",
-  "size": 7588080,
-  "sha256": "fe52e928ecde02d9874b32fd6f00a4dac4566152264a4acac5d8f3580bc0edc3",
+  "versionCode": 181,
+  "versionName": "2.21.7",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.7.apk",
+  "notes": "2.21.7: giao diện điện thoại giống box",
+  "size": 7588738,
+  "sha256": "9baa8d19270957fb5c357e45a3c04fa3c47734f1a38acae0ace6c85196aa1077",
   "changelog": [
-    "Thêm Cài đặt → 🧪 Chẩn đoán ứng dụng: hiện phiên bản, Android, số app theo từng category (LAUNCHER/LEANBACK/INFO), số app đã cài, số app mở được và danh sách package; có nút Sao chép. Dùng để chốt nguyên nhân thiếu ứng dụng trên từng máy."
+    "Bản 2.21.7"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
