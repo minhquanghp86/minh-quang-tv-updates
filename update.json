@@ -2,9 +2,9 @@
   "versionCode": 162,
   "versionName": "2.16.3",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.3.apk",
-  "notes": "2.16.3: màn hình chính chỉ 2 hàng",
-  "size": 2878481,
-  "sha256": "7b884b2e2ce5c70030d8c2a5fde71b3a054039d0c09473cd58ba5a9c3e957a07",
+  "notes": "Bản 2.16.3",
+  "size": 2878480,
+  "sha256": "3c4a6719cc4d6f9441ee5146e7a04a8ffc534f0693286c5969b72c3918550a05",
   "changelog": [
     "Màn hình chính (Google TV + iOS) gọn còn 2 hàng: hàng 1 = toàn bộ kênh, hàng 2 = ứng dụng của box. Không còn hàng Yêu thích / Vừa xem / các nhóm kênh trên màn hình chính (vẫn xem được trong Danh sách kênh).",
     "Thu gọn thẻ thông tin (158dp) để cả 2 hàng hiện trọn trong màn hình; đồng hồ nhỏ lại tránh chạm nút."
