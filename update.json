@@ -2,9 +2,9 @@
   "versionCode": 173,
   "versionName": "2.20.1",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.20.1.apk",
-  "notes": "2.20.1: bộ icon 3D mới",
-  "size": 3596705,
-  "sha256": "d8b1fbecac5e876313c0aa871a9c144bb5d6ba5d9c269f28f3eb5839f2c0678d",
+  "notes": "Bản 2.20.1",
+  "size": 3596701,
+  "sha256": "9724b238c05beab48a80fc512ff2c032ce1d35201e86a460dbb735ef76b71cea",
   "changelog": [
     "Thay bộ icon thời tiết bằng bộ kaushalsahu07/weather (miễn phí, phong cách 3D bóng): sun · cloud · mist · haze · rain · snow · thunderstorm.",
     "Ánh xạ: trời quang=sun, ít mây=haze, nhiều mây=cloud, sương mù=mist, mưa=drizzle/rain, dông=thunderstorm, tuyết=snow."
