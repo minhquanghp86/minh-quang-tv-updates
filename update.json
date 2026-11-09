@@ -1,13 +1,13 @@
 {
-  "versionCode": 174,
-  "versionName": "2.21.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.0.apk",
-  "notes": "Bản 2.21.0",
-  "size": 7586609,
-  "sha256": "0a5c3fdd85127f9a24baa014f7efb0263aa053df58aee703df30e5faabb2a244",
+  "versionCode": 193,
+  "versionName": "2.22.6",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.22.6.apk",
+  "notes": "Bản 2.22.6",
+  "size": 7589354,
+  "sha256": "3bb72a13fd19e6644f2365f655694f385740b5c7a06231d397020ed2862f8223",
   "changelog": [
-    "Thay bộ ảnh nền bằng 10 ảnh thiên nhiên thật (Wikimedia Commons, giấy phép CC/PD): rừng nắng, thác, lá thu, biển, lavender, thung lũng sông, hồ phản chiếu, hoa anh đào, đồng cỏ, thác đá. Cài đặt → 🖼 Ảnh nền màn hình chính để chọn; nền cũ tự chuyển sang nền 1.",
-    "Quản lý hàng ứng dụng: nhấn giữ một ứng dụng trên màn hình chính → popup: Đưa lên đầu / Sang trái / Sang phải / Ẩn khỏi màn hình chính / Thêm–bớt ứng dụng…. Thứ tự và danh sách ẩn được lưu lại."
+    "Logo màn hình chính (bản chốt): khung tối bo góc 12dp, tỉ lệ 16:9, ảnh thu vào trong với lề 5dp, viền 1dp — giống logo góc trình phát.",
+    "Khung logo kênh và ứng dụng cùng kích thước; bỏ khung vuông gây 2 dải đen."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
