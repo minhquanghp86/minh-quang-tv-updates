@@ -2,9 +2,9 @@
   "versionCode": 170,
   "versionName": "2.19.1",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.19.1.apk",
-  "notes": "2.19.1: video phủ kín thẻ",
-  "size": 4067643,
-  "sha256": "913575aafbedeb42b58194c034c17f209fdb7ba755ab6d30c957ec2f41212c9e",
+  "notes": "Bản 2.19.1",
+  "size": 4067641,
+  "sha256": "87b94f91a2bdf0fae5999b43f5fdedb0bfe15b1512e6ee413204c060a4221ce6",
   "changelog": [
     "Video nền phủ kín toàn thẻ (bỏ dải mờ hai bên): cắt center-cover 960×300, vẫn giữ nguyên tỉ lệ (không méo).",
     "Thêm tham số ẩn wcode để xem trước nhanh từng hình thái thời tiết (dùng adb, không ảnh hưởng người dùng)."
