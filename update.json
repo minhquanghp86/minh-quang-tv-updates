@@ -1,14 +1,13 @@
 {
-  "versionCode": 190,
-  "versionName": "2.22.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.22.3.apk",
-  "notes": "Bản 2.22.3",
-  "size": 7589175,
-  "sha256": "59cc90e6b2c7b80bb25ad615912eec33d41da7fdad3a2d24f0080b520cc66fc2",
+  "versionCode": 193,
+  "versionName": "2.22.6",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.22.6.apk",
+  "notes": "2.22.6: khung logo 16:9; Cổ điển app→kênh→yêu thích→nhóm; điện thoại chỉ Cổ điển, chỉ kênh",
+  "size": 7589352,
+  "sha256": "16d2321c85bace8a70015cf6afe7ca1fb30543a57e3f7eb36f18afb875ccdc73",
   "changelog": [
-    "Logo kênh & ứng dụng: bỏ nền hộp đặc (hết 2 dải đen hai bên), viền mỏng bám sát logo; logo kênh và logo ứng dụng cùng chiều rộng.",
-    "Cổ điển trên box: hàng 1 = ứng dụng → hàng 2 = tất cả kênh → hàng 3 = kênh yêu thích → tiếp theo là các nhóm kênh.",
-    "Điện thoại chỉ còn giao diện Cổ điển (bỏ Google TV/iOS và mục chọn giao diện); màn hình chính chỉ có kênh: tất cả kênh → yêu thích → các nhóm (không có hàng ứng dụng)."
+    "Logo màn hình chính (bản chốt): khung tối bo góc 12dp, tỉ lệ 16:9, ảnh thu vào trong với lề 5dp, viền 1dp — giống logo góc trình phát.",
+    "Khung logo kênh và ứng dụng cùng kích thước; bỏ khung vuông gây 2 dải đen."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
