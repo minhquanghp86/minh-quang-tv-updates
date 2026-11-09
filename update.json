@@ -1,14 +1,13 @@
 {
-  "versionCode": 169,
-  "versionName": "2.19.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.19.0.apk",
-  "notes": "Bản 2.19.0",
-  "size": 4293890,
-  "sha256": "a793c2149cf4ed923452ed3e6e1310a8631ed9c580a8d16ed867ae102abd5fea",
+  "versionCode": 170,
+  "versionName": "2.19.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.19.1.apk",
+  "notes": "2.19.1: video phủ kín thẻ",
+  "size": 4067643,
+  "sha256": "913575aafbedeb42b58194c034c17f209fdb7ba755ab6d30c957ec2f41212c9e",
   "changelog": [
-    "Chốt bộ video nền theo lựa chọn của anh: trời quang clear_b(2), mây cloudy_b(4), sương mù fog_22729(6), mưa gif_g2(9), dông gif_g1(10), tuyết snow_b(15).",
-    "Thêm trạng thái sương mù dùng video riêng (trước đây dùng chung video mây).",
-    "GIF được nâng cấp Lanczos + unsharp, lặp 3 giây, đóng gói letterbox-blur 960×300 (tổng ~1.3 MB)."
+    "Video nền phủ kín toàn thẻ (bỏ dải mờ hai bên): cắt center-cover 960×300, vẫn giữ nguyên tỉ lệ (không méo).",
+    "Thêm tham số ẩn wcode để xem trước nhanh từng hình thái thời tiết (dùng adb, không ảnh hưởng người dùng)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
