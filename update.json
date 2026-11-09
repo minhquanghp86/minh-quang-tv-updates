@@ -2,9 +2,9 @@
   "versionCode": 165,
   "versionName": "2.18.1",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.1.apk",
-  "notes": "2.18.1: bo góc + nền trong suốt",
-  "size": 5030251,
-  "sha256": "c1832ea86e26c15ae874a9693870175dc7d114ef2f8def386eb9bf946b1001c7",
+  "notes": "Bản 2.18.1",
+  "size": 5030242,
+  "sha256": "e324f53dbd435ce2e4f01f469c27bc913f29c414491286689bbce6d45fe9d522",
   "changelog": [
     "Thẻ thời tiết: bo góc bằng CardView — 4 góc không còn lộ video ra ngoài.",
     "Lớp phủ gần như trong suốt hoàn toàn (chỉ gradient rất nhẹ ở đáy cho dải 5 ngày); chữ thêm bóng đổ để vẫn đọc rõ trên video sáng."
