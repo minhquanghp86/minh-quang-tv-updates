@@ -1,15 +1,15 @@
 {
-  "versionCode": 181,
-  "versionName": "2.21.7",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.7.apk",
-  "notes": "Bản 2.21.7",
-  "size": 7588735,
-  "sha256": "6b0f6fa41bfb5d612441d7f85e1f42ebe9b34aaffb76ffb601e7e8dc32f2321c",
+  "versionCode": 184,
+  "versionName": "2.22.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.22.0.apk",
+  "notes": "2.22.0: khôi phục Cổ điển; sửa bố cục điện thoại",
+  "size": 7589129,
+  "sha256": "48cb04719c695b21d22bc3e95a051746b14da4deee6f855a0b34356a27497e82",
   "changelog": [
-    "Điện thoại: đồng hồ với 2 dòng ngày (dương + âm lịch) xếp dọc bên dưới, bỏ hàng nhóm thừa phía trên thẻ.",
-    "Điện thoại ngang: bố cục 2 cột — thẻ thời tiết bên trái, 2 hàng kênh + ứng dụng bên phải (không còn bị cắt hàng).",
-    "Mặc định chỉ hiện 10 ứng dụng trên màn hình chính; hộp chọn ứng dụng có tìm kiếm + Chọn tất cả / Bỏ chọn tất cả.",
-    "Ô kênh/ứng dụng cao hơn, dễ nhìn."
+    "Khôi phục giao diện Cổ điển như trước 2.21.7 (ô kênh 78dp, ô ứng dụng rộng như cũ) — không còn bị ảnh hưởng bởi Google TV / iOS.",
+    "Điện thoại dọc: đồng hồ căn giữa, 2 dòng ngày nằm dưới (dương lịch + âm lịch), chữ sáng có bóng; thẻ thời tiết gọn; 2 hàng kênh + ứng dụng hiển thị đủ.",
+    "Điện thoại ngang: bố cục 2 cột cho Google TV (thời tiết trái, 2 hàng phải) và iOS (đồng hồ + thời tiết trái) — không còn bị cắt hàng.",
+    "Thẻ thời tiết tự co theo kích thước thẻ (rất thấp: chỉ hiện thành phố + nhiệt độ + tình trạng), không còn chữ đè nhau."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
