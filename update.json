@@ -2,9 +2,9 @@
   "versionCode": 172,
   "versionName": "2.20.0",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.20.0.apk",
-  "notes": "2.20.0: icon 3D thay video nền",
-  "size": 3111360,
-  "sha256": "97fd08ada31f45ceeb3393ec52eef49ab61b402a7cadb6e61a2ca6992b79e7e0",
+  "notes": "Bản 2.20.0",
+  "size": 3111371,
+  "sha256": "5b0d2667a11f60080d05931ac88c15ad30cfa15180b1ebbcdd83457ebb61ea93",
   "changelog": [
     "Thay video nền bằng bộ icon 3D (Microsoft Fluent Emoji 3D, giấy phép MIT) — hết tình trạng thẻ đen/trong suốt khi quay lại màn hình chính.",
     "Icon 3D lớn hiển thị ở khu vực giữa thẻ; dải 5 ngày dùng icon 3D nhỏ thay emoji.",
