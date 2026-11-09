@@ -1,13 +1,14 @@
 {
-  "versionCode": 174,
-  "versionName": "2.21.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.0.apk",
-  "notes": "Bản 2.21.0",
-  "size": 7586609,
-  "sha256": "25afb491ade4cb697337fa4ca6dea6bd27b83f205a6c29852d29e49beff438a6",
+  "versionCode": 175,
+  "versionName": "2.21.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.1.apk",
+  "notes": "2.21.1: giao diện điện thoại mới + đủ ứng dụng",
+  "size": 7586653,
+  "sha256": "23cf69545c9870c06cdcf50304c8d143c7882e4a6bf2a8aaa27914f1280c304e",
   "changelog": [
-    "Thay bộ ảnh nền bằng 10 ảnh thiên nhiên thật (Wikimedia Commons, giấy phép CC/PD): rừng nắng, thác, lá thu, biển, lavender, thung lũng sông, hồ phản chiếu, hoa anh đào, đồng cỏ, thác đá. Cài đặt → 🖼 Ảnh nền màn hình chính để chọn; nền cũ tự chuyển sang nền 1.",
-    "Quản lý hàng ứng dụng: nhấn giữ một ứng dụng trên màn hình chính → popup: Đưa lên đầu / Sang trái / Sang phải / Ẩn khỏi màn hình chính / Thêm–bớt ứng dụng…. Thứ tự và danh sách ẩn được lưu lại."
+    "Điện thoại: làm lại giao diện Google TV (dọc + ngang) theo đúng bố cục mới của box — chip IP bên trái, 3 nút giữa, đồng hồ + ngày dương + âm lịch bên phải; thẻ thời tiết trong suốt có icon 3D; 2 hàng kênh + ứng dụng, bỏ tên chữ dưới icon.",
+    "Danh sách ứng dụng đầy đủ: thêm <queries> cho MAIN/LAUNCHER — Android 11+ không còn ẩn bớt ứng dụng (trước chỉ thấy vài app trên điện thoại).",
+    "Ghi log số ứng dụng tìm thấy (apps found=…) để kiểm tra."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
