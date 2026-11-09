@@ -1,15 +1,13 @@
 {
-  "versionCode": 164,
-  "versionName": "2.18.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.0.apk",
-  "notes": "Bản 2.18.0",
-  "size": 5026734,
-  "sha256": "f77591eb5e44749be83245638be4a9b92612785588d927892167663086a515e1",
+  "versionCode": 165,
+  "versionName": "2.18.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.1.apk",
+  "notes": "2.18.1: bo góc + nền trong suốt",
+  "size": 5030251,
+  "sha256": "c1832ea86e26c15ae874a9693870175dc7d114ef2f8def386eb9bf946b1001c7",
   "changelog": [
-    "Thẻ thời tiết dùng video nền thật (bộ mẫu Mixkit, miễn phí), lặp liền mạch, tắt tiếng, chọn theo mã thời tiết hiện tại:",
-    "trời quang → nền trời nắng; ít mây/nhiều mây/sương mù → mây; mưa/mưa rào → mưa; dông → bão; tuyết → tuyết rơi.",
-    "Video được chuẩn hoá 960×300, H.264 baseline (giải mã cứng trên box Android 6), tổng ~2 MB; thẻ bo góc 18dp, có lớp phủ tối để chữ dễ đọc.",
-    "Vẫn giữ lớp vẽ dự phòng (mây/mưa/sấm/tuyết/nắng) nếu thiếu video."
+    "Thẻ thời tiết: bo góc bằng CardView — 4 góc không còn lộ video ra ngoài.",
+    "Lớp phủ gần như trong suốt hoàn toàn (chỉ gradient rất nhẹ ở đáy cho dải 5 ngày); chữ thêm bóng đổ để vẫn đọc rõ trên video sáng."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
