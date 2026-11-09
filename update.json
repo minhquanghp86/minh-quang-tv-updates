@@ -2,9 +2,9 @@
   "versionCode": 168,
   "versionName": "2.18.4",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.4.apk",
-  "notes": "2.18.4: video nền trọn khung + 2 bên mờ",
-  "size": 4712323,
-  "sha256": "dbc29fd546da379d765afbad3370c3c32f48349a5bdc1ba27319e0428d4ea945",
+  "notes": "Bản 2.18.4",
+  "size": 4712318,
+  "sha256": "779972c36759dddb1388931eed2cede0fd9157c545d5609fdc101a1b02b26174",
   "changelog": [
     "Video nền thẻ thời tiết: hiển thị trọn khung — khung hình gốc được giữ nguyên ở giữa, hai bên là bản mờ của chính video (letterbox blur), không còn cắt mất chi tiết.",
     "Toàn bộ 5 video được xử lý lại (960×300, ~1.8 MB tổng), canh giữa khi phủ thẻ."
