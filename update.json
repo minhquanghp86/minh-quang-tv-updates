@@ -2,9 +2,9 @@
   "versionCode": 177,
   "versionName": "2.21.3",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.3.apk",
-  "notes": "2.21.3: chẩn đoán ứng dụng",
-  "size": 7588075,
-  "sha256": "160e712d3b0924f11adc312b066d2148bf68116f630c366414e0dbba7548db74",
+  "notes": "Bản 2.21.3",
+  "size": 7588080,
+  "sha256": "fe52e928ecde02d9874b32fd6f00a4dac4566152264a4acac5d8f3580bc0edc3",
   "changelog": [
     "Thêm Cài đặt → 🧪 Chẩn đoán ứng dụng: hiện phiên bản, Android, số app theo từng category (LAUNCHER/LEANBACK/INFO), số app đã cài, số app mở được và danh sách package; có nút Sao chép. Dùng để chốt nguyên nhân thiếu ứng dụng trên từng máy."
   ],
