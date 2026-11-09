@@ -1,15 +1,13 @@
 {
-  "versionCode": 184,
-  "versionName": "2.22.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.22.0.apk",
-  "notes": "Bản 2.22.0",
-  "size": 7589117,
-  "sha256": "b06082e0b736900dd540235671a5225389f5cf289f27f8217ba6c08540ece80e",
+  "versionCode": 185,
+  "versionName": "2.16.2-rb",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.2-rb.apk",
+  "notes": "Quay về bản 2.16.2 (bản cuối được xác nhận ổn)",
+  "size": 2879011,
+  "sha256": "e4e031a7de6ce30df5639b114201f9740d0d1670789876be1445c0164c16fcd1",
   "changelog": [
-    "Khôi phục giao diện Cổ điển như trước 2.21.7 (ô kênh 78dp, ô ứng dụng rộng như cũ) — không còn bị ảnh hưởng bởi Google TV / iOS.",
-    "Điện thoại dọc: đồng hồ căn giữa, 2 dòng ngày nằm dưới (dương lịch + âm lịch), chữ sáng có bóng; thẻ thời tiết gọn; 2 hàng kênh + ứng dụng hiển thị đủ.",
-    "Điện thoại ngang: bố cục 2 cột cho Google TV (thời tiết trái, 2 hàng phải) và iOS (đồng hồ + thời tiết trái) — không còn bị cắt hàng.",
-    "Thẻ thời tiết tự co theo kích thước thẻ (rất thấp: chỉ hiện thành phố + nhiệt độ + tình trạng), không còn chữ đè nhau."
+    "Quay về bản 2.16.2 — bản cuối anh xác nhận ổn định",
+    "Bỏ các thay đổi giao diện điện thoại của 2.21.7–2.22.0"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
