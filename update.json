@@ -1,13 +1,14 @@
 {
-  "versionCode": 165,
-  "versionName": "2.18.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.1.apk",
-  "notes": "Bản 2.18.1",
-  "size": 5030242,
-  "sha256": "e324f53dbd435ce2e4f01f469c27bc913f29c414491286689bbce6d45fe9d522",
+  "versionCode": 166,
+  "versionName": "2.18.2",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.2.apk",
+  "notes": "2.18.2: thẻ trong suốt 100%, bỏ tiêu đề hàng",
+  "size": 5030264,
+  "sha256": "0e130d37a527e058ad425029b447f1fa49073a44d22061fdd134a2d61edcedf9",
   "changelog": [
-    "Thẻ thời tiết: bo góc bằng CardView — 4 góc không còn lộ video ra ngoài.",
-    "Lớp phủ gần như trong suốt hoàn toàn (chỉ gradient rất nhẹ ở đáy cho dải 5 ngày); chữ thêm bóng đổ để vẫn đọc rõ trên video sáng."
+    "Thẻ thời tiết trong suốt 100% (bỏ hoàn toàn lớp phủ gradient); chữ tăng bóng đổ để vẫn đọc được trên video sáng.",
+    "Màn hình chính: bỏ tiêu đề của hàng kênh và hàng ứng dụng (chỉ còn nội dung).",
+    "Thẻ đồng hồ + thẻ thời tiết cao 200dp (trước 164dp) và sát mép trên hơn (giảm khoảng cách/padding)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
