@@ -1,14 +1,12 @@
 {
-  "versionCode": 176,
-  "versionName": "2.21.2",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.2.apk",
-  "notes": "Bản 2.21.2",
-  "size": 7586901,
-  "sha256": "2368cb4f85beb7db357ca4bfe554687173598ec79393b7cfed95fac026b30e15",
+  "versionCode": 177,
+  "versionName": "2.21.3",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.3.apk",
+  "notes": "2.21.3: chẩn đoán ứng dụng",
+  "size": 7588075,
+  "sha256": "160e712d3b0924f11adc312b066d2148bf68116f630c366414e0dbba7548db74",
   "changelog": [
-    "Sửa thiếu ứng dụng trên điện thoại: thêm quyền QUERY_ALL_PACKAGES + <queries> cho LAUNCHER/LEANBACK/INFO.",
-    "Dò ứng dụng theo 2 lớp: queryIntentActivities (3 category) và quét getInstalledApplications (chỉ lấy app mở được) → đủ bộ app của từng máy.",
-    "Log chẩn đoán: apps: query=<n> tổng=<n>."
+    "Thêm Cài đặt → 🧪 Chẩn đoán ứng dụng: hiện phiên bản, Android, số app theo từng category (LAUNCHER/LEANBACK/INFO), số app đã cài, số app mở được và danh sách package; có nút Sao chép. Dùng để chốt nguyên nhân thiếu ứng dụng trên từng máy."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
