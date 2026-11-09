@@ -1,13 +1,14 @@
 {
-  "versionCode": 185,
-  "versionName": "2.16.2-rb",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.16.2-rb.apk",
-  "notes": "Quay về bản 2.16.2 (bản cuối được xác nhận ổn)",
-  "size": 2879011,
-  "sha256": "e4e031a7de6ce30df5639b114201f9740d0d1670789876be1445c0164c16fcd1",
+  "versionCode": 190,
+  "versionName": "2.22.3",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.22.3.apk",
+  "notes": "2.22.3: logo + Cổ điển + điện thoại chỉ Cổ điển",
+  "size": 7589179,
+  "sha256": "49833a1d42700a0af108a2bec699a05da1bad3a63ddb69ff669c3c29ea45d33f",
   "changelog": [
-    "Quay về bản 2.16.2 — bản cuối anh xác nhận ổn định",
-    "Bỏ các thay đổi giao diện điện thoại của 2.21.7–2.22.0"
+    "Logo kênh & ứng dụng: bỏ nền hộp đặc (hết 2 dải đen hai bên), viền mỏng bám sát logo; logo kênh và logo ứng dụng cùng chiều rộng.",
+    "Cổ điển trên box: hàng 1 = ứng dụng → hàng 2 = tất cả kênh → hàng 3 = kênh yêu thích → tiếp theo là các nhóm kênh.",
+    "Điện thoại chỉ còn giao diện Cổ điển (bỏ Google TV/iOS và mục chọn giao diện); màn hình chính chỉ có kênh: tất cả kênh → yêu thích → các nhóm (không có hàng ứng dụng)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
