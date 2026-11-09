@@ -1,13 +1,15 @@
 {
-  "versionCode": 170,
-  "versionName": "2.19.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.19.1.apk",
-  "notes": "Bản 2.19.1",
-  "size": 4067641,
-  "sha256": "87b94f91a2bdf0fae5999b43f5fdedb0bfe15b1512e6ee413204c060a4221ce6",
+  "versionCode": 172,
+  "versionName": "2.20.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.20.0.apk",
+  "notes": "2.20.0: icon 3D thay video nền",
+  "size": 3111360,
+  "sha256": "97fd08ada31f45ceeb3393ec52eef49ab61b402a7cadb6e61a2ca6992b79e7e0",
   "changelog": [
-    "Video nền phủ kín toàn thẻ (bỏ dải mờ hai bên): cắt center-cover 960×300, vẫn giữ nguyên tỉ lệ (không méo).",
-    "Thêm tham số ẩn wcode để xem trước nhanh từng hình thái thời tiết (dùng adb, không ảnh hưởng người dùng)."
+    "Thay video nền bằng bộ icon 3D (Microsoft Fluent Emoji 3D, giấy phép MIT) — hết tình trạng thẻ đen/trong suốt khi quay lại màn hình chính.",
+    "Icon 3D lớn hiển thị ở khu vực giữa thẻ; dải 5 ngày dùng icon 3D nhỏ thay emoji.",
+    "Thẻ thời tiết trong suốt 100% (giữ nguyên), bỏ toàn bộ video trong APK (APK nhỏ lại ~2.7 MB).",
+    "iOS: đồng hồ to hơn (192dp), bỏ nền thẻ đồng hồ, chiều cao bằng thẻ thời tiết; áp dụng cả bản TV và điện thoại (dọc/ngang)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
