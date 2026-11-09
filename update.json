@@ -1,15 +1,15 @@
 {
-  "versionCode": 163,
-  "versionName": "2.17.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.17.0.apk",
-  "notes": "Bản 2.17.0",
-  "size": 2884351,
-  "sha256": "b3410baac05bf7aa7133c96ec214561b73aa4eacb5113ddefef91d16ecaae9eb",
+  "versionCode": 164,
+  "versionName": "2.18.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.0.apk",
+  "notes": "2.18.0: nền video thật cho thẻ thời tiết",
+  "size": 5026729,
+  "sha256": "0f30d4598c1eefa5f20213145958ef5fbc22a54d9b643298cb1dab9b6688ddbe",
   "changelog": [
-    "Thẻ thời tiết mới: gộp thời tiết hiện tại + dự báo 5 ngày vào một thẻ duy nhất (kiểu widget iOS trong ảnh mẫu).",
-    "Nền động theo dữ liệu: mây trôi, mưa rơi (mưa/mưa rào), sấm chớp (dông), tuyết rơi, mặt trời toả sáng (trời quang) — đổi theo mã thời tiết hiện tại; có thêm giọt nước đọng trên kính khi mưa.",
-    "Bố cục trong thẻ: thành phố, ngày, cảm giác/gió/độ ẩm, bình minh–hoàng hôn, nhiệt độ lớn + cao/thấp + mô tả, dải 5 ngày (thứ + icon + nhiệt độ).",
-    "Thay 2 thẻ cũ bằng thẻ mới ở cả Google TV và iOS."
+    "Thẻ thời tiết dùng video nền thật (bộ mẫu Mixkit, miễn phí), lặp liền mạch, tắt tiếng, chọn theo mã thời tiết hiện tại:",
+    "trời quang → nền trời nắng; ít mây/nhiều mây/sương mù → mây; mưa/mưa rào → mưa; dông → bão; tuyết → tuyết rơi.",
+    "Video được chuẩn hoá 960×300, H.264 baseline (giải mã cứng trên box Android 6), tổng ~2 MB; thẻ bo góc 18dp, có lớp phủ tối để chữ dễ đọc.",
+    "Vẫn giữ lớp vẽ dự phòng (mây/mưa/sấm/tuyết/nắng) nếu thiếu video."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
