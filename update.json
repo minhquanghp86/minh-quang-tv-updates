@@ -3,8 +3,8 @@
   "versionName": "2.22.6",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.22.6.apk",
   "notes": "Bản 2.22.6",
-  "size": 7589350,
-  "sha256": "21a2cfbb85b1ec709aeaadb7416a33ea08e2965fc11cd9916fe425fd060c7b06",
+  "size": 7589354,
+  "sha256": "71d10e272dd26c262834e1829b6fa88710ce6985b3ba14b3b9a2cc3aca9981cf",
   "changelog": [
     "Logo màn hình chính (bản chốt): khung tối bo góc 12dp, tỉ lệ 16:9, ảnh thu vào trong với lề 5dp, viền 1dp — giống logo góc trình phát.",
     "Khung logo kênh và ứng dụng cùng kích thước; bỏ khung vuông gây 2 dải đen."
