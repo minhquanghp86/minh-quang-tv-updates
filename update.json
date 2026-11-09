@@ -2,9 +2,9 @@
   "versionCode": 169,
   "versionName": "2.19.0",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.19.0.apk",
-  "notes": "2.19.0: bộ video nền chốt cho 6 trạng thái",
-  "size": 4293888,
-  "sha256": "6b091075149dafaee7d57ca93b4677c1ea4e6a3efbec1587f8d3cf67c8127b0e",
+  "notes": "Bản 2.19.0",
+  "size": 4293890,
+  "sha256": "a793c2149cf4ed923452ed3e6e1310a8631ed9c580a8d16ed867ae102abd5fea",
   "changelog": [
     "Chốt bộ video nền theo lựa chọn của anh: trời quang clear_b(2), mây cloudy_b(4), sương mù fog_22729(6), mưa gif_g2(9), dông gif_g1(10), tuyết snow_b(15).",
     "Thêm trạng thái sương mù dùng video riêng (trước đây dùng chung video mây).",
