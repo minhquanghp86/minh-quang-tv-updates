@@ -2,14 +2,11 @@
   "versionCode": 181,
   "versionName": "2.21.7",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.7.apk",
-  "notes": "2.21.7: giao diện điện thoại giống box",
-  "size": 7588738,
-  "sha256": "9baa8d19270957fb5c357e45a3c04fa3c47734f1a38acae0ace6c85196aa1077",
+  "notes": "Bản 2.21.7",
+  "size": 7588731,
+  "sha256": "2601dfb31edae2de29624b8a32a02ecfc7e0ef92ece60051415479f42ff64eec",
   "changelog": [
-    "Điện thoại: đồng hồ với 2 dòng ngày (dương + âm lịch) xếp dọc bên dưới, bỏ hàng nhóm thừa phía trên thẻ.",
-    "Điện thoại ngang: bố cục 2 cột — thẻ thời tiết bên trái, 2 hàng kênh + ứng dụng bên phải (không còn bị cắt hàng).",
-    "Mặc định chỉ hiện 10 ứng dụng trên màn hình chính; hộp chọn ứng dụng có tìm kiếm + Chọn tất cả / Bỏ chọn tất cả.",
-    "Ô kênh/ứng dụng cao hơn, dễ nhìn."
+    "Bản 2.21.7"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
