@@ -2,9 +2,9 @@
   "versionCode": 166,
   "versionName": "2.18.2",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.2.apk",
-  "notes": "2.18.2: thẻ trong suốt 100%, bỏ tiêu đề hàng",
-  "size": 5030264,
-  "sha256": "0e130d37a527e058ad425029b447f1fa49073a44d22061fdd134a2d61edcedf9",
+  "notes": "Bản 2.18.2",
+  "size": 5030257,
+  "sha256": "0a75e49042df98740587e703df1bc26319d87aec1c4108fe9c5480372c46f984",
   "changelog": [
     "Thẻ thời tiết trong suốt 100% (bỏ hoàn toàn lớp phủ gradient); chữ tăng bóng đổ để vẫn đọc được trên video sáng.",
     "Màn hình chính: bỏ tiêu đề của hàng kênh và hàng ứng dụng (chỉ còn nội dung).",
