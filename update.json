@@ -1,15 +1,13 @@
 {
-  "versionCode": 172,
-  "versionName": "2.20.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.20.0.apk",
-  "notes": "Bản 2.20.0",
-  "size": 3111371,
-  "sha256": "5b0d2667a11f60080d05931ac88c15ad30cfa15180b1ebbcdd83457ebb61ea93",
+  "versionCode": 173,
+  "versionName": "2.20.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.20.1.apk",
+  "notes": "2.20.1: bộ icon 3D mới",
+  "size": 3596705,
+  "sha256": "d8b1fbecac5e876313c0aa871a9c144bb5d6ba5d9c269f28f3eb5839f2c0678d",
   "changelog": [
-    "Thay video nền bằng bộ icon 3D (Microsoft Fluent Emoji 3D, giấy phép MIT) — hết tình trạng thẻ đen/trong suốt khi quay lại màn hình chính.",
-    "Icon 3D lớn hiển thị ở khu vực giữa thẻ; dải 5 ngày dùng icon 3D nhỏ thay emoji.",
-    "Thẻ thời tiết trong suốt 100% (giữ nguyên), bỏ toàn bộ video trong APK (APK nhỏ lại ~2.7 MB).",
-    "iOS: đồng hồ to hơn (192dp), bỏ nền thẻ đồng hồ, chiều cao bằng thẻ thời tiết; áp dụng cả bản TV và điện thoại (dọc/ngang)."
+    "Thay bộ icon thời tiết bằng bộ kaushalsahu07/weather (miễn phí, phong cách 3D bóng): sun · cloud · mist · haze · rain · snow · thunderstorm.",
+    "Ánh xạ: trời quang=sun, ít mây=haze, nhiều mây=cloud, sương mù=mist, mưa=drizzle/rain, dông=thunderstorm, tuyết=snow."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
