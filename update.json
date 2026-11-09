@@ -1,15 +1,13 @@
 {
-  "versionCode": 167,
-  "versionName": "2.18.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.3.apk",
-  "notes": "Bản 2.18.3",
-  "size": 5030458,
-  "sha256": "1312df59e8591aa33cb341fdc840fbb599c16e2779eea1f0480101cef2cfabb9",
+  "versionCode": 168,
+  "versionName": "2.18.4",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.18.4.apk",
+  "notes": "2.18.4: video nền trọn khung + 2 bên mờ",
+  "size": 4712323,
+  "sha256": "dbc29fd546da379d765afbad3370c3c32f48349a5bdc1ba27319e0428d4ea945",
   "changelog": [
-    "Chữ trong thẻ thời tiết: bóng đổ đậm hơn (đen đặc) để đọc rõ trên video sáng.",
-    "Ô kênh và ô ứng dụng: bỏ tên chữ, chỉ còn logo/icon (logo lớn hơn 78dp).",
-    "iOS: thẻ đồng hồ bỏ dòng ngày, chiều cao bằng thẻ thời tiết (200dp).",
-    "Video nền: dùng centerCrop canh mép trên — không còn kéo méo, thấy nhiều trời/mây hơn, chỉ cắt bớt phần dưới."
+    "Video nền thẻ thời tiết: hiển thị trọn khung — khung hình gốc được giữ nguyên ở giữa, hai bên là bản mờ của chính video (letterbox blur), không còn cắt mất chi tiết.",
+    "Toàn bộ 5 video được xử lý lại (960×300, ~1.8 MB tổng), canh giữa khi phủ thẻ."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
