@@ -1,14 +1,14 @@
 {
-  "versionCode": 175,
-  "versionName": "2.21.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.1.apk",
-  "notes": "Bản 2.21.1",
-  "size": 7586655,
-  "sha256": "556eb28e6bc2fb6bbdda1d4df43c3c280e4d478972a9f46060f8c4fd5d80f76f",
+  "versionCode": 176,
+  "versionName": "2.21.2",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.2.apk",
+  "notes": "2.21.2: đủ ứng dụng trên điện thoại",
+  "size": 7586893,
+  "sha256": "9f7044672762df087373ba59ac4cb51de00db33412af243cf0f51d2e9651b7e5",
   "changelog": [
-    "Điện thoại: làm lại giao diện Google TV (dọc + ngang) theo đúng bố cục mới của box — chip IP bên trái, 3 nút giữa, đồng hồ + ngày dương + âm lịch bên phải; thẻ thời tiết trong suốt có icon 3D; 2 hàng kênh + ứng dụng, bỏ tên chữ dưới icon.",
-    "Danh sách ứng dụng đầy đủ: thêm <queries> cho MAIN/LAUNCHER — Android 11+ không còn ẩn bớt ứng dụng (trước chỉ thấy vài app trên điện thoại).",
-    "Ghi log số ứng dụng tìm thấy (apps found=…) để kiểm tra."
+    "Sửa thiếu ứng dụng trên điện thoại: thêm quyền QUERY_ALL_PACKAGES + <queries> cho LAUNCHER/LEANBACK/INFO.",
+    "Dò ứng dụng theo 2 lớp: queryIntentActivities (3 category) và quét getInstalledApplications (chỉ lấy app mở được) → đủ bộ app của từng máy.",
+    "Log chẩn đoán: apps: query=<n> tổng=<n>."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
