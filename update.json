@@ -2,9 +2,9 @@
   "versionCode": 175,
   "versionName": "2.21.1",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.21.1.apk",
-  "notes": "2.21.1: giao diện điện thoại mới + đủ ứng dụng",
-  "size": 7586653,
-  "sha256": "23cf69545c9870c06cdcf50304c8d143c7882e4a6bf2a8aaa27914f1280c304e",
+  "notes": "Bản 2.21.1",
+  "size": 7586655,
+  "sha256": "556eb28e6bc2fb6bbdda1d4df43c3c280e4d478972a9f46060f8c4fd5d80f76f",
   "changelog": [
     "Điện thoại: làm lại giao diện Google TV (dọc + ngang) theo đúng bố cục mới của box — chip IP bên trái, 3 nút giữa, đồng hồ + ngày dương + âm lịch bên phải; thẻ thời tiết trong suốt có icon 3D; 2 hàng kênh + ứng dụng, bỏ tên chữ dưới icon.",
     "Danh sách ứng dụng đầy đủ: thêm <queries> cho MAIN/LAUNCHER — Android 11+ không còn ẩn bớt ứng dụng (trước chỉ thấy vài app trên điện thoại).",
