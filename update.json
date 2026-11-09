@@ -2,9 +2,9 @@
   "versionCode": 163,
   "versionName": "2.17.0",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.17.0.apk",
-  "notes": "2.17.0: thẻ thời tiết mới + nền động",
-  "size": 2884356,
-  "sha256": "4971db3795bda34eeef0cf97424214ca1dbcb22719085bbd1780ca054c8014c0",
+  "notes": "Bản 2.17.0",
+  "size": 2884351,
+  "sha256": "b3410baac05bf7aa7133c96ec214561b73aa4eacb5113ddefef91d16ecaae9eb",
   "changelog": [
     "Thẻ thời tiết mới: gộp thời tiết hiện tại + dự báo 5 ngày vào một thẻ duy nhất (kiểu widget iOS trong ảnh mẫu).",
     "Nền động theo dữ liệu: mây trôi, mưa rơi (mưa/mưa rào), sấm chớp (dông), tuyết rơi, mặt trời toả sáng (trời quang) — đổi theo mã thời tiết hiện tại; có thêm giọt nước đọng trên kính khi mưa.",
