@@ -1,15 +1,14 @@
 {
-  "versionCode": 226,
-  "versionName": "2.25.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.25.0.apk",
-  "notes": "Bản 2.25.0",
-  "size": 7608934,
-  "sha256": "5cfd475f89a61106441c568f8f78077a1fd9984b24712e481a59ec04e6dca813",
+  "versionCode": 227,
+  "versionName": "2.25.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.25.1.apk",
+  "notes": "2.25.1: voice khớp chặt, tự phát khi đúng/duy nhất",
+  "size": 7609203,
+  "sha256": "b3119cd846d33d3d5e04db36890be482aa4184dc78fffd6885a717c60aeb4b1e",
   "changelog": [
-    "Voice search kiểu mới (box): bấm mic khi đang ở MQTV → hiện lớp phủ vòng sóng \"đang nghe\" ngay trên màn hình hiện tại (không mở trang mới, không hiện UI tìm kiếm của Google).",
-    "Nói đúng tên kênh (vd \"VTV1\") → phát ngay kênh đó (bỏ qua bước chọn).",
-    "Không khớp chính xác → danh sách gợi ý ngắn (tối đa 4) hoặc nút SmartTube (một ứng dụng duy nhất) thay vì trang kết quả nhiều app.",
-    "Khi ở app khác, phím mic vẫn do hệ thống xử lý như cũ."
+    "Voice: khớp tên kênh chặt hơn (bỏ dấu, bỏ từ đệm \"kênh\"/\"truyền hình\", bỏ hậu tố HD/FHD/4K, bỏ khoảng trắng) → nói \"VTV1\", \"VTV 1\", \"kênh VTV1\", \"VTV1 HD\" đều phát ngay.",
+    "Nếu kết quả chỉ có đúng 1 kênh → tự phát, không hiện popup.",
+    "Thêm log voice: để kiểm chứng câu nhận dạng và kết quả khớp."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
