@@ -24,7 +24,37 @@
 <div class="wrap">
   <h1>MINH QUANG TV</h1>
   <div class="sub">Nhật ký thay đổi các phiên bản · <a href="https://github.com/minhquanghp86/minh-quang-tv-updates">kênh cập nhật</a></div>
-  <p>Liên hệ: Zalo 0376957258 · Email minhquanghp86@gmail.com</p>
+  <h2>2.25.0</h2>
+<ul>
+<li>**Voice search kiểu mới (box)**: bấm mic khi đang ở MQTV → hiện **lớp phủ vòng sóng &quot;đang nghe&quot;** ngay trên màn hình hiện tại (không mở trang mới, không hiện UI tìm kiếm của Google).</li>
+<li>Nói **đúng tên kênh** (vd &quot;VTV1&quot;) → **phát ngay** kênh đó (bỏ qua bước chọn).</li>
+<li>Không khớp chính xác → danh sách gợi ý ngắn (tối đa 4) hoặc nút **SmartTube** (một ứng dụng duy nhất) thay vì trang kết quả nhiều app.</li>
+<li>Khi ở app khác, phím mic vẫn do hệ thống xử lý như cũ.</li>
+</ul>
+<h2>2.24.3</h2>
+<ul>
+<li>**Bắt phím mic (Voice Assist) toàn hệ thống** bằng Accessibility Service:</li>
+<li>Đang ở MQTV → mở tìm kênh bằng giọng nói của MQTV.</li>
+<li>Đang ở app khác (YouTube/SmartTube/launcher) → trả phím lại hệ thống, tìm kiếm như mặc định.</li>
+<li>Bật tại: Cài đặt → 🎤 Bắt phím mic trên remote (Trợ năng) → chọn &quot;MQTV – Tìm bằng giọng nói&quot;.</li>
+</ul>
+<h2>2.24.0</h2>
+<ul>
+<li>**Tìm kênh bằng giọng nói (box)**: nút 🎤 trên màn hình chính + phím SEARCH trên remote → mở nhận dạng giọng nói của Google TV, lọc kênh MQTV theo câu nói.</li>
+<li>Có kết quả: danh sách kênh khớp (bấm để phát).</li>
+<li>Không khớp: gợi ý tìm trên YouTube / SmartTube (giống hành vi remote mặc định).</li>
+<li>Phím mic (KEYCODE_VOICE_ASSIST) bị hệ thống Android TV chiếm trước app; trong app dùng nút 🎤 hoặc phím SEARCH.</li>
+</ul>
+<h2>2.23.26</h2>
+<ul>
+<li>**Sửa lớn cho kênh dạng trang resolver (tv360, ON Phim Việt…)**: `StreamResolver` trước đây theo redirect nhưng **trả lại URL gốc** nên player phải tự resolve lại và hay nhận `Error.mp4` (404). Nay trả **URL cuối** sau redirect + cache 10 phút + thử lại 3 lần.</li>
+<li>Kết quả: kênh 103–110 và **ON Phim Việt** phát được trên cả box và điện thoại (trước đó báo 404/không hình).</li>
+</ul>
+<h2>2.23.21</h2>
+<ul>
+<li>**ClearKey DASH**: chuẩn hoá khoá về base64url (`+`→`-`, `/`→`_`, bỏ `=`) — hết lỗi `ERROR_DRM_NO_LICENSE` trên Android 13. Kênh 42 (Cartoon Network HD) phát được trên box + điện thoại mà không cần danh sách dự phòng.</li>
+</ul>
+<p>Liên hệ: Zalo 0376957258 · Email minhquanghp86@gmail.com</p>
 <h2>2.22.6</h2>
 <ul>
 <li>**Logo màn hình chính (bản chốt):** khung tối bo góc 12dp, tỉ lệ 16:9, ảnh thu vào trong với lề 5dp, viền 1dp — giống logo góc trình phát.</li>

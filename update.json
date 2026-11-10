@@ -2,9 +2,9 @@
   "versionCode": 226,
   "versionName": "2.25.0",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.25.0.apk",
-  "notes": "2.25.0: voice overlay + phát ngay khi nói đúng tên kênh",
-  "size": 7608949,
-  "sha256": "2008ea541b0693c62bcf9b99a39e6e7311c28cb77029f6345c4b645d553df825",
+  "notes": "Bản 2.25.0",
+  "size": 7608934,
+  "sha256": "5cfd475f89a61106441c568f8f78077a1fd9984b24712e481a59ec04e6dca813",
   "changelog": [
     "Voice search kiểu mới (box): bấm mic khi đang ở MQTV → hiện lớp phủ vòng sóng \"đang nghe\" ngay trên màn hình hiện tại (không mở trang mới, không hiện UI tìm kiếm của Google).",
     "Nói đúng tên kênh (vd \"VTV1\") → phát ngay kênh đó (bỏ qua bước chọn).",
