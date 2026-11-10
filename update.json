@@ -1,12 +1,12 @@
 {
-  "versionCode": 204,
-  "versionName": "2.23.10",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.23.10.apk",
-  "notes": "Bản 2.23.10",
-  "size": 7597644,
-  "sha256": "69ef1ab312097440839fcd6c6dffd306cfd83a89a35dcf1be72232a833dd90df",
+  "versionCode": 208,
+  "versionName": "2.23.14",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.23.14.apk",
+  "notes": "Bản 2.23.14",
+  "size": 7597821,
+  "sha256": "f29a2fa22d87025f37e4ea7d35d9ae704c10c5ee9cf5845dd345cb98ba03c850",
   "changelog": [
-    "Bản 2.23.10"
+    "Bản 2.23.14"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
