@@ -1,15 +1,15 @@
 {
-  "versionCode": 225,
-  "versionName": "2.24.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.24.3.apk",
-  "notes": "Bản 2.24.3",
-  "size": 7607414,
-  "sha256": "9f2dafb395a34a23172260a295d18460d1c1cdf90076d946661e4cd3dd3a5fe7",
+  "versionCode": 226,
+  "versionName": "2.25.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.25.0.apk",
+  "notes": "2.25.0: voice overlay + phát ngay khi nói đúng tên kênh",
+  "size": 7608949,
+  "sha256": "2008ea541b0693c62bcf9b99a39e6e7311c28cb77029f6345c4b645d553df825",
   "changelog": [
-    "Bắt phím mic (Voice Assist) toàn hệ thống bằng Accessibility Service:",
-    "Đang ở MQTV → mở tìm kênh bằng giọng nói của MQTV.",
-    "Đang ở app khác (YouTube/SmartTube/launcher) → trả phím lại hệ thống, tìm kiếm như mặc định.",
-    "Bật tại: Cài đặt → 🎤 Bắt phím mic trên remote (Trợ năng) → chọn \"MQTV – Tìm bằng giọng nói\"."
+    "Voice search kiểu mới (box): bấm mic khi đang ở MQTV → hiện lớp phủ vòng sóng \"đang nghe\" ngay trên màn hình hiện tại (không mở trang mới, không hiện UI tìm kiếm của Google).",
+    "Nói đúng tên kênh (vd \"VTV1\") → phát ngay kênh đó (bỏ qua bước chọn).",
+    "Không khớp chính xác → danh sách gợi ý ngắn (tối đa 4) hoặc nút SmartTube (một ứng dụng duy nhất) thay vì trang kết quả nhiều app.",
+    "Khi ở app khác, phím mic vẫn do hệ thống xử lý như cũ."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
