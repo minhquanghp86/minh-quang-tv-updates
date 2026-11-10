@@ -1,14 +1,13 @@
 {
-  "versionCode": 227,
-  "versionName": "2.25.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.25.1.apk",
-  "notes": "Bản 2.25.1",
-  "size": 7609215,
-  "sha256": "8ac6aea1ff0c2c5ea29713814c4ed7b5f7ac2b114e0df55d65659ebdfc684070",
+  "versionCode": 229,
+  "versionName": "2.25.3",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.25.3.apk",
+  "notes": "2.25.3: nút mic mở lớp phủ sóng, khớp tên kênh chặt",
+  "size": 7609342,
+  "sha256": "67d8720c878af9fbf84c87117e6e1362b9e5997727b3b7f05ac13f18aba219d1",
   "changelog": [
-    "Voice: khớp tên kênh chặt hơn (bỏ dấu, bỏ từ đệm \"kênh\"/\"truyền hình\", bỏ hậu tố HD/FHD/4K, bỏ khoảng trắng) → nói \"VTV1\", \"VTV 1\", \"kênh VTV1\", \"VTV1 HD\" đều phát ngay.",
-    "Nếu kết quả chỉ có đúng 1 kênh → tự phát, không hiện popup.",
-    "Thêm log voice: để kiểm chứng câu nhận dạng và kết quả khớp."
+    "Nút 🎤 (box và điện thoại) mở lớp phủ vòng sóng thay vì bộ nhận dạng Google/hộp thoại cũ.",
+    "Khớp tên kênh chặt hơn: \"VTV1\", \"VTV 1\", \"kênh VTV1\", \"VTV1 HD\" → phát ngay; chỉ 1 kết quả cũng tự phát."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
