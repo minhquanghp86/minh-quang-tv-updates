@@ -1,13 +1,14 @@
 {
-  "versionCode": 229,
-  "versionName": "2.25.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.25.3.apk",
-  "notes": "Bản 2.25.3",
-  "size": 7609343,
-  "sha256": "4e128be357d857e1cc7376b2c4f59264529034fba855fc4c4d63fe1f16ff4cbf",
+  "versionCode": 230,
+  "versionName": "2.26.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.26.0.apk",
+  "notes": "2.26.0: voice overlay trong cửa sổ, log chẩn đoán",
+  "size": 7613047,
+  "sha256": "d8941ce11a198fca9c651d8b2210d5d011fbbd151cd5266bbcb3c7629cedcf34",
   "changelog": [
-    "Nút 🎤 (box và điện thoại) mở lớp phủ vòng sóng thay vì bộ nhận dạng Google/hộp thoại cũ.",
-    "Khớp tên kênh chặt hơn: \"VTV1\", \"VTV 1\", \"kênh VTV1\", \"VTV1 HD\" → phát ngay; chỉ 1 kết quả cũng tự phát."
+    "Lớp phủ giọng nói vẽ ngay trong cửa sổ đang chạy (không mở Activity mới) → trình phát không bị đen màn hình khi đang phát.",
+    "Thêm log chẩn đoán: voice: bắt đầu nghe, voice: SpeechRecognizer KHÔNG khả dụng, voice: lỗi nhận dạng code=…, voice: kết quả=…, voice: q=… exact=….",
+    "Nếu máy không có SpeechRecognizer trực tiếp, tự chuyển sang RecognizerIntent (có UI Google) để vẫn dùng được."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
