@@ -1,12 +1,13 @@
 {
-  "versionCode": 219,
-  "versionName": "2.23.25",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.23.25.apk",
-  "notes": "Bản 2.23.25",
-  "size": 7601976,
-  "sha256": "4507ee3ef690a4a17d4cb7d763ff9304ee8696aa1500add91dec97ccc49fb5c3",
+  "versionCode": 220,
+  "versionName": "2.23.26",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.23.26.apk",
+  "notes": "Bản 2.23.26",
+  "size": 7601943,
+  "sha256": "d031ba81ca9397dee6eff0d5a592c0489805dee6dd47686387a9a76610b227f9",
   "changelog": [
-    "Bản 2.23.25"
+    "Sửa lớn cho kênh dạng trang resolver (tv360, ON Phim Việt…): StreamResolver trước đây theo redirect nhưng trả lại URL gốc nên player phải tự resolve lại và hay nhận Error.mp4 (404). Nay trả URL cuối sau redirect + cache 10 phút + thử lại 3 lần.",
+    "Kết quả: kênh 103–110 và ON Phim Việt phát được trên cả box và điện thoại (trước đó báo 404/không hình)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
