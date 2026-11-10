@@ -1,14 +1,14 @@
 {
-  "versionCode": 230,
-  "versionName": "2.26.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.26.0.apk",
-  "notes": "Bản 2.26.0",
-  "size": 7613046,
-  "sha256": "7a181fbfe70e3dda1e74b3e59a4a5ae36a6dd572bfadf58489215819277555cf",
+  "versionCode": 234,
+  "versionName": "2.26.4",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.26.4.apk",
+  "notes": "Bản 2.26.4",
+  "size": 7613681,
+  "sha256": "82305af86dc6430f8dc04bb53fa3c64f7d4222bb1a062b324a1fe358c08c28c3",
   "changelog": [
-    "Lớp phủ giọng nói vẽ ngay trong cửa sổ đang chạy (không mở Activity mới) → trình phát không bị đen màn hình khi đang phát.",
-    "Thêm log chẩn đoán: voice: bắt đầu nghe, voice: SpeechRecognizer KHÔNG khả dụng, voice: lỗi nhận dạng code=…, voice: kết quả=…, voice: q=… exact=….",
-    "Nếu máy không có SpeechRecognizer trực tiếp, tự chuyển sang RecognizerIntent (có UI Google) để vẫn dùng được."
+    "Voice trên box: nếu SpeechRecognizer không bind được (Android 6 không cho app thứ ba), tự chuyển sau 2 giây sang RecognizerIntent rồi vẫn tự phát kênh khi khớp.",
+    "Bỏ đoạn tự đóng màn hình Google (chính nó là bộ nhận dạng cần dùng).",
+    "Lưu ý: sau mỗi lần cập nhật app, cần bật lại Cài đặt → Trợ năng → MQTV – Tìm bằng giọng nói."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
