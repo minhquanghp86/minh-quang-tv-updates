@@ -1,13 +1,12 @@
 {
-  "versionCode": 193,
-  "versionName": "2.22.6",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.22.6.apk",
-  "notes": "Bản 2.22.6",
-  "size": 7589347,
-  "sha256": "3fb79ae9c26458dc38e5a9fc762f8ab3bacc3734e4f6e86cf9c2d7b965e3c83f",
+  "versionCode": 198,
+  "versionName": "2.23.4",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.23.4.apk",
+  "notes": "Bản 2.23.4",
+  "size": 7595447,
+  "sha256": "f36604f4a608eedf89614f8375a997405d407f40357bb323119c42dda1612342",
   "changelog": [
-    "Logo màn hình chính (bản chốt): khung tối bo góc 12dp, tỉ lệ 16:9, ảnh thu vào trong với lề 5dp, viền 1dp — giống logo góc trình phát.",
-    "Khung logo kênh và ứng dụng cùng kích thước; bỏ khung vuông gây 2 dải đen."
+    "Bản 2.23.4"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
