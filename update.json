@@ -2,9 +2,9 @@
   "versionCode": 227,
   "versionName": "2.25.1",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.25.1.apk",
-  "notes": "2.25.1: voice khớp chặt, tự phát khi đúng/duy nhất",
-  "size": 7609203,
-  "sha256": "b3119cd846d33d3d5e04db36890be482aa4184dc78fffd6885a717c60aeb4b1e",
+  "notes": "Bản 2.25.1",
+  "size": 7609215,
+  "sha256": "8ac6aea1ff0c2c5ea29713814c4ed7b5f7ac2b114e0df55d65659ebdfc684070",
   "changelog": [
     "Voice: khớp tên kênh chặt hơn (bỏ dấu, bỏ từ đệm \"kênh\"/\"truyền hình\", bỏ hậu tố HD/FHD/4K, bỏ khoảng trắng) → nói \"VTV1\", \"VTV 1\", \"kênh VTV1\", \"VTV1 HD\" đều phát ngay.",
     "Nếu kết quả chỉ có đúng 1 kênh → tự phát, không hiện popup.",
