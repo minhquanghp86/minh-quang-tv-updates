@@ -1,15 +1,15 @@
 {
-  "versionCode": 222,
-  "versionName": "2.24.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.24.0.apk",
-  "notes": "Bản 2.24.0",
-  "size": 7604223,
-  "sha256": "95b2208d99c58c4776bc26dc2847d0404dde0fe686d9f3192f1b7cd89edb4a32",
+  "versionCode": 225,
+  "versionName": "2.24.3",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.24.3.apk",
+  "notes": "Bản 2.24.3",
+  "size": 7607414,
+  "sha256": "9f2dafb395a34a23172260a295d18460d1c1cdf90076d946661e4cd3dd3a5fe7",
   "changelog": [
-    "Tìm kênh bằng giọng nói (box): nút 🎤 trên màn hình chính + phím SEARCH trên remote → mở nhận dạng giọng nói của Google TV, lọc kênh MQTV theo câu nói.",
-    "Có kết quả: danh sách kênh khớp (bấm để phát).",
-    "Không khớp: gợi ý tìm trên YouTube / SmartTube (giống hành vi remote mặc định).",
-    "Phím mic (KEYCODE_VOICE_ASSIST) bị hệ thống Android TV chiếm trước app; trong app dùng nút 🎤 hoặc phím SEARCH."
+    "Bắt phím mic (Voice Assist) toàn hệ thống bằng Accessibility Service:",
+    "Đang ở MQTV → mở tìm kênh bằng giọng nói của MQTV.",
+    "Đang ở app khác (YouTube/SmartTube/launcher) → trả phím lại hệ thống, tìm kiếm như mặc định.",
+    "Bật tại: Cài đặt → 🎤 Bắt phím mic trên remote (Trợ năng) → chọn \"MQTV – Tìm bằng giọng nói\"."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
