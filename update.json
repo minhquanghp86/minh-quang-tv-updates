@@ -1,13 +1,15 @@
 {
-  "versionCode": 220,
-  "versionName": "2.23.26",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.23.26.apk",
-  "notes": "Bản 2.23.26",
-  "size": 7601943,
-  "sha256": "d031ba81ca9397dee6eff0d5a592c0489805dee6dd47686387a9a76610b227f9",
+  "versionCode": 222,
+  "versionName": "2.24.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.24.0.apk",
+  "notes": "Bản 2.24.0",
+  "size": 7604223,
+  "sha256": "95b2208d99c58c4776bc26dc2847d0404dde0fe686d9f3192f1b7cd89edb4a32",
   "changelog": [
-    "Sửa lớn cho kênh dạng trang resolver (tv360, ON Phim Việt…): StreamResolver trước đây theo redirect nhưng trả lại URL gốc nên player phải tự resolve lại và hay nhận Error.mp4 (404). Nay trả URL cuối sau redirect + cache 10 phút + thử lại 3 lần.",
-    "Kết quả: kênh 103–110 và ON Phim Việt phát được trên cả box và điện thoại (trước đó báo 404/không hình)."
+    "Tìm kênh bằng giọng nói (box): nút 🎤 trên màn hình chính + phím SEARCH trên remote → mở nhận dạng giọng nói của Google TV, lọc kênh MQTV theo câu nói.",
+    "Có kết quả: danh sách kênh khớp (bấm để phát).",
+    "Không khớp: gợi ý tìm trên YouTube / SmartTube (giống hành vi remote mặc định).",
+    "Phím mic (KEYCODE_VOICE_ASSIST) bị hệ thống Android TV chiếm trước app; trong app dùng nút 🎤 hoặc phím SEARCH."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
