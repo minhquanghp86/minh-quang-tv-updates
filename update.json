@@ -3,8 +3,8 @@
   "versionName": "2.34.3",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.34.3.apk",
   "notes": "Bản 2.34.3",
-  "size": 7621811,
-  "sha256": "8bd45fcab0708d7925168e1e911a802fa76d56566d5537b15dc398a8244eb7c6",
+  "size": 7621813,
+  "sha256": "ab079ef7273fe3df91cddc4943cdd797ca4071749e0cbc856c31354d94435552",
   "changelog": [
     "Đổi nhãn nguồn dựng sẵn thứ 3: hiển thị “Dự phòng (n)” (trước là “Danh sách 3”); vẫn ẩn URL, không sửa/xoá, mặc định TẮT.",
     "Thêm LICENSE (MIT), NOTICE-AGENT.md, AGENTS.md và bản trong APK assets/NOTICE-AGENT.txt (+ chuỗi agent_notice_short trong resources) để agent phân tích ngược thấy ngay.",
