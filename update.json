@@ -2,9 +2,9 @@
   "versionCode": 270,
   "versionName": "2.35.1",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.35.1.apk",
-  "notes": "2.35.1: khớp kênh chịu lỗi nhận dạng tên tiếng Anh (AXN↔AXL...)",
-  "size": 7622355,
-  "sha256": "be0b660501e72814acfbd71df4085397985fbe87973e27dd5c7069c04d58795a",
+  "notes": "Bản 2.35.1",
+  "size": 7622356,
+  "sha256": "937cd7ce8197d21f665cd1e6e07de4a839249a3fdc1593a091e1c849c4d2df87",
   "changelog": [
     "Khớp giọng nói chịu lỗi nhận dạng tiếng Anh: thêm khoảng cách sửa có trọng số với các cặp dễ nghe nhầm",
     "Sinh biến thể alias cho tên ngắn (3–6 ký tự) và chỉ dùng khi biến thể không trùng kênh khác.",
