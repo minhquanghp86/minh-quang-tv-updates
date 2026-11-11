@@ -24,7 +24,12 @@
 <div class="wrap">
   <h1>MINH QUANG TV</h1>
   <div class="sub">Nhật ký thay đổi các phiên bản · <a href="https://github.com/minhquanghp86/minh-quang-tv-updates">kênh cập nhật</a></div>
-  <h2>2.28.0</h2>
+  <h2>2.29.1</h2>
+<ul>
+<li>**Nhận truy vấn giọng nói của Google TV** qua `android.media.action.MEDIA_PLAY_FROM_SEARCH` (và `ACTION_SEARCH`): đọc `query`, khớp kênh → **phát kênh**; không khớp → chuyển sang SmartTube.</li>
+</ul>
+<p>Kiểm chứng từ xa: `am start -a android.media.action.MEDIA_PLAY_FROM_SEARCH --es query vtv1` → `play: VTV1`, `first frame after 2739 ms`.</p>
+<h2>2.28.0</h2>
 <ul>
 <li>**Bỏ toàn bộ voice trong app** (nút 🎤, lớp phủ sóng, dịch vụ Trợ năng) theo yêu cầu — box Android 6 không cho app thay thế phím mic hệ thống.</li>
 <li>Giữ nguyên phím mic của Google TV (tìm kiếm YouTube/SmartTube như mặc định).</li>

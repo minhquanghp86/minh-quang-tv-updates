@@ -1,13 +1,12 @@
 {
-  "versionCode": 237,
-  "versionName": "2.28.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.28.0.apk",
-  "notes": "Bản 2.28.0",
-  "size": 7602443,
-  "sha256": "3407e9381204aea48151c655a9593a0f6d132f5dba68d0454c565406cea4ece7",
+  "versionCode": 239,
+  "versionName": "2.29.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.29.1.apk",
+  "notes": "Bản 2.29.1",
+  "size": 7602627,
+  "sha256": "d860e472fa00e30aef6bcc0a12ff1de8917c28437c5b26623acfe132291a303d",
   "changelog": [
-    "Bỏ toàn bộ voice trong app (nút 🎤, lớp phủ sóng, dịch vụ Trợ năng) theo yêu cầu — box Android 6 không cho app thay thế phím mic hệ thống.",
-    "Giữ nguyên phím mic của Google TV (tìm kiếm YouTube/SmartTube như mặc định)."
+    "Nhận truy vấn giọng nói của Google TV qua android.media.action.MEDIA_PLAY_FROM_SEARCH (và ACTION_SEARCH): đọc query, khớp kênh → phát kênh; không khớp → chuyển sang SmartTube."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
