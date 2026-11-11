@@ -24,13 +24,7 @@
 <div class="wrap">
   <h1>MINH QUANG TV</h1>
   <div class="sub">Nhật ký thay đổi các phiên bản · <a href="https://github.com/minhquanghp86/minh-quang-tv-updates">kênh cập nhật</a></div>
-  <h2>2.34.4</h2>
-<ul>
-<li>**Bảo mật**: keystore + mật khẩu ký **không còn trong repo** (đọc từ biến môi trường `KEYSTORE_FILE/KEYSTORE_PASSWORD/KEY_ALIAS/KEY_PASSWORD`, hoặc `~/.gradle/gradle.properties`); CI nạp keystore từ **GitHub Secrets** (`KEYSTORE_BASE64`). `.gitignore` chặn `*.jks/*.keystore`.</li>
-<li>Remote git chuyển sang **deploy key SSH** (3 khoá riêng cho 3 repo) → không còn PAT trong `.git/config`.</li>
-<li>**Bỏ số điện thoại Zalo khỏi APK** (chỉ còn email liên hệ).</li>
-</ul>
-<h2>2.34.3</h2>
+  <h2>2.34.3</h2>
 <ul>
 <li>Đổi nhãn nguồn dựng sẵn thứ 3: hiển thị **“Dự phòng (n)”** (trước là “Danh sách 3”); vẫn ẩn URL, không sửa/xoá, mặc định TẮT.</li>
 <li>Thêm **LICENSE (MIT)**, **NOTICE-AGENT.md**, **AGENTS.md** và bản trong APK `assets/NOTICE-AGENT.txt` (+ chuỗi `agent_notice_short` trong resources) để agent phân tích ngược thấy ngay.</li>
