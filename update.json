@@ -1,13 +1,14 @@
 {
-  "versionCode": 271,
-  "versionName": "2.35.2",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.35.2.apk",
-  "notes": "Bản 2.35.2",
-  "size": 7622442,
-  "sha256": "107c5de787aabb0e1ed9db17683628c7e549b8b33cbfa1dae9d69fab5d8ca1b8",
+  "versionCode": 273,
+  "versionName": "2.36.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.36.1.apk",
+  "notes": "Bản 2.36.1",
+  "size": 7622164,
+  "sha256": "4901bbb5f23b8e907ebbd695975ba12eac0f1ad5ff97a839c3fdbccb660a5771",
   "changelog": [
-    "Chỉ hạ âm lượng khi MQTV đang thực sự phát, và bỏ qua nếu âm lượng đã thấp (≤3) → tránh việc hạ/khôi phục sai mức làm âm lượng TV bị trôi.",
-    "(Giữ nguyên cải tiến khớp giọng nói của 2.35.1.)"
+    "Sửa lỗi “voice nhận đúng mà không phát”: nguyên nhân là dịch vụ Trợ năng bị tắt sau khi cập nhật app (không có sự kiện nào được đọc). Nay app tự bật lại Trợ năng khi mở app nếu được cấp quyền (cấp 1 lần: adb shell pm grant vmt.tv.iptv android.permission.WRITE_SECURE_SETTINGS); nếu chưa cấp thì hiện hộp thoại nhắc như trước.",
+    "Thay hạ âm lượng bằng tạm dừng phát khi nghe: box xuất âm thanh HDMI ở mức cố định (Android chỉ đổi được chỉ số “speaker”, không tác dụng), nên nay khi mở voice app pause rồi phát tiếp đúng chỗ khi đóng — micro không còn thu tạp âm, không còn hiện tượng trôi âm lượng.",
+    "(Giữ nguyên) khớp tên không phân biệt hoa/thường: “VTV1”, “vtv1”, “Vtv1” đều phát; “AXL” → AXN."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
