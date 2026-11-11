@@ -1,14 +1,14 @@
 {
-  "versionCode": 273,
-  "versionName": "2.36.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.36.1.apk",
-  "notes": "Bản 2.36.1",
-  "size": 7622164,
-  "sha256": "4901bbb5f23b8e907ebbd695975ba12eac0f1ad5ff97a839c3fdbccb660a5771",
+  "versionCode": 276,
+  "versionName": "2.37.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.37.0.apk",
+  "notes": "Bản 2.37.0",
+  "size": 7623279,
+  "sha256": "73085f6fdb28a310a2ca5f1f265cfed817a013d7bd7ab39e03e55da293d3c2d9",
   "changelog": [
-    "Sửa lỗi “voice nhận đúng mà không phát”: nguyên nhân là dịch vụ Trợ năng bị tắt sau khi cập nhật app (không có sự kiện nào được đọc). Nay app tự bật lại Trợ năng khi mở app nếu được cấp quyền (cấp 1 lần: adb shell pm grant vmt.tv.iptv android.permission.WRITE_SECURE_SETTINGS); nếu chưa cấp thì hiện hộp thoại nhắc như trước.",
-    "Thay hạ âm lượng bằng tạm dừng phát khi nghe: box xuất âm thanh HDMI ở mức cố định (Android chỉ đổi được chỉ số “speaker”, không tác dụng), nên nay khi mở voice app pause rồi phát tiếp đúng chỗ khi đóng — micro không còn thu tạp âm, không còn hiện tượng trôi âm lượng.",
-    "(Giữ nguyên) khớp tên không phân biệt hoa/thường: “VTV1”, “vtv1”, “Vtv1” đều phát; “AXL” → AXN."
+    "Gọi kênh theo SỐ: “kênh 37”, “mở kênh 1”, “37” → phát đúng kênh theo số đang hiển thị trong OSD (dùng cùng cách đánh số với danh sách kênh, tôn trọng sắp xếp/ẩn của người dùng).",
+    "Đọc được số tiếng Việt: “kênh ba mươi bảy” → 37, “một trăm hai mươi” → 120 (hỗ trợ mươi/trăm/nghìn, lẻ/linh).",
+    "Sửa lỗi kênh HBO (và DASH/ClearKey) không phát khi gọi bằng giọng nói: khi voice mở, app pause player; trước đây sau khi mở kênh mới app còn “resume” player cũ → ERROR_CODE_DECODER_INIT_FAILED rồi tự nhảy sang kênh kế (38). Nay không resume khi lệnh đã mở kênh/app khác."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
