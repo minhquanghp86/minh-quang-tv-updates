@@ -1,12 +1,13 @@
 {
-  "versionCode": 239,
-  "versionName": "2.29.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.29.1.apk",
-  "notes": "Bản 2.29.1",
-  "size": 7602627,
-  "sha256": "d860e472fa00e30aef6bcc0a12ff1de8917c28437c5b26623acfe132291a303d",
+  "versionCode": 245,
+  "versionName": "2.30.5",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.30.5.apk",
+  "notes": "Bản 2.30.5",
+  "size": 7605926,
+  "sha256": "0daf305697a74faff81c9bed3ac83bc55216a2d5910ef5acd67c331be0445de1",
   "changelog": [
-    "Nhận truy vấn giọng nói của Google TV qua android.media.action.MEDIA_PLAY_FROM_SEARCH (và ACTION_SEARCH): đọc query, khớp kênh → phát kênh; không khớp → chuyển sang SmartTube."
+    "Tự phát kênh bằng giọng nói của Google TV (0 lần bấm): dịch vụ Trợ năng đọc ô truy vấn trên màn hình Google (katniss); nếu khớp chính xác tên kênh → mở trình phát ngay và đóng màn hình Google; không khớp → để Google hiện kết quả như thường.",
+    "Lưu ý: sau mỗi lần cập nhật app cần bật lại Cài đặt → Trợ năng → MINH QUANG TV."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
