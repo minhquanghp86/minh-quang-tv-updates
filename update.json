@@ -1,13 +1,20 @@
 {
-  "versionCode": 245,
-  "versionName": "2.30.5",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.30.5.apk",
-  "notes": "Bản 2.30.5",
-  "size": 7605926,
-  "sha256": "0daf305697a74faff81c9bed3ac83bc55216a2d5910ef5acd67c331be0445de1",
+  "versionCode": 254,
+  "versionName": "2.31.8",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.31.8.apk",
+  "notes": "Bản 2.31.8",
+  "size": 7614041,
+  "sha256": "4afe189bdc70a7be5e3cce616b8486927eac080b7830ef16c56d12a14d1fbb0c",
   "changelog": [
-    "Tự phát kênh bằng giọng nói của Google TV (0 lần bấm): dịch vụ Trợ năng đọc ô truy vấn trên màn hình Google (katniss); nếu khớp chính xác tên kênh → mở trình phát ngay và đóng màn hình Google; không khớp → để Google hiện kết quả như thường.",
-    "Lưu ý: sau mỗi lần cập nhật app cần bật lại Cài đặt → Trợ năng → MINH QUANG TV."
+    "Khớp kênh theo nhiều mẫu: bỏ dấu tiếng Việt, bỏ khoảng trắng, đổi số bằng chữ thành số (một→1), bỏ hậu tố HD/FHD/4K, bỏ từ đệm (kênh/mở/phát/trực tiếp/live…), cho phép sai 1–2 ký tự.",
+    "Bộ lệnh giọng nói mở rộng (test từ xa, có log):",
+    "Phát kênh: “VTV1”, “VTV 1”, “kênh VTV1 trực tiếp”…",
+    "Mở app: “mở SmartTube”, “mở YouTube”…",
+    "Tìm video: “YouTube nhạc thiếu nhi”, “tìm trên SmartTube …”",
+    "Âm lượng: “tăng âm lượng”, “giảm âm lượng”, “tắt tiếng” (đã đo: loa 3 → 4)",
+    "Điều khiển khi đang xem: “kênh tiếp theo”, “kênh trước”, “tạm dừng”, “tiếp tục”",
+    "“thoát” → đóng trình phát và về màn hình chính; “quay lại” → lùi 1 bước",
+    "Dựng index alias/ứng dụng 1 lần ở luồng nền (573 kênh, 573 alias, 20 app) để không treo UI."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }

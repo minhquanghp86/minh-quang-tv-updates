@@ -24,7 +24,22 @@
 <div class="wrap">
   <h1>MINH QUANG TV</h1>
   <div class="sub">Nhật ký thay đổi các phiên bản · <a href="https://github.com/minhquanghp86/minh-quang-tv-updates">kênh cập nhật</a></div>
-  <h2>2.30.5</h2>
+  <h2>2.31.8</h2>
+<ul>
+<li>**Khớp kênh theo nhiều mẫu**: bỏ dấu tiếng Việt, bỏ khoảng trắng, đổi số bằng chữ thành số (một→1), bỏ hậu tố HD/FHD/4K, bỏ từ đệm (kênh/mở/phát/trực tiếp/live…), cho phép sai 1–2 ký tự.</li>
+</ul>
+<p>Đã test: `vtv1`, `vtv 1`, `vtv1 hd`, `vtv mot`, `cartoon network` → đều khớp đúng (score 1.0).</p>
+<ul>
+<li>**Bộ lệnh giọng nói mở rộng** (test từ xa, có log):</li>
+<li>Phát kênh: “VTV1”, “VTV 1”, “kênh VTV1 trực tiếp”…</li>
+<li>Mở app: “mở SmartTube”, “mở YouTube”…</li>
+<li>Tìm video: “YouTube nhạc thiếu nhi”, “tìm trên SmartTube …”</li>
+<li>Âm lượng: “tăng âm lượng”, “giảm âm lượng”, “tắt tiếng” (đã đo: loa 3 → 4)</li>
+<li>Điều khiển khi đang xem: “kênh tiếp theo”, “kênh trước”, “tạm dừng”, “tiếp tục”</li>
+<li>“thoát” → đóng trình phát và về màn hình chính; “quay lại” → lùi 1 bước</li>
+<li>Dựng index alias/ứng dụng 1 lần ở luồng nền (573 kênh, 573 alias, 20 app) để không treo UI.</li>
+</ul>
+<h2>2.30.5</h2>
 <ul>
 <li>**Tự phát kênh bằng giọng nói của Google TV (0 lần bấm)**: dịch vụ Trợ năng đọc ô truy vấn trên màn hình Google (katniss); nếu **khớp chính xác** tên kênh → mở trình phát ngay và đóng màn hình Google; không khớp → để Google hiện kết quả như thường.</li>
 </ul>
