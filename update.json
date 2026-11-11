@@ -1,14 +1,13 @@
 {
-  "versionCode": 264,
-  "versionName": "2.34.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.34.0.apk",
-  "notes": "Bản 2.34.0",
-  "size": 7615894,
-  "sha256": "ea716b1c8195ee5ae12282abfa08c09fdd2a93ff6812a9917a3958427abc8260",
+  "versionCode": 266,
+  "versionName": "2.34.2",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.34.2.apk",
+  "notes": "Bản 2.34.2",
+  "size": 7616442,
+  "sha256": "83fdea7a69dff97d165522577224435f9f6096b1929011248679fc0038fde115",
   "changelog": [
-    "Giữ nguyên màn hình đang xem khi mở voice: không release player, không dựng lại decoder",
-    "Hạ âm lượng thay vì mute: đưa STREAM_MUSIC về ~20% khi nghe, khôi phục đúng mức cũ khi đóng",
-    "Tự trả lại đúng màn hình: đóng voice mà không có lệnh → moveTaskToFront đưa player trở lại"
+    "Thêm Danh sách 3 (Dự phòng) dùng mq-tv-lists/intl.m3u như một nguồn dựng sẵn giống Danh sách 1/2:",
+    "Gộp bản trùng: nếu trước đây đã tự thêm URL intl.m3u (dạng main/… hoặc refs/heads/main/…) thì được thay bằng một mục dựng sẵn duy nhất."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
