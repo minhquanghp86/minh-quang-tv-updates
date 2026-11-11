@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.34.4.apk",
   "notes": "Bản 2.34.4",
   "size": 7621357,
-  "sha256": "d643692f2f326a250e4ebcc137018fe3c3efe038d45107f18a9c51aec2a1048d",
+  "sha256": "324b364c142b10c03aa94d93c4aed9c2c375a633fe5a6e5b43de169831e5c2ed",
   "changelog": [
     "Bảo mật: keystore + mật khẩu ký không còn trong repo (đọc từ biến môi trường KEYSTORE_FILE/KEYSTORE_PASSWORD/KEY_ALIAS/KEY_PASSWORD, hoặc ~/.gradle/gradle.properties); CI nạp keystore từ GitHub Secrets (KEYSTORE_BASE64). .gitignore chặn *.jks/*.keystore.",
     "Remote git chuyển sang deploy key SSH (3 khoá riêng cho 3 repo) → không còn PAT trong .git/config.",
