@@ -24,7 +24,12 @@
 <div class="wrap">
   <h1>MINH QUANG TV</h1>
   <div class="sub">Nhật ký thay đổi các phiên bản · <a href="https://github.com/minhquanghp86/minh-quang-tv-updates">kênh cập nhật</a></div>
-  <h2>2.33.3</h2>
+  <h2>2.33.5</h2>
+<ul>
+<li>**Sửa nháy đen/mất tín hiệu HDMI khi bấm mic**: trước đây mở Google voice làm PlayerActivity `onPause → releasePlayerNow()` (giải phóng MediaCodec + video path Amlogic) → HDMI re-sync, TV hiện lại nhãn đầu vào. Nay **hoãn release 800 ms** và **hủy release** khi phát hiện voice đang mở (`PlayerBus.voiceActive`) → giữ nguyên pipeline video, HDMI không reset.</li>
+<li>Khi voice mở: video vẫn chạy ẩn (đã mute tiếng) nên tín hiệu HDMI liên tục.</li>
+</ul>
+<h2>2.33.3</h2>
 <ul>
 <li>**Tự tắt tiếng khi box đang nghe giọng nói**: mở mic → mute STREAM_MUSIC (mọi ngõ ra); đóng màn hình Google hoặc sau 25s → tự khôi phục. Đã đo: `Muted false → true → false`.</li>
 <li>**Lọc ứng viên truy vấn thông minh**: bỏ câu gợi ý, tiêu đề video (“… • 123 N lượt xem”), chỉ nhận dòng ngắn; chỉ phát kênh khi điểm khớp ≥ 0.95.</li>
