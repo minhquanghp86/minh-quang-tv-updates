@@ -24,7 +24,22 @@
 <div class="wrap">
   <h1>MINH QUANG TV</h1>
   <div class="sub">Nhật ký thay đổi các phiên bản · <a href="https://github.com/minhquanghp86/minh-quang-tv-updates">kênh cập nhật</a></div>
-  <h2>2.33.5</h2>
+  <h2>2.34.0</h2>
+<ul>
+<li>**Giữ nguyên màn hình đang xem khi mở voice**: không release player, không dựng lại decoder</li>
+</ul>
+<p>(`onStop` chỉ release khi KHÔNG phải voice) → video ở lại phía sau, HDMI không reset.</p>
+<ul>
+<li>**Hạ âm lượng thay vì mute**: đưa STREAM_MUSIC về ~20% khi nghe, khôi phục đúng mức cũ khi đóng</li>
+</ul>
+<p>(nếu box không cho hạ chỉ số thì tự mute làm phương án chắc chắn).</p>
+<ul>
+<li>**Tự trả lại đúng màn hình**: đóng voice mà không có lệnh → `moveTaskToFront` đưa player trở lại</li>
+</ul>
+<p>foreground, tiếp tục phát đúng kênh đang xem.</p>
+<p>Kiểm chứng: `duck from=13 to=3` → đóng → `restore volume=13`, `đưa player lên trước=true`,</p>
+<p>focus = PlayerActivity, không có lần `play:` nào (pipeline không bị dựng lại).</p>
+<h2>2.33.5</h2>
 <ul>
 <li>**Sửa nháy đen/mất tín hiệu HDMI khi bấm mic**: trước đây mở Google voice làm PlayerActivity `onPause → releasePlayerNow()` (giải phóng MediaCodec + video path Amlogic) → HDMI re-sync, TV hiện lại nhãn đầu vào. Nay **hoãn release 800 ms** và **hủy release** khi phát hiện voice đang mở (`PlayerBus.voiceActive`) → giữ nguyên pipeline video, HDMI không reset.</li>
 <li>Khi voice mở: video vẫn chạy ẩn (đã mute tiếng) nên tín hiệu HDMI liên tục.</li>

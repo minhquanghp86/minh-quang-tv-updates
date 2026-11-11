@@ -1,13 +1,14 @@
 {
-  "versionCode": 263,
-  "versionName": "2.33.5",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.33.5.apk",
-  "notes": "Bản 2.33.5",
-  "size": 7615622,
-  "sha256": "0f4f633cc1943704a9f8c57bc7dc5a3bc3c274a62bbd9b14244784e574ebf9f0",
+  "versionCode": 264,
+  "versionName": "2.34.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.34.0.apk",
+  "notes": "Bản 2.34.0",
+  "size": 7615894,
+  "sha256": "ea716b1c8195ee5ae12282abfa08c09fdd2a93ff6812a9917a3958427abc8260",
   "changelog": [
-    "Sửa nháy đen/mất tín hiệu HDMI khi bấm mic: trước đây mở Google voice làm PlayerActivity onPause → releasePlayerNow() (giải phóng MediaCodec + video path Amlogic) → HDMI re-sync, TV hiện lại nhãn đầu vào. Nay hoãn release 800 ms và hủy release khi phát hiện voice đang mở (PlayerBus.voiceActive) → giữ nguyên pipeline video, HDMI không reset.",
-    "Khi voice mở: video vẫn chạy ẩn (đã mute tiếng) nên tín hiệu HDMI liên tục."
+    "Giữ nguyên màn hình đang xem khi mở voice: không release player, không dựng lại decoder",
+    "Hạ âm lượng thay vì mute: đưa STREAM_MUSIC về ~20% khi nghe, khôi phục đúng mức cũ khi đóng",
+    "Tự trả lại đúng màn hình: đóng voice mà không có lệnh → moveTaskToFront đưa player trở lại"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
