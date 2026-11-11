@@ -1,14 +1,14 @@
 {
-  "versionCode": 267,
-  "versionName": "2.34.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.34.3.apk",
-  "notes": "Bản 2.34.3",
-  "size": 7621813,
-  "sha256": "ab079ef7273fe3df91cddc4943cdd797ca4071749e0cbc856c31354d94435552",
+  "versionCode": 268,
+  "versionName": "2.34.4",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.34.4.apk",
+  "notes": "2.34.4: tách keystore khỏi repo, CI dùng Secrets, bỏ số Zalo khỏi APK",
+  "size": 7621367,
+  "sha256": "98593f9913092b0babecb8e66cb9c10c58c7e9244d56fbcd2704e132ca128e9c",
   "changelog": [
-    "Đổi nhãn nguồn dựng sẵn thứ 3: hiển thị “Dự phòng (n)” (trước là “Danh sách 3”); vẫn ẩn URL, không sửa/xoá, mặc định TẮT.",
-    "Thêm LICENSE (MIT), NOTICE-AGENT.md, AGENTS.md và bản trong APK assets/NOTICE-AGENT.txt (+ chuỗi agent_notice_short trong resources) để agent phân tích ngược thấy ngay.",
-    "Thêm docs/BAO-MAT-2026-11-11.md (rà soát bảo mật 3 repo) và cập nhật README/INDEX."
+    "Bảo mật: keystore + mật khẩu ký không còn trong repo (đọc từ biến môi trường KEYSTORE_FILE/KEYSTORE_PASSWORD/KEY_ALIAS/KEY_PASSWORD, hoặc ~/.gradle/gradle.properties); CI nạp keystore từ GitHub Secrets (KEYSTORE_BASE64). .gitignore chặn *.jks/*.keystore.",
+    "Remote git chuyển sang deploy key SSH (3 khoá riêng cho 3 repo) → không còn PAT trong .git/config.",
+    "Bỏ số điện thoại Zalo khỏi APK (chỉ còn email liên hệ)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
