@@ -1,14 +1,15 @@
 {
-  "versionCode": 268,
-  "versionName": "2.34.4",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.34.4.apk",
-  "notes": "Bản 2.34.4",
-  "size": 7621357,
-  "sha256": "324b364c142b10c03aa94d93c4aed9c2c375a633fe5a6e5b43de169831e5c2ed",
+  "versionCode": 270,
+  "versionName": "2.35.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.35.1.apk",
+  "notes": "2.35.1: khớp kênh chịu lỗi nhận dạng tên tiếng Anh (AXN↔AXL...)",
+  "size": 7622355,
+  "sha256": "be0b660501e72814acfbd71df4085397985fbe87973e27dd5c7069c04d58795a",
   "changelog": [
-    "Bảo mật: keystore + mật khẩu ký không còn trong repo (đọc từ biến môi trường KEYSTORE_FILE/KEYSTORE_PASSWORD/KEY_ALIAS/KEY_PASSWORD, hoặc ~/.gradle/gradle.properties); CI nạp keystore từ GitHub Secrets (KEYSTORE_BASE64). .gitignore chặn *.jks/*.keystore.",
-    "Remote git chuyển sang deploy key SSH (3 khoá riêng cho 3 repo) → không còn PAT trong .git/config.",
-    "Bỏ số điện thoại Zalo khỏi APK (chỉ còn email liên hệ)."
+    "Khớp giọng nói chịu lỗi nhận dạng tiếng Anh: thêm khoảng cách sửa có trọng số với các cặp dễ nghe nhầm",
+    "Sinh biến thể alias cho tên ngắn (3–6 ký tự) và chỉ dùng khi biến thể không trùng kênh khác.",
+    "Chấp nhận khớp mờ khi điểm ≥ 0,78 nhưng chặn khớp mơ hồ (kênh nhì sát điểm trong 0,06) → không tự phát sai (vd “vtv” không khớp bừa).",
+    "Sửa lỗi từ đệm: bỏ chữ “a” khỏi danh sách từ loại bỏ → nói kiểu đánh vần “a x n” vẫn ra axn."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }

@@ -24,7 +24,18 @@
 <div class="wrap">
   <h1>MINH QUANG TV</h1>
   <div class="sub">Nhật ký thay đổi các phiên bản · <a href="https://github.com/minhquanghp86/minh-quang-tv-updates">kênh cập nhật</a></div>
-  <h2>2.34.4</h2>
+  <h2>2.35.1</h2>
+<ul>
+<li>**Khớp giọng nói chịu lỗi nhận dạng tiếng Anh**: thêm khoảng cách sửa **có trọng số** với các cặp dễ nghe nhầm</li>
+</ul>
+<p>(l↔n, m↔n, s↔x, c↔k↔q↔g, b↔p, d↔t, v↔w, i↔y, u↔o, j↔z) — ví dụ nói “AXN” mà máy nhận “AXL/ASN/AXM” vẫn khớp.</p>
+<ul>
+<li>Sinh **biến thể alias** cho tên ngắn (3–6 ký tự) và chỉ dùng khi biến thể không trùng kênh khác.</li>
+<li>Chấp nhận khớp mờ khi điểm ≥ 0,78 nhưng **chặn khớp mơ hồ** (kênh nhì sát điểm trong 0,06) → không tự phát sai (vd “vtv” không khớp bừa).</li>
+<li>Sửa lỗi từ đệm: bỏ chữ “a” khỏi danh sách từ loại bỏ → nói kiểu đánh vần “a x n” vẫn ra `axn`.</li>
+</ul>
+<p>Kiểm chứng: “mở kênh AXL”, “axn”, “a x n”, “mở kênh AXN” → **AXN HD**; “axq”, “vtv” → không hành động; “vtv2” → VTV2; “hbo” → HBO.</p>
+<h2>2.34.4</h2>
 <ul>
 <li>**Bảo mật**: keystore + mật khẩu ký **không còn trong repo** (đọc từ biến môi trường `KEYSTORE_FILE/KEYSTORE_PASSWORD/KEY_ALIAS/KEY_PASSWORD`, hoặc `~/.gradle/gradle.properties`); CI nạp keystore từ **GitHub Secrets** (`KEYSTORE_BASE64`). `.gitignore` chặn `*.jks/*.keystore`.</li>
 <li>Remote git chuyển sang **deploy key SSH** (3 khoá riêng cho 3 repo) → không còn PAT trong `.git/config`.</li>
