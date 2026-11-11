@@ -1,13 +1,12 @@
 {
-  "versionCode": 255,
-  "versionName": "2.32.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.32.0.apk",
-  "notes": "Bản 2.32.0",
-  "size": 7614694,
-  "sha256": "ebcc90cb8ee479bf29d6b636901e59fcd17992e4a0f6b566b43d440e2bb15cb7",
+  "versionCode": 257,
+  "versionName": "2.32.2",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.32.2.apk",
+  "notes": "Bản 2.32.2",
+  "size": 7614921,
+  "sha256": "5049a8f8de00743ce3dfdb8dcde4dab2dd85f52170e5538f00c16babd9463e2e",
   "changelog": [
-    "Thêm lệnh giọng nói: “yêu thích kênh này” / “bỏ yêu thích” (kênh đang phát), “chuyển sang <app>” (mở app).",
-    "Nhắc bật Trợ năng khi mở app nếu dịch vụ đang tắt (Android tắt sau mỗi lần cập nhật): hộp thoại có nút Mở cài đặt / Để sau."
+    "Sửa lỗi bấm mic là nhảy sang kết quả dù chưa nói: màn hình Google lúc mở hiện các câu gợi ý (“Phát video trên YouTube”, “Thời tiết ra sao”…) bị đọc nhầm thành lệnh."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
