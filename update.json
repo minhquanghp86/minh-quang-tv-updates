@@ -1,14 +1,13 @@
 {
-  "versionCode": 276,
-  "versionName": "2.37.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.37.0.apk",
-  "notes": "Bản 2.37.0",
-  "size": 7623279,
-  "sha256": "73085f6fdb28a310a2ca5f1f265cfed817a013d7bd7ab39e03e55da293d3c2d9",
+  "versionCode": 277,
+  "versionName": "2.37.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.37.1.apk",
+  "notes": "Bản 2.37.1",
+  "size": 7626608,
+  "sha256": "7de7c3983c745fb26445c582e81a5fa4e37c80dcd572cc30df4479b5bbd6567a",
   "changelog": [
-    "Gọi kênh theo SỐ: “kênh 37”, “mở kênh 1”, “37” → phát đúng kênh theo số đang hiển thị trong OSD (dùng cùng cách đánh số với danh sách kênh, tôn trọng sắp xếp/ẩn của người dùng).",
-    "Đọc được số tiếng Việt: “kênh ba mươi bảy” → 37, “một trăm hai mươi” → 120 (hỗ trợ mươi/trăm/nghìn, lẻ/linh).",
-    "Sửa lỗi kênh HBO (và DASH/ClearKey) không phát khi gọi bằng giọng nói: khi voice mở, app pause player; trước đây sau khi mở kênh mới app còn “resume” player cũ → ERROR_CODE_DECODER_INIT_FAILED rồi tự nhảy sang kênh kế (38). Nay không resume khi lệnh đã mở kênh/app khác."
+    "Thêm mục Cài đặt → Giọng nói → “Danh sách lệnh giọng nói”: bảng lệnh ↔ hành động (kênh theo tên/số, ứng dụng, video, điều khiển, hệ thống, ghi chú), chọn/copy được.",
+    "Thêm tài liệu repo: docs/LENH-GIONG-NOI.md (cùng nội dung, có bảng chi tiết + ví dụ)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
