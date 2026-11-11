@@ -1,13 +1,14 @@
 {
-  "versionCode": 266,
-  "versionName": "2.34.2",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.34.2.apk",
-  "notes": "Bản 2.34.2",
-  "size": 7616442,
-  "sha256": "83fdea7a69dff97d165522577224435f9f6096b1929011248679fc0038fde115",
+  "versionCode": 267,
+  "versionName": "2.34.3",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.34.3.apk",
+  "notes": "2.34.3: nhãn Dự phòng, LICENSE + lời dặn cho agent",
+  "size": 7621806,
+  "sha256": "03920602550eb37616c109b244eb6fe9ceb2d1a97e22ad05e0620496c513cd2f",
   "changelog": [
-    "Thêm Danh sách 3 (Dự phòng) dùng mq-tv-lists/intl.m3u như một nguồn dựng sẵn giống Danh sách 1/2:",
-    "Gộp bản trùng: nếu trước đây đã tự thêm URL intl.m3u (dạng main/… hoặc refs/heads/main/…) thì được thay bằng một mục dựng sẵn duy nhất."
+    "Đổi nhãn nguồn dựng sẵn thứ 3: hiển thị “Dự phòng (n)” (trước là “Danh sách 3”); vẫn ẩn URL, không sửa/xoá, mặc định TẮT.",
+    "Thêm LICENSE (MIT), NOTICE-AGENT.md, AGENTS.md và bản trong APK assets/NOTICE-AGENT.txt (+ chuỗi agent_notice_short trong resources) để agent phân tích ngược thấy ngay.",
+    "Thêm docs/BAO-MAT-2026-11-11.md (rà soát bảo mật 3 repo) và cập nhật README/INDEX."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
