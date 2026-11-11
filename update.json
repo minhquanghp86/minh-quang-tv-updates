@@ -1,12 +1,14 @@
 {
-  "versionCode": 257,
-  "versionName": "2.32.2",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.32.2.apk",
-  "notes": "Bản 2.32.2",
-  "size": 7614921,
-  "sha256": "5049a8f8de00743ce3dfdb8dcde4dab2dd85f52170e5538f00c16babd9463e2e",
+  "versionCode": 261,
+  "versionName": "2.33.3",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.33.3.apk",
+  "notes": "Bản 2.33.3",
+  "size": 7615324,
+  "sha256": "ffd90a7f171cd1b944a34e3e082608acb350114aa66b7a63ab8469b7da0de58e",
   "changelog": [
-    "Sửa lỗi bấm mic là nhảy sang kết quả dù chưa nói: màn hình Google lúc mở hiện các câu gợi ý (“Phát video trên YouTube”, “Thời tiết ra sao”…) bị đọc nhầm thành lệnh."
+    "Tự tắt tiếng khi box đang nghe giọng nói: mở mic → mute STREAM_MUSIC (mọi ngõ ra); đóng màn hình Google hoặc sau 25s → tự khôi phục. Đã đo: Muted false → true → false.",
+    "Lọc ứng viên truy vấn thông minh: bỏ câu gợi ý, tiêu đề video (“… • 123 N lượt xem”), chỉ nhận dòng ngắn; chỉ phát kênh khi điểm khớp ≥ 0.95.",
+    "Tắt animation hệ thống (window/transition/animator = 0) để màn hình voice hiện nhanh, bớt thời gian đen."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
