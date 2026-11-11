@@ -1,15 +1,13 @@
 {
-  "versionCode": 270,
-  "versionName": "2.35.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.35.1.apk",
-  "notes": "Bản 2.35.1",
-  "size": 7622356,
-  "sha256": "937cd7ce8197d21f665cd1e6e07de4a839249a3fdc1593a091e1c849c4d2df87",
+  "versionCode": 271,
+  "versionName": "2.35.2",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.35.2.apk",
+  "notes": "Bản 2.35.2",
+  "size": 7622440,
+  "sha256": "261958995a8bb710bd5aa2652983229cc63e53fa68dd2d3669b4e08988842d2f",
   "changelog": [
-    "Khớp giọng nói chịu lỗi nhận dạng tiếng Anh: thêm khoảng cách sửa có trọng số với các cặp dễ nghe nhầm",
-    "Sinh biến thể alias cho tên ngắn (3–6 ký tự) và chỉ dùng khi biến thể không trùng kênh khác.",
-    "Chấp nhận khớp mờ khi điểm ≥ 0,78 nhưng chặn khớp mơ hồ (kênh nhì sát điểm trong 0,06) → không tự phát sai (vd “vtv” không khớp bừa).",
-    "Sửa lỗi từ đệm: bỏ chữ “a” khỏi danh sách từ loại bỏ → nói kiểu đánh vần “a x n” vẫn ra axn."
+    "Chỉ hạ âm lượng khi MQTV đang thực sự phát, và bỏ qua nếu âm lượng đã thấp (≤3) → tránh việc hạ/khôi phục sai mức làm âm lượng TV bị trôi.",
+    "(Giữ nguyên cải tiến khớp giọng nói của 2.35.1.)"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
