@@ -1,14 +1,15 @@
 {
-  "versionCode": 287,
-  "versionName": "2.40.4",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.40.4.apk",
-  "notes": "Bản 2.40.4",
-  "size": 7710487,
-  "sha256": "3a4f13d40fb1a662ff6ef10c6b827ed10cbc69865a5149fbe4daf241e2273228",
+  "versionCode": 288,
+  "versionName": "2.41.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.41.0.apk",
+  "notes": "Bản 2.41.0",
+  "size": 7710485,
+  "sha256": "7c2a4c118f332c4f3b131fb48f0fd82d1d2c51d450c89e81481a4bffd5fdc7e2",
   "changelog": [
-    "Thẻ ứng dụng giống hệt thẻ kênh: cùng kích thước ô, cùng bán kính bo góc, cùng khoảng cách hàng; bỏ kiểu pill rộng.",
-    "Viền logo app rõ hơn (khung app_icon_frame, viền 1.5dp) để phân biệt với logo kênh.",
-    "Icon app được bo góc thật (mask bo tròn ~18% trong IconNormalizer) — không còn góc vuông lộ ra trong khung."
+    "Hết màn hình đen 1–2s khi bấm Home: log cho thấy Choreographer: Skipped 32 frames — PlayerActivity.onStop() gọi release() MediaCodec (~1–2s) trên UI thread của cùng process, chặn luôn việc vẽ Home.",
+    "Nay chỉ pause() (cắt tiếng ngay) trên UI thread; stop/clear/release được hoãn 700ms sau khi Home đã vẽ khung đầu.",
+    "Đo lại: player: onStop release (tách khỏi UI)=5ms, không còn “Skipped frames”, Home hiện trong ~0,4s.",
+    "Giảm việc nặng khi onResume: StatFs, cập nhật chip mạng, kiểm tra cập nhật, ghi screen_off_timeout được hoãn 350ms — ưu tiên vẽ nội dung ngay."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
