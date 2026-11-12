@@ -1,17 +1,18 @@
 {
-  "versionCode": 282,
-  "versionName": "2.39.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.39.0.apk",
-  "notes": "Bản 2.39.0",
-  "size": 7707491,
-  "sha256": "505348982d4bd9026abcd916bb65b79655bfeaa69f5a3f5eaa7e511218ea3ce4",
+  "versionCode": 285,
+  "versionName": "2.40.2",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.40.2.apk",
+  "notes": "Bản 2.40.2",
+  "size": 7710546,
+  "sha256": "d208e9d2f1935a72e721215d8dfcfa9b5b03f3707e148954348d87ef01b7e2f1",
   "changelog": [
-    "Lịch âm chi tiết (mục 2): màn hình chờ hiện thêm tiết khí (“Tiết: Lập đông”), can chi ngày và trực + Hoàng đạo/Hắc đạo (12 trực: Kiến/Trừ/Mãn/Bình/Định/Chấp/Phá/Nguy/Thành/Thu/Khai/Bế). Công thức can chi ngày kiểm chứng theo mốc 01/01/2000 = Mậu Ngọ.",
-    "Châm ngôn danh nhân (mục 3): thêm ~45 câu nói của Hồ Chí Minh, Nguyễn Trãi, Nguyễn Du, Chu Văn An, Lê Quý Đôn, Nam Cao, Xuân Diệu, cùng Einstein, Newton, Curie, Edison, Darwin, Gandhi, Mandela, Jobs, da Vinci, Khổng Tử, Voltaire, Rousseau… kèm tên tác giả.",
-    "Cài đặt → Màn hình chờ → Châm ngôn: Tất cả / Tục ngữ Việt Nam / Danh nhân / Tắt.",
-    "Font đồng hồ đẹp hơn (mục 6): dùng Montserrat Light (OFL) cho đồng hồ; châm ngôn dùng Lora Italic (OFL) — kèm giấy phép assets/OFL-fonts.txt.",
-    "Chống burn-in (mục 6): khối chữ dịch nhẹ ngẫu nhiên (±12dp) mỗi 5 phút.",
-    "Giữ box không tự sleep (mục 7): app tự đặt screen_off_timeout = MAX và stay_on_while_plugged_in = 7 khi chạy (đã kiểm chứng timeout=2147483647)."
+    "Màn hình chính hiện ngay lập tức (không còn “Đang tải danh sách…”):",
+    "Lưu snapshot danh sách kênh đã parse (home_channels.json) sau mỗi lần tải; khi mở app đọc snapshot trong <100ms → vẽ ngay, rồi refresh nền và chỉ vẽ lại khi dữ liệu thật sự đổi (so sánh chữ ký danh sách).",
+    "Bỏ dựng lại hàng khi onResume nếu danh sách không đổi (trước đây rebuild mỗi lần về Home gây nháy).",
+    "Cache danh sách ứng dụng trong bộ nhớ (không quét PackageManager lại mỗi lần vẽ).",
+    "Thẻ thời tiết hiện dữ liệu ngay: áp dụng JSON thời tiết đã lưu trước khi vẽ, nên không còn thấy animation mây cũ chờ mạng; mạng về sau chỉ cập nhật số liệu.",
+    "Thẻ ứng dụng kiểu mới (theo ảnh tham khảo): pill nền sáng bo 16dp, icon 32dp + tên app (“SmartTube”, “CH Play”, “Dolby Atmos”…), rút gọn nhãn dài; rộng 1,45× ô kênh để đủ chữ.",
+    "Hiệu ứng focus: thẻ kênh/app phóng 1,07× + nổi (translationZ/elevation) trong 140ms khi focus; RecyclerView bỏ clip để hiệu ứng không bị cắt."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
