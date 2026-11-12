@@ -1,10 +1,10 @@
 {
   "versionCode": 314,
   "versionName": "2.46.4",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.46.4.apk",
-  "notes": "2.46.4: khung logo danh sách kênh ôm sát logo (box + điện thoại)",
-  "size": 7714629,
-  "sha256": "d3a6483f654b9bbfcddaefb667d1a67e0aa892bbc24213e17c5c70873a861630",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.4.apk",
+  "notes": "Bản 2.46.4",
+  "size": 7714621,
+  "sha256": "64855df2f2fd5d0ecfd3eec3bdb7c6e08ec50817d7b6570bf1f7609d067b03a0",
   "changelog": [
     "Khung logo trong Danh sách kênh ôm sát logo (bỏ khung chữ nhật dài gây 2 dải đen 2 bên):",
     "Logo dùng wrap_content + adjustViewBounds, cao 46dp, tối đa 260dp, canh giữa trong ô.",
