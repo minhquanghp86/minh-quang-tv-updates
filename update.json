@@ -1,17 +1,17 @@
 {
-  "versionCode": 281,
-  "versionName": "2.38.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.38.3.apk",
-  "notes": "Bản 2.38.3",
-  "size": 7639517,
-  "sha256": "3eaeaf2403db38fbb8a3063eeb6d01a457ba23f657ee173a92312e16e0304884",
+  "versionCode": 282,
+  "versionName": "2.39.0",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.39.0.apk",
+  "notes": "Bản 2.39.0",
+  "size": 7707491,
+  "sha256": "505348982d4bd9026abcd916bb65b79655bfeaa69f5a3f5eaa7e511218ea3ce4",
   "changelog": [
-    "Icon ứng dụng (hàng 2) đồng đều kích thước: thêm IconNormalizer — render icon → cắt viền trong suốt → scale vừa khung vuông 64dp → canh giữa; mọi app đều to bằng nhau, giữ khung bo góc + viền như hàng kênh.",
-    "Màn hình chờ phong phú hơn:",
-    "Âm lịch (“🌙 Âm lịch: 4/10 Bính Ngọ”), lời chào theo giờ (sáng/trưa/chiều/tối/khuya).",
-    "Thời tiết lấy từ dữ liệu Home đã tải (“⛅ Hải Phòng · 21° · Mưa phùn”).",
-    "Châm ngôn Việt Nam luân phiên mỗi 15 giây (40 câu tục ngữ/danh ngôn).",
-    "Hiệu ứng Ken Burns (ảnh zoom chậm), lớp phủ + bóng chữ để chữ luôn đọc rõ trên ảnh sáng."
+    "Lịch âm chi tiết (mục 2): màn hình chờ hiện thêm tiết khí (“Tiết: Lập đông”), can chi ngày và trực + Hoàng đạo/Hắc đạo (12 trực: Kiến/Trừ/Mãn/Bình/Định/Chấp/Phá/Nguy/Thành/Thu/Khai/Bế). Công thức can chi ngày kiểm chứng theo mốc 01/01/2000 = Mậu Ngọ.",
+    "Châm ngôn danh nhân (mục 3): thêm ~45 câu nói của Hồ Chí Minh, Nguyễn Trãi, Nguyễn Du, Chu Văn An, Lê Quý Đôn, Nam Cao, Xuân Diệu, cùng Einstein, Newton, Curie, Edison, Darwin, Gandhi, Mandela, Jobs, da Vinci, Khổng Tử, Voltaire, Rousseau… kèm tên tác giả.",
+    "Cài đặt → Màn hình chờ → Châm ngôn: Tất cả / Tục ngữ Việt Nam / Danh nhân / Tắt.",
+    "Font đồng hồ đẹp hơn (mục 6): dùng Montserrat Light (OFL) cho đồng hồ; châm ngôn dùng Lora Italic (OFL) — kèm giấy phép assets/OFL-fonts.txt.",
+    "Chống burn-in (mục 6): khối chữ dịch nhẹ ngẫu nhiên (±12dp) mỗi 5 phút.",
+    "Giữ box không tự sleep (mục 7): app tự đặt screen_off_timeout = MAX và stay_on_while_plugged_in = 7 khi chạy (đã kiểm chứng timeout=2147483647)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
