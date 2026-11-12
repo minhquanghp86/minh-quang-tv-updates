@@ -1,10 +1,10 @@
 {
   "versionCode": 311,
   "versionName": "2.46.1",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.46.1.apk",
-  "notes": "2.46.1: chỉ giữ hiệu ứng thu phóng khi focus (bỏ ambient)",
-  "size": 7713809,
-  "sha256": "b7c5b1161da79d6aa06a008fa274d66600d1caf8a5b3f307627c7a43f37845ba",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.1.apk",
+  "notes": "Bản 2.46.1",
+  "size": 7713808,
+  "sha256": "7dcb59a6a32fb90b36dc35eb3bd83fd85a168046093fab2aabc42b739266fb8e",
   "changelog": [
     "Bỏ hoàn toàn hiệu ứng ambient (quầng sáng/blur/viền LED) theo yêu cầu; màn hình chính chỉ còn hiệu ứng thu phóng khi focus: phóng 1,35× quanh tâm, nổi nhẹ (bóng), mượt 180ms.",
     "Dọn code/drawable không còn dùng (GlowView, ambient_glow, logo_box_focus_bg)."
