@@ -1,18 +1,14 @@
 {
-  "versionCode": 285,
-  "versionName": "2.40.2",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.40.2.apk",
-  "notes": "Bản 2.40.2",
-  "size": 7710546,
-  "sha256": "d208e9d2f1935a72e721215d8dfcfa9b5b03f3707e148954348d87ef01b7e2f1",
+  "versionCode": 287,
+  "versionName": "2.40.4",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.40.4.apk",
+  "notes": "Bản 2.40.4",
+  "size": 7710487,
+  "sha256": "3a4f13d40fb1a662ff6ef10c6b827ed10cbc69865a5149fbe4daf241e2273228",
   "changelog": [
-    "Màn hình chính hiện ngay lập tức (không còn “Đang tải danh sách…”):",
-    "Lưu snapshot danh sách kênh đã parse (home_channels.json) sau mỗi lần tải; khi mở app đọc snapshot trong <100ms → vẽ ngay, rồi refresh nền và chỉ vẽ lại khi dữ liệu thật sự đổi (so sánh chữ ký danh sách).",
-    "Bỏ dựng lại hàng khi onResume nếu danh sách không đổi (trước đây rebuild mỗi lần về Home gây nháy).",
-    "Cache danh sách ứng dụng trong bộ nhớ (không quét PackageManager lại mỗi lần vẽ).",
-    "Thẻ thời tiết hiện dữ liệu ngay: áp dụng JSON thời tiết đã lưu trước khi vẽ, nên không còn thấy animation mây cũ chờ mạng; mạng về sau chỉ cập nhật số liệu.",
-    "Thẻ ứng dụng kiểu mới (theo ảnh tham khảo): pill nền sáng bo 16dp, icon 32dp + tên app (“SmartTube”, “CH Play”, “Dolby Atmos”…), rút gọn nhãn dài; rộng 1,45× ô kênh để đủ chữ.",
-    "Hiệu ứng focus: thẻ kênh/app phóng 1,07× + nổi (translationZ/elevation) trong 140ms khi focus; RecyclerView bỏ clip để hiệu ứng không bị cắt."
+    "Thẻ ứng dụng giống hệt thẻ kênh: cùng kích thước ô, cùng bán kính bo góc, cùng khoảng cách hàng; bỏ kiểu pill rộng.",
+    "Viền logo app rõ hơn (khung app_icon_frame, viền 1.5dp) để phân biệt với logo kênh.",
+    "Icon app được bo góc thật (mask bo tròn ~18% trong IconNormalizer) — không còn góc vuông lộ ra trong khung."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
