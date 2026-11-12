@@ -1,17 +1,17 @@
 {
-  "versionCode": 279,
-  "versionName": "2.38.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.38.1.apk",
-  "notes": "Bản 2.38.1",
-  "size": 7635947,
-  "sha256": "61c23e9d282d1c9355ed806b934ff59a3bf1e2c1575055e74e79bfc46db6380d",
+  "versionCode": 281,
+  "versionName": "2.38.3",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.38.3.apk",
+  "notes": "Bản 2.38.3",
+  "size": 7639517,
+  "sha256": "3eaeaf2403db38fbb8a3063eeb6d01a457ba23f657ee173a92312e16e0304884",
   "changelog": [
-    "Header màn hình chính: bỏ chữ “MINH QUANG TV”, tăng logo app lên (46dp iOS / 54dp Cổ điển / 42dp Google), thêm khung bo góc + viền sáng cho logo.",
-    "Hàng ứng dụng (hàng 2): icon app nay bo góc + viền giống logo kênh hàng 1 (khung app_icon_frame, padding 8dp).",
-    "Màn hình chờ (screensaver): sau 2 phút không tương tác, Home tự mở màn hình chờ toàn màn hình: ảnh nền lớn + đồng hồ + thứ/ngày; chạm phím bất kỳ để quay lại; giữ màn hình sáng (không ngủ/đen).",
-    "Ảnh mặc định: ảnh công khai miễn phí (Lorem Picsum/Unsplash), tải qua HTTPS, có ảnh dự phòng offline.",
-    "Cài đặt → Màn hình chờ → Ảnh màn hình chờ: chọn thư mục ảnh cá nhân (SAF, cấp quyền đọc lưu bền, không cần quyền runtime) hoặc quay về “ảnh công khai mặc định”; có Xem trước.",
-    "Thời gian chờ: 30 giây / 1 / 2 / 5 / 10 phút."
+    "Icon ứng dụng (hàng 2) đồng đều kích thước: thêm IconNormalizer — render icon → cắt viền trong suốt → scale vừa khung vuông 64dp → canh giữa; mọi app đều to bằng nhau, giữ khung bo góc + viền như hàng kênh.",
+    "Màn hình chờ phong phú hơn:",
+    "Âm lịch (“🌙 Âm lịch: 4/10 Bính Ngọ”), lời chào theo giờ (sáng/trưa/chiều/tối/khuya).",
+    "Thời tiết lấy từ dữ liệu Home đã tải (“⛅ Hải Phòng · 21° · Mưa phùn”).",
+    "Châm ngôn Việt Nam luân phiên mỗi 15 giây (40 câu tục ngữ/danh ngôn).",
+    "Hiệu ứng Ken Burns (ảnh zoom chậm), lớp phủ + bóng chữ để chữ luôn đọc rõ trên ảnh sáng."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
