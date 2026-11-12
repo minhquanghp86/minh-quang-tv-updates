@@ -1,10 +1,10 @@
 {
   "versionCode": 313,
   "versionName": "2.46.3",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.46.3.apk",
-  "notes": "2.46.3: hết nháy đen khi Home + trả lại viền vàng danh sách kênh",
-  "size": 7714588,
-  "sha256": "f9a9c4d9ef026c2f2447e47715a1a993eebf26664b81820e4c7ff57bd7b6ab2c",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.3.apk",
+  "notes": "Bản 2.46.3",
+  "size": 7714584,
+  "sha256": "1980a645c5f975e70baaea1f899cc64d1ecd43e7e0423311f3e2beae27910b05",
   "changelog": [
     "Hết nháy đen ~2s sau khi bấm Home: trước đây app hoãn tháo MediaCodec 700ms, nên decoder bị giải phóng *trong lúc* màn hình chính đang hiển thị → OSD/HDMI chớp đen.",
     "Trả lại viền vàng focus ở Danh sách kênh: danh sách dùng trạng thái activated (kênh đang chọn) — khi dọn item_bg cho màn hình chính đã làm mất trạng thái này. Nay item_grid dùng grid_item_bg có cả state_activated + state_focused (viền vàng 3dp)."
