@@ -1,15 +1,15 @@
 {
-  "versionCode": 292,
-  "versionName": "2.42.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.42.1.apk",
-  "notes": "Bản 2.42.1",
-  "size": 7713761,
-  "sha256": "4ad3fd5622db988487121212f023b5e0b0f0baa5cae6ece2829cff684b6f5824",
+  "versionCode": 309,
+  "versionName": "2.45.2",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.45.2.apk",
+  "notes": "2.45.2: hiệu ứng focus mới (phóng 1.35x + quầng LED xanh mờ dần)",
+  "size": 7715146,
+  "sha256": "5795ba012e6ee0170f79257481231c1e4bfb0c87a8d3717a20812c3885c4ab5e",
   "changelog": [
-    "Thiết kế lại toàn bộ Cài đặt theo phong cách iOS: header (logo + phiên bản), các nhóm chức năng có tiêu đề chữ hoa nhỏ, thẻ bo góc 16dp, dòng 54dp có chevron, đường phân cách mảnh, trạng thái focus viền xanh.",
-    "Nhóm: Kênh & nguồn · Giao diện · Màn hình chờ · Giọng nói · Dữ liệu & cập nhật · Chẩn đoán · Thông tin.",
-    "Nguồn kênh chuyển thành dòng phẳng (tên + công tắc), bỏ thẻ riêng lẻ; nút “Thêm danh sách” màu accent.",
-    "Bỏ emoji khỏi nhãn; hàng “Làm mới tất cả danh sách” hiển thị thêm thời gian cập nhật."
+    "Hiệu ứng focus mới trên màn hình chính (theo mẫu ambient LED anh gửi):",
+    "Bỏ viền focus bao ngoài; ô được focus phóng 1,35× quanh tâm (không lệch vị trí), nổi lên bằng translationZ + elevation.",
+    "Quầng LED xanh quanh khung logo: sáng nhất ở sát logo và mờ dần ra ngoài (3 lớp viền giảm dần độ đậm) — áp dụng cho cả ô kênh và ô ứng dụng.",
+    "Giữ nguyên hiệu ứng nhấc/thu nhỏ mượt 180ms, không cắt hình nhờ clipChildren=false."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
