@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.5.apk",
   "notes": "Bản 2.46.5",
   "size": 7714641,
-  "sha256": "72492ab0485ddcbf1cc244ff10526f085574b1a0180c087747152bf4b3e11e1a",
+  "sha256": "a0252101652bf8a53c7b80a7f21858983698fcc0048f33dcfed5d150fdb32d7f",
   "changelog": [
     "Màn hình chờ & giữ màn hình sáng chỉ áp dụng trên TV box, không bật trên điện thoại (tránh screensaver/đổi timeout trên phone).",
     "Chốt mốc ổn định: tag v2.46.5-stable, cập nhật docs/BAN-GIAO-2026-11-12.md, README, INDEX."
