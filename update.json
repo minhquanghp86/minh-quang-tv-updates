@@ -1,13 +1,17 @@
 {
-  "versionCode": 277,
-  "versionName": "2.37.1",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.37.1.apk",
-  "notes": "Bản 2.37.1",
-  "size": 7626608,
-  "sha256": "7de7c3983c745fb26445c582e81a5fa4e37c80dcd572cc30df4479b5bbd6567a",
+  "versionCode": 279,
+  "versionName": "2.38.1",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.38.1.apk",
+  "notes": "Bản 2.38.1",
+  "size": 7635947,
+  "sha256": "61c23e9d282d1c9355ed806b934ff59a3bf1e2c1575055e74e79bfc46db6380d",
   "changelog": [
-    "Thêm mục Cài đặt → Giọng nói → “Danh sách lệnh giọng nói”: bảng lệnh ↔ hành động (kênh theo tên/số, ứng dụng, video, điều khiển, hệ thống, ghi chú), chọn/copy được.",
-    "Thêm tài liệu repo: docs/LENH-GIONG-NOI.md (cùng nội dung, có bảng chi tiết + ví dụ)."
+    "Header màn hình chính: bỏ chữ “MINH QUANG TV”, tăng logo app lên (46dp iOS / 54dp Cổ điển / 42dp Google), thêm khung bo góc + viền sáng cho logo.",
+    "Hàng ứng dụng (hàng 2): icon app nay bo góc + viền giống logo kênh hàng 1 (khung app_icon_frame, padding 8dp).",
+    "Màn hình chờ (screensaver): sau 2 phút không tương tác, Home tự mở màn hình chờ toàn màn hình: ảnh nền lớn + đồng hồ + thứ/ngày; chạm phím bất kỳ để quay lại; giữ màn hình sáng (không ngủ/đen).",
+    "Ảnh mặc định: ảnh công khai miễn phí (Lorem Picsum/Unsplash), tải qua HTTPS, có ảnh dự phòng offline.",
+    "Cài đặt → Màn hình chờ → Ảnh màn hình chờ: chọn thư mục ảnh cá nhân (SAF, cấp quyền đọc lưu bền, không cần quyền runtime) hoặc quay về “ảnh công khai mặc định”; có Xem trước.",
+    "Thời gian chờ: 30 giây / 1 / 2 / 5 / 10 phút."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
