@@ -1,10 +1,10 @@
 {
   "versionCode": 309,
   "versionName": "2.45.2",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.45.2.apk",
-  "notes": "2.45.2: hiệu ứng focus mới (phóng 1.35x + quầng LED xanh mờ dần)",
-  "size": 7715146,
-  "sha256": "5795ba012e6ee0170f79257481231c1e4bfb0c87a8d3717a20812c3885c4ab5e",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.45.2.apk",
+  "notes": "Bản 2.45.2",
+  "size": 7715143,
+  "sha256": "f6c280188cd8cb4ac48f32e22d2cd54821a4d498b63ac6df5fd0b5ae92050056",
   "changelog": [
     "Hiệu ứng focus mới trên màn hình chính (theo mẫu ambient LED anh gửi):",
     "Bỏ viền focus bao ngoài; ô được focus phóng 1,35× quanh tâm (không lệch vị trí), nổi lên bằng translationZ + elevation.",
