@@ -1,14 +1,13 @@
 {
-  "versionCode": 310,
-  "versionName": "2.46.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.0.apk",
-  "notes": "Bản 2.46.0",
-  "size": 7715609,
-  "sha256": "17a90a2000a7995a2afff48628d854b7156f3664cbba823df3bc47861d8ba923",
+  "versionCode": 311,
+  "versionName": "2.46.1",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.46.1.apk",
+  "notes": "2.46.1: chỉ giữ hiệu ứng thu phóng khi focus (bỏ ambient)",
+  "size": 7713809,
+  "sha256": "b7c5b1161da79d6aa06a008fa274d66600d1caf8a5b3f307627c7a43f37845ba",
   "changelog": [
-    "Quầng ambient mềm thật sự (theo mẫu CSS anh gửi): dùng GlowView vẽ hình bo góc màu xanh vào bitmap rồi blur bằng RenderScript (22dp), cache theo kích thước.",
-    "Khi focus: quầng hiện dần (alpha 0→0.95) và phồng nhẹ (0.96→1.04) trong 320ms, sáng ở sát thẻ và mờ dần ra ngoài; tắt focus mờ đi trong 200ms.",
-    "Kết hợp: phóng 1,35× quanh tâm + nổi (translationZ/elevation) + viền LED trong khung logo."
+    "Bỏ hoàn toàn hiệu ứng ambient (quầng sáng/blur/viền LED) theo yêu cầu; màn hình chính chỉ còn hiệu ứng thu phóng khi focus: phóng 1,35× quanh tâm, nổi nhẹ (bóng), mượt 180ms.",
+    "Dọn code/drawable không còn dùng (GlowView, ambient_glow, logo_box_focus_bg)."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
