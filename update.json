@@ -1,15 +1,14 @@
 {
-  "versionCode": 288,
-  "versionName": "2.41.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.41.0.apk",
-  "notes": "Bản 2.41.0",
-  "size": 7710485,
-  "sha256": "7c2a4c118f332c4f3b131fb48f0fd82d1d2c51d450c89e81481a4bffd5fdc7e2",
+  "versionCode": 290,
+  "versionName": "2.41.2",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.41.2.apk",
+  "notes": "Bản 2.41.2",
+  "size": 7711006,
+  "sha256": "fa0b585e4498bc1263844ef3ab7811c406726a9fec6c13e93a693925fe9928cf",
   "changelog": [
-    "Hết màn hình đen 1–2s khi bấm Home: log cho thấy Choreographer: Skipped 32 frames — PlayerActivity.onStop() gọi release() MediaCodec (~1–2s) trên UI thread của cùng process, chặn luôn việc vẽ Home.",
-    "Nay chỉ pause() (cắt tiếng ngay) trên UI thread; stop/clear/release được hoãn 700ms sau khi Home đã vẽ khung đầu.",
-    "Đo lại: player: onStop release (tách khỏi UI)=5ms, không còn “Skipped frames”, Home hiện trong ~0,4s.",
-    "Giảm việc nặng khi onResume: StatFs, cập nhật chip mạng, kiểm tra cập nhật, ghi screen_off_timeout được hoãn 350ms — ưu tiên vẽ nội dung ngay."
+    "Sửa hồi quy “không phát được kênh nào” (do 2.41.0): player cũ được hoãn giải phóng vẫn giữ decoder phần cứng, nên player mới báo ERROR_CODE_DECODER_INIT_FAILED liên tục.",
+    "Thêm PendingRelease: khi sắp tạo player mới (play()), flush (giải phóng dứt điểm) player đang chờ trước.",
+    "Khi release: dừng ngay retry/next/stall/watchdog và đặt cờ releasing để listener cũ không tự phát lại khi đang ở Home."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
