@@ -1,10 +1,10 @@
 {
   "versionCode": 292,
   "versionName": "2.42.1",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.42.1.apk",
-  "notes": "2.42.1: Cài đặt thiết kế lại kiểu iOS, nhóm theo chức năng",
-  "size": 7713762,
-  "sha256": "9b6893df135c33d69d0b4057c3fef26839c2ed01c524f2fa10480a0fef024c2f",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.42.1.apk",
+  "notes": "Bản 2.42.1",
+  "size": 7713761,
+  "sha256": "4ad3fd5622db988487121212f023b5e0b0f0baa5cae6ece2829cff684b6f5824",
   "changelog": [
     "Thiết kế lại toàn bộ Cài đặt theo phong cách iOS: header (logo + phiên bản), các nhóm chức năng có tiêu đề chữ hoa nhỏ, thẻ bo góc 16dp, dòng 54dp có chevron, đường phân cách mảnh, trạng thái focus viền xanh.",
     "Nhóm: Kênh & nguồn · Giao diện · Màn hình chờ · Giọng nói · Dữ liệu & cập nhật · Chẩn đoán · Thông tin.",
