@@ -1,15 +1,13 @@
 {
-  "versionCode": 314,
-  "versionName": "2.46.4",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.4.apk",
-  "notes": "Bản 2.46.4",
-  "size": 7714621,
-  "sha256": "64855df2f2fd5d0ecfd3eec3bdb7c6e08ec50817d7b6570bf1f7609d067b03a0",
+  "versionCode": 315,
+  "versionName": "2.46.5",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.46.5.apk",
+  "notes": "2.46.5: màn hình chờ chỉ trên TV; chốt mốc ổn định",
+  "size": 7714649,
+  "sha256": "a54bf36c006116f8922e809cb47ab44f6127f2ddfd638d5872b9e089048167ce",
   "changelog": [
-    "Khung logo trong Danh sách kênh ôm sát logo (bỏ khung chữ nhật dài gây 2 dải đen 2 bên):",
-    "Logo dùng wrap_content + adjustViewBounds, cao 46dp, tối đa 260dp, canh giữa trong ô.",
-    "Khung nền bo góc chỉ bao quanh logo → logo vuông (HBO, Cinemax…) không còn khoảng đen thừa.",
-    "Áp dụng cho cả box và điện thoại (dùng chung item_grid.xml), giữ nguyên viền vàng khi kênh đang chọn."
+    "Màn hình chờ & giữ màn hình sáng chỉ áp dụng trên TV box, không bật trên điện thoại (tránh screensaver/đổi timeout trên phone).",
+    "Chốt mốc ổn định: tag v2.46.5-stable, cập nhật docs/BAN-GIAO-2026-11-12.md, README, INDEX."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
