@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.49.10.apk",
   "notes": "Bản 2.49.10",
   "size": 7766127,
-  "sha256": "3225a70bf87305caf16cbf95b0d9906e200d6b83014a6e056b90d9a6011af3c3",
+  "sha256": "8c111f3ce7426e0d02a0d678b1eb496311f245b82267de581968c713850d3d58",
   "changelog": [
     "Trả lại đúng hành vi phím OK: OK/chạm ở trình phát mở danh sách kênh (trước đây sau khi thêm EPG, OK bị mở Lịch phát sóng do logo góc trên còn giữ focus).",
     "Logo góc trên không còn nhận focus D-pad (chỉ còn là điểm chạm), nên không còn cướp phím OK; Menu vẫn là phím mở/đóng Lịch phát sóng như hiện tại."
