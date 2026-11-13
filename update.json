@@ -1,10 +1,10 @@
 {
   "versionCode": 345,
   "versionName": "2.49.8",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.49.8.apk",
-  "notes": "EPG menu thanh bên, mở bằng Menu, đủ 48h + sửa lỗi thiếu chương trình",
-  "size": 7764600,
-  "sha256": "34a30599191c7d7d32eef5bbfdfb69563ef1a429de5fef69272cceb38b049b5d",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.49.8.apk",
+  "notes": "Bản 2.49.8",
+  "size": 7764609,
+  "sha256": "6befa955f2ab290212302225dfeb801c316bb5295d558c082f21441161a96526",
   "changelog": [
     "Lịch phát sóng thành menu thanh bên: dính sát cạnh trên/dưới/trái, rộng 1/2 màn hình ngang, nền trong suốt ~75%, chữ nhỏ gọn hơn.",
     "Mở bằng phím Menu trên box (mặc định, gán lại được — đã thêm hành động “Lịch phát sóng” vào danh sách gán phím) và chạm màn hình 1 lần trên điện thoại; chạm ra ngoài (điện thoại) hoặc Back (box) để đóng. Bỏ nút Lịch phát sóng khỏi thanh công cụ.",
