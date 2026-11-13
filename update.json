@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.49.9.apk",
   "notes": "Bản 2.49.9",
   "size": 7766121,
-  "sha256": "d9343298aac3095bb22b8a744f68bd7d2c274414e573364dbf3fc3308aaa8678",
+  "sha256": "86d28cc7545149da2905842a3d008ff7f06609f010d7e970ae6cfad266ea5af8",
   "changelog": [
     "Thêm 2 nút Hôm nay / Ngày mai cạnh logo kênh trong Lịch phát sóng: chạm để nhảy tới đầu ngày đó (remote: ◀ ▶ chọn, OK nhảy), nút đang chọn sáng xanh.",
     "Bỏ chương trình bắt đầu trước 00:00 hôm nay (trước đây hiện lẫn mục “12/11” của hôm qua).",
