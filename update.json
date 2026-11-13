@@ -1,14 +1,15 @@
 {
-  "versionCode": 318,
-  "versionName": "2.46.8",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.8.apk",
-  "notes": "Bản 2.46.8",
-  "size": 7715978,
-  "sha256": "90c56f3191c6869dd4f24bccb6608079bce79e7ff2e39200a71cdd2af6a314ed",
+  "versionCode": 319,
+  "versionName": "2.46.9",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.46.9.apk",
+  "notes": "2.46.9: chọn ảnh nền bằng thư viện ảnh thu nhỏ",
+  "size": 7718678,
+  "sha256": "c3eb2ce0e3df5a9d60839d83620a108a040420cc932d79053e6fa8cc2f3ec3b5",
   "changelog": [
-    "Danh sách kênh: khung logo chữ nhật đồng nhất (96×54dp, bo 12dp, padding 4dp) — logo vuông (HBO, Cinemax, kênh 519/46…) được đặt giữa khung chữ nhật giống mọi logo khác, không còn ô vuông to hơn.",
-    "Danh sách “Sắp xếp” dùng khung 72×42dp tương ứng.",
-    "Cập nhật: xác nhận lại luồng — sau khi tải xong app mở thẳng trình cài đặt hệ thống, không còn hộp thoại “Đang cài đặt/Cài đặt ngay” của app (chỉ còn 1 hộp xác nhận của Android)."
+    "Ảnh nền màn hình chính: chọn bằng thư viện ảnh thu nhỏ (thay cho danh sách chữ + số):",
+    "Hộp thoại kiểu iOS hiển thị 10 ảnh nền dạng lưới (5 cột trên TV, 3 cột trên điện thoại), ảnh đang dùng có viền xanh.",
+    "Bấm ảnh nào áp dụng ngay ảnh đó.",
+    "Vẫn giữ “Chọn ảnh từ máy…” và “Nhập địa chỉ ảnh (URL)…” ở cuối hộp thoại."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
