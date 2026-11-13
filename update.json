@@ -1,14 +1,14 @@
 {
-  "versionCode": 336,
-  "versionName": "2.48.6",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.48.6.apk",
-  "notes": "Bản 2.48.6",
-  "size": 7757977,
-  "sha256": "4248ee8b8f57dad8ea9c85e4155c8a1b540efbddf2ae6bdaf206b8b10e8afe6e",
+  "versionCode": 338,
+  "versionName": "2.49.1",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.49.1.apk",
+  "notes": "2.49.1: Lịch phát sóng (EPG panel) + sửa lỗi tải EPG",
+  "size": 7763605,
+  "sha256": "44b7e5ce794b87ba1c551139bba4cb484e5099dacdbf03af7a59c5921084d6f7",
   "changelog": [
-    "Đồng bộ tài liệu: thêm Tổng hợp chức năng (docs/TINH-NANG-2026-11-13.md), Bàn giao 2026-11-13, cập nhật README/INDEX/LENH-GIONG-NOI.",
-    "Danh sách lệnh giọng nói (trong app) ghi rõ: không khớp kênh/ứng dụng → tự mở tìm kiếm SmartTube.",
-    "Không đổi hành vi phát; kiểm chứng lại voice “hbo” → PlayChannel → play: HBO."
+    "Lịch phát sóng (EPG panel) trong trình phát (TV + điện thoại ngang): nút lịch trên dock mở panel bên trái giống ảnh tham khảo — chương trình đang phát có viền đỏ, thanh tiến trình và nhãn “Đang phát”, kèm danh sách chương trình hôm nay (giờ, tên, số phút). ▲▼ cuộn, Back/nút ← đóng, tự cập nhật 60s và khi đổi kênh.",
+    "Sửa lỗi EPG không bao giờ có dữ liệu: M3uParser ghi đè epgUrl = null ở mỗi dòng #EXTINF không khai báo url-tvg, làm mất url-tvg ở header playlist. Nay chỉ ghi đè khi EXTINF có khai báo riêng.",
+    "EPG: lưu URL vào Store.epgUrl (và khi lưu snapshot) + chống tải trùng (cờ loading); index hiện khớp 202/234 kênh có tvg-id."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
