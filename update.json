@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.49.11.apk",
   "notes": "Bản 2.49.11",
   "size": 7766103,
-  "sha256": "490ffc0026e44c42df95d978966639017a314495b839633947fe3bba614bc22b",
+  "sha256": "8aabe1ec43d951c739f99ff214de2e2b9fdfbcad407f829c944622cf915f9307",
   "changelog": [
     "Điện thoại: chạm màn hình không còn mở Lịch phát sóng (trước đây tranh chấp với vuốt ngang chuyển kênh). Nay chạm vào logo góc trên trái mới mở Lịch phát sóng; vuốt ngang vẫn chuyển kênh; chạm ra ngoài để đóng.",
     "Box giữ nguyên hành vi: Menu mở/đóng Lịch phát sóng, OK mở danh sách kênh. Bản này chỉ phát hành cho điện thoại (box vẫn 2.49.10)."
