@@ -1,10 +1,10 @@
 {
   "versionCode": 333,
   "versionName": "2.48.3",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.48.3.apk",
-  "notes": "2.48.3: gán phím mở ứng dụng (chọn app kèm logo)",
-  "size": 7757710,
-  "sha256": "95ec8c19b42f363504a9e4e92fb81f659072fe497ab22e077a3013996dc2b324",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.48.3.apk",
+  "notes": "Bản 2.48.3",
+  "size": 7757709,
+  "sha256": "14d28bc018552869f5af1c55fa10df7e4044a696db8ca0931f5526fd71987ce2",
   "changelog": [
     "Gán phím → “Mở ứng dụng…”: khi gán phím trong *Kiểm tra phím remote*, chọn “Mở ứng dụng…” sẽ mở cửa sổ danh sách ứng dụng kèm logo (lấy từ PackageManager như hàng app ở Home) để chọn; lưu theo app:<package>.",
     "Dùng được cho phím hãng (YouTube, Netflix…) kể cả khi keyCode=0 (lưu theo scanCode).",
