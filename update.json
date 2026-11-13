@@ -1,14 +1,16 @@
 {
-  "versionCode": 323,
-  "versionName": "2.47.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.47.3.apk",
-  "notes": "Bản 2.47.3",
-  "size": 7753617,
-  "sha256": "715608acb709cd70e4b39a4725204bd020ef7eaa332841e5fcb69cfc94cbe933",
+  "versionCode": 328,
+  "versionName": "2.47.8",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.47.8.apk",
+  "notes": "2.47.8: sửa voice sau cập nhật (heartbeat + nhắc Trợ năng) + gán phím remote",
+  "size": 7755676,
+  "sha256": "9e356f44051e0ee2a3490535b7c0b4fbde5d9776ea35f58abbb4cdb7c3bec6b7",
   "changelog": [
-    "Sửa hồi quy “bấm Home bị đen ~2s”: trước đây HomeActivity.onStop giải phóng decoder ngay; khi Home bị dựng lại/đi qua màn hình chờ hoặc khi hệ thống dọn activity, decoder bị tháo trong lúc Home đang hiện → HDMI chớp đen.",
-    "Thêm AppState: đếm số Activity MQTV đang hiển thị; chỉ giải phóng decoder sau khi không còn Activity nào hiển thị 5 giây (đã rời hẳn app), huỷ nếu quay lại.",
-    "Bỏ flush trong HomeActivity.onStop và PlayerActivity.onDestroy."
+    "Sửa giọng nói bị mất sau khi cập nhật app: Android 6 tắt dịch vụ Trợ năng sau mỗi lần cài đè và không tự bind lại khi chỉ ghi Settings. Nay app:",
+    "Kiểm tra dịch vụ có thực sự chạy (heartbeat 60s) thay vì chỉ đọc Settings.",
+    "Thử bật lại bằng cách toggle (ghi rỗng → ghi lại) và hiện nhắc “Bật Trợ năng” (6 giờ/lần) nếu vẫn chưa chạy.",
+    "Gán phím remote: trong *Kiểm tra phím remote* có nút “Gán phím này…” — chọn hành động (Mở Cài đặt, Danh sách kênh, Tìm kênh, Yêu thích, SmartTube, Kênh kế/trước, Màn hình chờ, Thoát). Áp dụng cho cả Home và trình phát. Phím lạ (keyCode=0) vẫn gán được theo scanCode.",
+    "Màn hình kiểm tra phím hiện thêm scanCode / deviceId / tên thiết bị / source để nhận diện phím hãng."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
