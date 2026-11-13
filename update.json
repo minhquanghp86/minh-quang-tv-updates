@@ -1,13 +1,12 @@
 {
-  "versionCode": 347,
-  "versionName": "2.49.10",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.49.10.apk",
-  "notes": "Bản 2.49.10",
-  "size": 7766129,
-  "sha256": "2e65d61da4eb2ca4ac3d0da17c53c024d953ec6b0bd84756d388d056f8969e0d",
+  "versionCode": 353,
+  "versionName": "2.51.0",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.51.0.apk",
+  "notes": "Fix gốc rò decoder: voice đổi kênh không còn lỗi Decoder init failed",
+  "size": 7768990,
+  "sha256": "d247b50ced4254f7365faf071d06f6eac49f3fe6e193aea703cc221c97e2c72b",
   "changelog": [
-    "Trả lại đúng hành vi phím OK: OK/chạm ở trình phát mở danh sách kênh (trước đây sau khi thêm EPG, OK bị mở Lịch phát sóng do logo góc trên còn giữ focus).",
-    "Logo góc trên không còn nhận focus D-pad (chỉ còn là điểm chạm), nên không còn cướp phím OK; Menu vẫn là phím mở/đóng Lịch phát sóng như hiện tại."
+    "Bản 2.51.0"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
