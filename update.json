@@ -1,10 +1,10 @@
 {
   "versionCode": 318,
   "versionName": "2.46.8",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.46.8.apk",
-  "notes": "2.46.8: khung logo danh sách kênh đồng nhất (chữ nhật)",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.8.apk",
+  "notes": "Bản 2.46.8",
   "size": 7715978,
-  "sha256": "cd070c190e8dacf82977dfcc43528b59997fd84ea04421bc7b59291f09c75ecb",
+  "sha256": "90c56f3191c6869dd4f24bccb6608079bce79e7ff2e39200a71cdd2af6a314ed",
   "changelog": [
     "Danh sách kênh: khung logo chữ nhật đồng nhất (96×54dp, bo 12dp, padding 4dp) — logo vuông (HBO, Cinemax, kênh 519/46…) được đặt giữa khung chữ nhật giống mọi logo khác, không còn ô vuông to hơn.",
     "Danh sách “Sắp xếp” dùng khung 72×42dp tương ứng.",
