@@ -1,10 +1,10 @@
 {
   "versionCode": 328,
   "versionName": "2.47.8",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.47.8.apk",
-  "notes": "2.47.8: sửa voice sau cập nhật (heartbeat + nhắc Trợ năng) + gán phím remote",
-  "size": 7755676,
-  "sha256": "9e356f44051e0ee2a3490535b7c0b4fbde5d9776ea35f58abbb4cdb7c3bec6b7",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.47.8.apk",
+  "notes": "Bản 2.47.8",
+  "size": 7755682,
+  "sha256": "e95530460f221d639784633e74816ad18826d3782f9fe2b63be170558db76583",
   "changelog": [
     "Sửa giọng nói bị mất sau khi cập nhật app: Android 6 tắt dịch vụ Trợ năng sau mỗi lần cài đè và không tự bind lại khi chỉ ghi Settings. Nay app:",
     "Kiểm tra dịch vụ có thực sự chạy (heartbeat 60s) thay vì chỉ đọc Settings.",
