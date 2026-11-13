@@ -1,13 +1,15 @@
 {
-  "versionCode": 348,
-  "versionName": "2.49.11",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.49.11.apk",
-  "notes": "Bản 2.49.11",
-  "size": 7766103,
-  "sha256": "8aabe1ec43d951c739f99ff214de2e2b9fdfbcad407f829c944622cf915f9307",
+  "versionCode": 349,
+  "versionName": "2.50.0",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.50.0.apk",
+  "notes": "Gán phím remote 2 trang, bỏ gán cứng MENU",
+  "size": 7768113,
+  "sha256": "6e901fe827c0bca4a1acaa11dadb029c78b2fe28e355d0c18a0b454d5804df65",
   "changelog": [
-    "Điện thoại: chạm màn hình không còn mở Lịch phát sóng (trước đây tranh chấp với vuốt ngang chuyển kênh). Nay chạm vào logo góc trên trái mới mở Lịch phát sóng; vuốt ngang vẫn chuyển kênh; chạm ra ngoài để đóng.",
-    "Box giữ nguyên hành vi: Menu mở/đóng Lịch phát sóng, OK mở danh sách kênh. Bản này chỉ phát hành cho điện thoại (box vẫn 2.49.10)."
+    "Gán phím remote làm lại 2 trang: (1) danh sách “phím nào → hành động gì” + nút Thêm phím mới, chạm vào dòng để Đổi hành động/Bỏ gán; (2) trang lấy mã phím — bấm 1 phím là dừng nhận ngay, hiện đầy đủ keyCode/scanCode/device rồi dùng ▲▼◀▶ chọn Gán phím… / Hủy và bấm OK.",
+    "Bỏ gán cứng: app không còn tự gán MENU cho Cài đặt hay Lịch phát sóng (và không còn hiện tượng một phím vừa mở Cài đặt vừa mở EPG). Chỉ giữ các phím Android mặc định; muốn MENU mở Lịch phát sóng thì gán trong màn Gán phím.",
+    "Gán phím lưu kèm keyCode/scanCode/device, giữ nguyên qua các lần cập nhật; cũng được đưa vào Sao lưu/Khôi phục cấu hình.",
+    "Chống lặp: remote gửi 2 sự kiện cho cùng 1 phím (keyCode thật + keyCode=0 kèm scanCode) nay chỉ chạy hành động 1 lần."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
