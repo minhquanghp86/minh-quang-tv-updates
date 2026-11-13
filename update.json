@@ -1,10 +1,10 @@
 {
   "versionCode": 323,
   "versionName": "2.47.3",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.47.3.apk",
-  "notes": "2.47.3: sửa lỗi đen màn hình khi bấm Home (giữ decoder khi UI còn hiển thị)",
-  "size": 7753610,
-  "sha256": "f20eafe6dcf09cfcc44286fab21c37c118bbbbe325eeb7c432b8a1cee110084d",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.47.3.apk",
+  "notes": "Bản 2.47.3",
+  "size": 7753617,
+  "sha256": "715608acb709cd70e4b39a4725204bd020ef7eaa332841e5fcb69cfc94cbe933",
   "changelog": [
     "Sửa hồi quy “bấm Home bị đen ~2s”: trước đây HomeActivity.onStop giải phóng decoder ngay; khi Home bị dựng lại/đi qua màn hình chờ hoặc khi hệ thống dọn activity, decoder bị tháo trong lúc Home đang hiện → HDMI chớp đen.",
     "Thêm AppState: đếm số Activity MQTV đang hiển thị; chỉ giải phóng decoder sau khi không còn Activity nào hiển thị 5 giây (đã rời hẳn app), huỷ nếu quay lại.",
