@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.50.0.apk",
   "notes": "Bản 2.50.0",
   "size": 7768113,
-  "sha256": "0c5dc48a2c0f368ff56fd471a0647890cd142e94369257ee6e4aaf3344512f58",
+  "sha256": "1851a4137da49826926ee7b44cb311e71697eb4bc01a571dd6768c224da63e01",
   "changelog": [
     "Gán phím remote làm lại 2 trang: (1) danh sách “phím nào → hành động gì” + nút Thêm phím mới, chạm vào dòng để Đổi hành động/Bỏ gán; (2) trang lấy mã phím — bấm 1 phím là dừng nhận ngay, hiện đầy đủ keyCode/scanCode/device rồi dùng ▲▼◀▶ chọn Gán phím… / Hủy và bấm OK.",
     "Bỏ gán cứng: app không còn tự gán MENU cho Cài đặt hay Lịch phát sóng (và không còn hiện tượng một phím vừa mở Cài đặt vừa mở EPG). Chỉ giữ các phím Android mặc định; muốn MENU mở Lịch phát sóng thì gán trong màn Gán phím.",
