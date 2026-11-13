@@ -1,10 +1,10 @@
 {
   "versionCode": 335,
   "versionName": "2.48.5",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.48.5.apk",
-  "notes": "2.48.5: voice không khớp kênh → mở kết quả tìm kiếm SmartTube",
-  "size": 7757927,
-  "sha256": "1fa62c87a895dd0de703c08d74334b4bad3c181546569118702be86e4fd91b0d",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.48.5.apk",
+  "notes": "Bản 2.48.5",
+  "size": 7757936,
+  "sha256": "06b00ccca425647bbb7c5aebd36caff35a0dbbc7c4a885dcd23cbfba61bf9205",
   "changelog": [
     "Voice không khớp kênh → tự mở kết quả tìm kiếm trên SmartTube: câu nói không trùng kênh/ứng dụng/lệnh điều khiển nay được chuyển sang SmartTube (ưu tiên org.smarttube.stable, dự phòng qua cầu nối com.amazon.firetv.youtube) và hiện ngay trang kết quả tìm kiếm.",
     "Câu khớp kênh vẫn phát trực tiếp trong MQTV (không đổi).",
