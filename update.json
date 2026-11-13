@@ -1,16 +1,12 @@
 {
-  "versionCode": 352,
-  "versionName": "2.50.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.50.3.apk",
-  "notes": "Bản 2.50.3",
-  "size": 7768914,
-  "sha256": "d407cb0a7091176c8488e1a299cd849225f137bde0f0221f3e61c8b91654d5f1",
+  "versionCode": 347,
+  "versionName": "2.49.10",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.49.10.apk",
+  "notes": "Bản ổn định 2.49.10 (quay lại sau sự cố 2.50.x)",
+  "size": 7766126,
+  "sha256": "36bf4c606978cae5593b7058c4c69770b63f72989a8a0b127ed5fbdf860ae31b",
   "changelog": [
-    "Sửa lỗi sau khi dùng giọng nói không kênh nào phát được (OMX.amlogic.avc.decoder.awesome: Failed to initialize):",
-    "createPlayer() giải phóng hẳn player đang chờ (PendingRelease) trước khi tạo mới; player giữ lại khi mở Google voice chỉ giữ tối đa 5s.",
-    "Khi gặp DECODER_INIT_FAILED: tháo player, chờ 2s rồi thử lại; nếu vẫn kẹt thì tự khởi động lại app để hệ thống thu hồi codec (kèm thông báo), thay vì lặp retry vô hạn.",
-    "Nút Xóa trên từng dòng phím đã gán trong màn *Gán phím remote*.",
-    "Không cần khởi động lại box thủ công khi gặp lỗi giải mã."
+    "Quay lại bản ổn định 2.49.10"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
