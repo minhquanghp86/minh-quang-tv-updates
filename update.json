@@ -1,10 +1,10 @@
 {
   "versionCode": 336,
   "versionName": "2.48.6",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.48.6.apk",
-  "notes": "2.48.6: đồng bộ tài liệu chức năng + ghi chú fallback SmartTube trong app",
-  "size": 7757980,
-  "sha256": "2d13623140cc728704786a40920ee308fd93a556de61eb099924275b2352348f",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.48.6.apk",
+  "notes": "Bản 2.48.6",
+  "size": 7757977,
+  "sha256": "610a3876ef7287ba18c0e6139c3b73461d4032aa1e818dd5e9d4b2a1402b8ae6",
   "changelog": [
     "Đồng bộ tài liệu: thêm Tổng hợp chức năng (docs/TINH-NANG-2026-11-13.md), Bàn giao 2026-11-13, cập nhật README/INDEX/LENH-GIONG-NOI.",
     "Danh sách lệnh giọng nói (trong app) ghi rõ: không khớp kênh/ứng dụng → tự mở tìm kiếm SmartTube.",
