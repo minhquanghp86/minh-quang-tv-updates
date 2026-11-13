@@ -1,15 +1,14 @@
 {
-  "versionCode": 333,
-  "versionName": "2.48.3",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.48.3.apk",
-  "notes": "Bản 2.48.3",
-  "size": 7757709,
-  "sha256": "14d28bc018552869f5af1c55fa10df7e4044a696db8ca0931f5526fd71987ce2",
+  "versionCode": 335,
+  "versionName": "2.48.5",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.48.5.apk",
+  "notes": "2.48.5: voice không khớp kênh → mở kết quả tìm kiếm SmartTube",
+  "size": 7757927,
+  "sha256": "1fa62c87a895dd0de703c08d74334b4bad3c181546569118702be86e4fd91b0d",
   "changelog": [
-    "Gán phím → “Mở ứng dụng…”: khi gán phím trong *Kiểm tra phím remote*, chọn “Mở ứng dụng…” sẽ mở cửa sổ danh sách ứng dụng kèm logo (lấy từ PackageManager như hàng app ở Home) để chọn; lưu theo app:<package>.",
-    "Dùng được cho phím hãng (YouTube, Netflix…) kể cả khi keyCode=0 (lưu theo scanCode).",
-    "Nhãn hiển thị trong danh sách gán: “Mở ứng dụng: <tên app>”.",
-    "Kiểm chứng: gán phím MENU → Amazon SmartTube Bridge, bấm MENU trên Home mở SmartTube; sau đó gán lại MENU → Mở Cài đặt, bấm MENU mở Cài đặt app."
+    "Voice không khớp kênh → tự mở kết quả tìm kiếm trên SmartTube: câu nói không trùng kênh/ứng dụng/lệnh điều khiển nay được chuyển sang SmartTube (ưu tiên org.smarttube.stable, dự phòng qua cầu nối com.amazon.firetv.youtube) và hiện ngay trang kết quả tìm kiếm.",
+    "Câu khớp kênh vẫn phát trực tiếp trong MQTV (không đổi).",
+    "Có công tắc nội bộ autoStSearch (mặc định bật) để tắt nếu cần."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
