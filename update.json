@@ -1,10 +1,10 @@
 {
   "versionCode": 322,
   "versionName": "2.47.2",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.47.2.apk",
-  "notes": "2.47.2: nút Cài đặt trên remote mở Cài đặt app; kiểm tra phím remote; icon/banner mới",
-  "size": 7753383,
-  "sha256": "396f0c036bcf59b454691a41327b308c02abb37c6974932bffc55b91e9eda3fc",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.47.2.apk",
+  "notes": "Bản 2.47.2",
+  "size": 7753392,
+  "sha256": "3889a922db573c39127223c372aa2a02784e0d4fca4a089a62f910ba16df0774",
   "changelog": [
     "Nút Cài đặt (bánh răng) trên remote mở thẳng Cài đặt của app — ở cả màn hình chính và trình phát (nhận KEYCODE_SETTINGS và KEYCODE_MENU).",
     "Màn hình “Kiểm tra phím remote” (Cài đặt → Chẩn đoán): hiện tên + mã phím mỗi lần bấm, giúp map các phím đặc thù của từng remote (Netflix, YouTube, phím màu, GUIDE…).",
