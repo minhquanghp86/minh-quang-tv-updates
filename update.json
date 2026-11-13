@@ -1,12 +1,14 @@
 {
-  "versionCode": 353,
-  "versionName": "2.51.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.51.0.apk",
-  "notes": "Bản 2.51.0",
-  "size": 7768989,
-  "sha256": "993a77c6c4435630a7cb3a566e04ad2271387131a354e5b52f5b65243820ae44",
+  "versionCode": 355,
+  "versionName": "2.51.2",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.51.2.apk",
+  "notes": "Voice không khớp kênh -> mở kết quả SmartTube qua cầu Amazon",
+  "size": 7768916,
+  "sha256": "3df05c874891739f739574b485c15b55c2389d401ed9159dc9a0b26cc83dcc0f",
   "changelog": [
-    "Bản 2.51.0"
+    "Voice không khớp kênh/app → mở thẳng trang KẾT QUẢ tìm kiếm trên SmartTube qua app cầu đã cài trên box com.amazon.firetv.youtube/com.liskovsoft.amazonsmartyoutubetv.LauncherBridgeActivity (ACTION_VIEW + youtube.com/results?search_query=…), thay vì để màn hình Google hiện 2 hàng kết quả YouTube + SmartTube.",
+    "Đóng màn hình Google trước (BACK) rồi chờ 500ms mới mở SmartTube; đánh dấu actionExecuted để cuối phiên voice không kéo player trở lại che kết quả.",
+    "Thứ tự thử: cầu Amazon (results) → cầu Amazon (SEARCH) → SmartTube trực tiếp (results) → SmartTube (SEARCH); có log voiceBridge mở SmartTube … ok=…."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
