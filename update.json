@@ -3,8 +3,8 @@
   "versionName": "2.46.9",
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.9.apk",
   "notes": "Bản 2.46.9",
-  "size": 7718687,
-  "sha256": "6b92bdef40d22040ca2f64e1a2daaf34682ee6ddc7916e29ec76cbc3953a8621",
+  "size": 7718678,
+  "sha256": "b089a044373c403f94aa171e2c711b489dbcc84fa083eed0bdd6ed0b00e8e2b0",
   "changelog": [
     "Ảnh nền màn hình chính: chọn bằng thư viện ảnh thu nhỏ (thay cho danh sách chữ + số):",
     "Hộp thoại kiểu iOS hiển thị 10 ảnh nền dạng lưới (5 cột trên TV, 3 cột trên điện thoại), ảnh đang dùng có viền xanh.",
