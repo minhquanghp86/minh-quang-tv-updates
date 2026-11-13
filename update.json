@@ -1,14 +1,13 @@
 {
-  "versionCode": 355,
-  "versionName": "2.51.2",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.51.2.apk",
-  "notes": "Bản 2.51.2",
-  "size": 7768911,
-  "sha256": "77ffa333ce7955d1faf205bd1af8ecf243953c2aa4847f87022775f2fa766ccd",
+  "versionCode": 356,
+  "versionName": "2.51.3",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.51.3.apk",
+  "notes": "Voice không khớp -> mở kết quả SmartTube (tự bấm tìm kiếm)",
+  "size": 7769377,
+  "sha256": "276ed8fa6b586a7d50dc8eb8ab6c71d6b67e8f14405658a2bd74710157a99900",
   "changelog": [
-    "Voice không khớp kênh/app → mở thẳng trang KẾT QUẢ tìm kiếm trên SmartTube qua app cầu đã cài trên box com.amazon.firetv.youtube/com.liskovsoft.amazonsmartyoutubetv.LauncherBridgeActivity (ACTION_VIEW + youtube.com/results?search_query=…), thay vì để màn hình Google hiện 2 hàng kết quả YouTube + SmartTube.",
-    "Đóng màn hình Google trước (BACK) rồi chờ 500ms mới mở SmartTube; đánh dấu actionExecuted để cuối phiên voice không kéo player trở lại che kết quả.",
-    "Thứ tự thử: cầu Amazon (results) → cầu Amazon (SEARCH) → SmartTube trực tiếp (results) → SmartTube (SEARCH); có log voiceBridge mở SmartTube … ok=…."
+    "Fallback voice → SmartTube giờ vào thẳng trang kết quả kể cả khi SmartTube khởi động nguội: sau khi mở bằng app cầu Amazon, service tự bấm nút tìm kiếm (org.smarttube.stable:id/lb_search_bar_search_orb, tìm bằng findAccessibilityNodeInfosByViewId), thử lại tối đa 7 lần × 700ms.",
+    "Log: voiceBridge mở SmartTube action=… target=com.amazon.firetv.youtube/… + bấm tìm kiếm SmartTube ok=true."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
