@@ -1,15 +1,13 @@
 {
-  "versionCode": 346,
-  "versionName": "2.49.9",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.49.9.apk",
-  "notes": "Bản 2.49.9",
-  "size": 7766121,
-  "sha256": "86d28cc7545149da2905842a3d008ff7f06609f010d7e970ae6cfad266ea5af8",
+  "versionCode": 347,
+  "versionName": "2.49.10",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.49.10.apk",
+  "notes": "Trả lại OK mở danh sách kênh; Menu vẫn mở Lịch phát sóng",
+  "size": 7766126,
+  "sha256": "36bf4c606978cae5593b7058c4c69770b63f72989a8a0b127ed5fbdf860ae31b",
   "changelog": [
-    "Thêm 2 nút Hôm nay / Ngày mai cạnh logo kênh trong Lịch phát sóng: chạm để nhảy tới đầu ngày đó (remote: ◀ ▶ chọn, OK nhảy), nút đang chọn sáng xanh.",
-    "Bỏ chương trình bắt đầu trước 00:00 hôm nay (trước đây hiện lẫn mục “12/11” của hôm qua).",
-    "Nếu nguồn EPG chưa có dữ liệu ngày mai (hiện tượng thường gặp), mục NGÀY MAI vẫn hiển thị kèm dòng “Chưa có dữ liệu lịch phát sóng cho ngày mai.” thay vì không phản hồi.",
-    "Mở Lịch phát sóng sẽ tự đóng danh sách kênh nếu đang mở."
+    "Trả lại đúng hành vi phím OK: OK/chạm ở trình phát mở danh sách kênh (trước đây sau khi thêm EPG, OK bị mở Lịch phát sóng do logo góc trên còn giữ focus).",
+    "Logo góc trên không còn nhận focus D-pad (chỉ còn là điểm chạm), nên không còn cướp phím OK; Menu vẫn là phím mở/đóng Lịch phát sóng như hiện tại."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
