@@ -1,10 +1,10 @@
 {
   "versionCode": 353,
   "versionName": "2.51.0",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.51.0.apk",
-  "notes": "Fix gốc rò decoder: voice đổi kênh không còn lỗi Decoder init failed",
-  "size": 7768990,
-  "sha256": "d247b50ced4254f7365faf071d06f6eac49f3fe6e193aea703cc221c97e2c72b",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.51.0.apk",
+  "notes": "Bản 2.51.0",
+  "size": 7768989,
+  "sha256": "b3b78a9d21f62e6a2bb8ad5d2cca3d55ad92fa90eefe7ab265419fc07b9e2adf",
   "changelog": [
     "Bản 2.51.0"
   ],
