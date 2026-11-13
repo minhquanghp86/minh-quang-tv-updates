@@ -1,13 +1,13 @@
 {
-  "versionCode": 315,
-  "versionName": "2.46.5",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.5.apk",
-  "notes": "Bản 2.46.5",
-  "size": 7714641,
-  "sha256": "a0252101652bf8a53c7b80a7f21858983698fcc0048f33dcfed5d150fdb32d7f",
+  "versionCode": 316,
+  "versionName": "2.46.6",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.46.6.apk",
+  "notes": "2.46.6: cập nhật chỉ cần 1 lần bấm, không nhắc lặp",
+  "size": 7714442,
+  "sha256": "2f9e53045c6312bccf56153ea4a49667a5308d8b8ee295333ea508e6274356e2",
   "changelog": [
-    "Màn hình chờ & giữ màn hình sáng chỉ áp dụng trên TV box, không bật trên điện thoại (tránh screensaver/đổi timeout trên phone).",
-    "Chốt mốc ổn định: tag v2.46.5-stable, cập nhật docs/BAN-GIAO-2026-11-12.md, README, INDEX."
+    "Bỏ bước xác nhận thừa khi cập nhật: sau khi tải xong, app mở trình cài đặt hệ thống ngay — không còn hộp thoại “Đang cài đặt… / Cài đặt ngay” của app và không còn hẹn giờ tự cài song song. Từ nay chỉ cần 1 lần bấm “Cập nhật ngay” (sau đó là 1 xác nhận của hệ thống).",
+    "Không nhắc lại cùng một bản liên tục: đã nhắc bản nào thì 12 giờ sau mới nhắc lại; đang trong quá trình cài thì không hiện popup mới."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
