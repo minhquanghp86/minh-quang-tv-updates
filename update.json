@@ -1,16 +1,15 @@
 {
-  "versionCode": 345,
-  "versionName": "2.49.8",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.49.8.apk",
-  "notes": "Bản 2.49.8",
-  "size": 7764609,
-  "sha256": "119a53a5e5bf46a7f412e9bf3902f2a115f9c02c7ba488322266c7f02ea213b2",
+  "versionCode": 346,
+  "versionName": "2.49.9",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.49.9.apk",
+  "notes": "Thêm nút Hôm nay/Ngày mai cho Lịch phát sóng",
+  "size": 7766124,
+  "sha256": "3a62e0a2edb5e53ba6a656ec74531b8f3f9364978b843e81812562655c985422",
   "changelog": [
-    "Lịch phát sóng thành menu thanh bên: dính sát cạnh trên/dưới/trái, rộng 1/2 màn hình ngang, nền trong suốt ~75%, chữ nhỏ gọn hơn.",
-    "Mở bằng phím Menu trên box (mặc định, gán lại được — đã thêm hành động “Lịch phát sóng” vào danh sách gán phím) và chạm màn hình 1 lần trên điện thoại; chạm ra ngoài (điện thoại) hoặc Back (box) để đóng. Bỏ nút Lịch phát sóng khỏi thanh công cụ.",
-    "EPG đủ 48 giờ: chỉ lấy 00:00 hôm nay → 24:00 ngày mai cho từng kênh, có nhãn HÔM NAY / NGÀY MAI, tự cuộn tới chương trình đang phát.",
-    "Sửa lỗi EPG thiếu dữ liệu: bỏ giới hạn MAX_PER_CHANNEL = 8 (nay 300) — trước đây mỗi kênh chỉ còn 8 chương trình nên lịch chỉ tới ~17h–21h.",
-    "Lưu ý: EPG giờ được tính lại khi sang ngày mới (loadedDay)."
+    "Thêm 2 nút Hôm nay / Ngày mai cạnh logo kênh trong Lịch phát sóng: chạm để nhảy tới đầu ngày đó (remote: ◀ ▶ chọn, OK nhảy), nút đang chọn sáng xanh.",
+    "Bỏ chương trình bắt đầu trước 00:00 hôm nay (trước đây hiện lẫn mục “12/11” của hôm qua).",
+    "Nếu nguồn EPG chưa có dữ liệu ngày mai (hiện tượng thường gặp), mục NGÀY MAI vẫn hiển thị kèm dòng “Chưa có dữ liệu lịch phát sóng cho ngày mai.” thay vì không phản hồi.",
+    "Mở Lịch phát sóng sẽ tự đóng danh sách kênh nếu đang mở."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
