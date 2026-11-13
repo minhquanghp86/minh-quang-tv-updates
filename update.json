@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.51.3.apk",
   "notes": "Bản 2.51.3",
   "size": 7769376,
-  "sha256": "9a80934cb934ed83981748c78523ea4def019bf3274f5e3acee2b8e6f2cba485",
+  "sha256": "1bef2fc740e61b12bd0d004b0a88c0cdbab0c3a7b281e9494c66dd6519471f2f",
   "changelog": [
     "Fallback voice → SmartTube giờ vào thẳng trang kết quả kể cả khi SmartTube khởi động nguội: sau khi mở bằng app cầu Amazon, service tự bấm nút tìm kiếm (org.smarttube.stable:id/lb_search_bar_search_orb, tìm bằng findAccessibilityNodeInfosByViewId), thử lại tối đa 7 lần × 700ms.",
     "Log: voiceBridge mở SmartTube action=… target=com.amazon.firetv.youtube/… + bấm tìm kiếm SmartTube ok=true."
