@@ -1,16 +1,14 @@
 {
-  "versionCode": 328,
-  "versionName": "2.47.8",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.47.8.apk",
-  "notes": "Bản 2.47.8",
-  "size": 7755682,
-  "sha256": "e95530460f221d639784633e74816ad18826d3782f9fe2b63be170558db76583",
+  "versionCode": 332,
+  "versionName": "2.48.2",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.48.2.apk",
+  "notes": "2.48.2: voice sẵn sàng ngay (snapshot index), sửa khớp nhầm app/đồng hồ",
+  "size": 7755801,
+  "sha256": "25756db8624038c005b2b1715255e6e1e5e22113346cbd52491b70eb3f8fce54",
   "changelog": [
-    "Sửa giọng nói bị mất sau khi cập nhật app: Android 6 tắt dịch vụ Trợ năng sau mỗi lần cài đè và không tự bind lại khi chỉ ghi Settings. Nay app:",
-    "Kiểm tra dịch vụ có thực sự chạy (heartbeat 60s) thay vì chỉ đọc Settings.",
-    "Thử bật lại bằng cách toggle (ghi rỗng → ghi lại) và hiện nhắc “Bật Trợ năng” (6 giờ/lần) nếu vẫn chưa chạy.",
-    "Gán phím remote: trong *Kiểm tra phím remote* có nút “Gán phím này…” — chọn hành động (Mở Cài đặt, Danh sách kênh, Tìm kênh, Yêu thích, SmartTube, Kênh kế/trước, Màn hình chờ, Thoát). Áp dụng cho cả Home và trình phát. Phím lạ (keyCode=0) vẫn gán được theo scanCode.",
-    "Màn hình kiểm tra phím hiện thêm scanCode / deviceId / tên thiết bị / source để nhận diện phím hãng."
+    "Voice dùng được ngay sau khi service khởi động: dựng index từ snapshot kênh trên đĩa (~1s) trước, rồi mới nạp mạng ở nền — hết tình trạng “câu đầu tiên không tác dụng”.",
+    "Sửa khớp nhầm: chỉ mở app khi câu lệnh có động từ (“mở/chuyển sang…”); trước đó nói “axn” có thể khớp chữ “Cài đặt” trên màn hình Google → mở nhầm Settings.",
+    "Chỉ đọc cửa sổ katniss và loại chuỗi giờ “13:21” → hết việc đồng hồ màn hình chính bị hiểu thành số kênh."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
