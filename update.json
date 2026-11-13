@@ -1,14 +1,14 @@
 {
-  "versionCode": 322,
-  "versionName": "2.47.2",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.47.2.apk",
-  "notes": "Bản 2.47.2",
-  "size": 7753392,
-  "sha256": "3889a922db573c39127223c372aa2a02784e0d4fca4a089a62f910ba16df0774",
+  "versionCode": 323,
+  "versionName": "2.47.3",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.47.3.apk",
+  "notes": "2.47.3: sửa lỗi đen màn hình khi bấm Home (giữ decoder khi UI còn hiển thị)",
+  "size": 7753610,
+  "sha256": "f20eafe6dcf09cfcc44286fab21c37c118bbbbe325eeb7c432b8a1cee110084d",
   "changelog": [
-    "Nút Cài đặt (bánh răng) trên remote mở thẳng Cài đặt của app — ở cả màn hình chính và trình phát (nhận KEYCODE_SETTINGS và KEYCODE_MENU).",
-    "Màn hình “Kiểm tra phím remote” (Cài đặt → Chẩn đoán): hiện tên + mã phím mỗi lần bấm, giúp map các phím đặc thù của từng remote (Netflix, YouTube, phím màu, GUIDE…).",
-    "Icon & banner mới: icon không còn chữ nhỏ (dễ đọc ở 48dp), thêm adaptive icon; banner TV 320×180 chuẩn (logo + “MINH QUANG TV” + “Xem IPTV”, không còn chữ đè lên nhau) — sửa lỗi hiển thị trên launcher mặc định."
+    "Sửa hồi quy “bấm Home bị đen ~2s”: trước đây HomeActivity.onStop giải phóng decoder ngay; khi Home bị dựng lại/đi qua màn hình chờ hoặc khi hệ thống dọn activity, decoder bị tháo trong lúc Home đang hiện → HDMI chớp đen.",
+    "Thêm AppState: đếm số Activity MQTV đang hiển thị; chỉ giải phóng decoder sau khi không còn Activity nào hiển thị 5 giây (đã rời hẳn app), huỷ nếu quay lại.",
+    "Bỏ flush trong HomeActivity.onStop và PlayerActivity.onDestroy."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
