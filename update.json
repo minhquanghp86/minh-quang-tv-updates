@@ -1,10 +1,10 @@
 {
   "versionCode": 338,
   "versionName": "2.49.1",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.49.1.apk",
-  "notes": "2.49.1: Lịch phát sóng (EPG panel) + sửa lỗi tải EPG",
-  "size": 7763605,
-  "sha256": "44b7e5ce794b87ba1c551139bba4cb484e5099dacdbf03af7a59c5921084d6f7",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.49.1.apk",
+  "notes": "Bản 2.49.1",
+  "size": 7763607,
+  "sha256": "fc45d9656b4407f364c083b7802a342a7ce554efd6beda9444cb687f62c1b428",
   "changelog": [
     "Lịch phát sóng (EPG panel) trong trình phát (TV + điện thoại ngang): nút lịch trên dock mở panel bên trái giống ảnh tham khảo — chương trình đang phát có viền đỏ, thanh tiến trình và nhãn “Đang phát”, kèm danh sách chương trình hôm nay (giờ, tên, số phút). ▲▼ cuộn, Back/nút ← đóng, tự cập nhật 60s và khi đổi kênh.",
     "Sửa lỗi EPG không bao giờ có dữ liệu: M3uParser ghi đè epgUrl = null ở mỗi dòng #EXTINF không khai báo url-tvg, làm mất url-tvg ở header playlist. Nay chỉ ghi đè khi EXTINF có khai báo riêng.",
