@@ -1,10 +1,10 @@
 {
   "versionCode": 317,
   "versionName": "2.46.7",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.46.7.apk",
-  "notes": "2.46.7: popup kiểu iOS + logo danh sách kênh cùng kích thước",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.7.apk",
+  "notes": "Bản 2.46.7",
   "size": 7715969,
-  "sha256": "082ef9d2248bc26f85d6d4e0b161cb8199ebbd5eddd550b3c25eafc9440d8f50",
+  "sha256": "686e04712785206c35dc367e72210c379d510a8d8caddc556f3fe73411ad9707",
   "changelog": [
     "Hộp thoại kiểu iOS cho toàn bộ app: nền #1C1C1E bo 22dp, viền mảnh, tiêu đề trắng, nút chữ xanh (#3D8BFD), không in hoa, hiệu ứng fade; áp dụng qua alertDialogTheme nên mọi AlertDialog (cập nhật, xoá dữ liệu, chọn thư mục, danh sách lệnh…) đều đồng bộ.",
     "Logo trong Danh sách kênh cùng kích thước: khung vuông 56dp cố định cho mọi logo (padding 5dp, bo 12dp); logo rộng thu vào giữa, logo vuông vừa khung → không còn ô to/nhỏ khác nhau. Danh sách “Sắp xếp” cũng dùng khung 50dp."
