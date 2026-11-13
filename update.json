@@ -1,14 +1,15 @@
 {
-  "versionCode": 332,
-  "versionName": "2.48.2",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.48.2.apk",
-  "notes": "Bản 2.48.2",
-  "size": 7755802,
-  "sha256": "890769fa4268010ade1f8cdbd53273ea977c67c1ef266f3d74464b3f4ec61bb9",
+  "versionCode": 333,
+  "versionName": "2.48.3",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.48.3.apk",
+  "notes": "2.48.3: gán phím mở ứng dụng (chọn app kèm logo)",
+  "size": 7757710,
+  "sha256": "95ec8c19b42f363504a9e4e92fb81f659072fe497ab22e077a3013996dc2b324",
   "changelog": [
-    "Voice dùng được ngay sau khi service khởi động: dựng index từ snapshot kênh trên đĩa (~1s) trước, rồi mới nạp mạng ở nền — hết tình trạng “câu đầu tiên không tác dụng”.",
-    "Sửa khớp nhầm: chỉ mở app khi câu lệnh có động từ (“mở/chuyển sang…”); trước đó nói “axn” có thể khớp chữ “Cài đặt” trên màn hình Google → mở nhầm Settings.",
-    "Chỉ đọc cửa sổ katniss và loại chuỗi giờ “13:21” → hết việc đồng hồ màn hình chính bị hiểu thành số kênh."
+    "Gán phím → “Mở ứng dụng…”: khi gán phím trong *Kiểm tra phím remote*, chọn “Mở ứng dụng…” sẽ mở cửa sổ danh sách ứng dụng kèm logo (lấy từ PackageManager như hàng app ở Home) để chọn; lưu theo app:<package>.",
+    "Dùng được cho phím hãng (YouTube, Netflix…) kể cả khi keyCode=0 (lưu theo scanCode).",
+    "Nhãn hiển thị trong danh sách gán: “Mở ứng dụng: <tên app>”.",
+    "Kiểm chứng: gán phím MENU → Amazon SmartTube Bridge, bấm MENU trên Home mở SmartTube; sau đó gán lại MENU → Mở Cài đặt, bấm MENU mở Cài đặt app."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
