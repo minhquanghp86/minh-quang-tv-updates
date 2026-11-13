@@ -1,10 +1,10 @@
 {
   "versionCode": 332,
   "versionName": "2.48.2",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.48.2.apk",
-  "notes": "2.48.2: voice sẵn sàng ngay (snapshot index), sửa khớp nhầm app/đồng hồ",
-  "size": 7755801,
-  "sha256": "25756db8624038c005b2b1715255e6e1e5e22113346cbd52491b70eb3f8fce54",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.48.2.apk",
+  "notes": "Bản 2.48.2",
+  "size": 7755802,
+  "sha256": "890769fa4268010ade1f8cdbd53273ea977c67c1ef266f3d74464b3f4ec61bb9",
   "changelog": [
     "Voice dùng được ngay sau khi service khởi động: dựng index từ snapshot kênh trên đĩa (~1s) trước, rồi mới nạp mạng ở nền — hết tình trạng “câu đầu tiên không tác dụng”.",
     "Sửa khớp nhầm: chỉ mở app khi câu lệnh có động từ (“mở/chuyển sang…”); trước đó nói “axn” có thể khớp chữ “Cài đặt” trên màn hình Google → mở nhầm Settings.",
