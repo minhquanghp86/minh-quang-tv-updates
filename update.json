@@ -4,7 +4,7 @@
   "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.50.3.apk",
   "notes": "Bản 2.50.3",
   "size": 7768914,
-  "sha256": "c78f4a817dcc68bbc3c68d9885704a7e4b30cad77a11c61bb05a73b8fc1fb5b1",
+  "sha256": "d407cb0a7091176c8488e1a299cd849225f137bde0f0221f3e61c8b91654d5f1",
   "changelog": [
     "Sửa lỗi sau khi dùng giọng nói không kênh nào phát được (OMX.amlogic.avc.decoder.awesome: Failed to initialize):",
     "createPlayer() giải phóng hẳn player đang chờ (PendingRelease) trước khi tạo mới; player giữ lại khi mở Google voice chỉ giữ tối đa 5s.",
