@@ -1,10 +1,10 @@
 {
   "versionCode": 316,
   "versionName": "2.46.6",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.46.6.apk",
-  "notes": "2.46.6: cập nhật chỉ cần 1 lần bấm, không nhắc lặp",
-  "size": 7714442,
-  "sha256": "2f9e53045c6312bccf56153ea4a49667a5308d8b8ee295333ea508e6274356e2",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.6.apk",
+  "notes": "Bản 2.46.6",
+  "size": 7714441,
+  "sha256": "0ba69dd41e30e265c1bcf7c85e0bd4939934506ac168111ca77fc165b6c9692b",
   "changelog": [
     "Bỏ bước xác nhận thừa khi cập nhật: sau khi tải xong, app mở trình cài đặt hệ thống ngay — không còn hộp thoại “Đang cài đặt… / Cài đặt ngay” của app và không còn hẹn giờ tự cài song song. Từ nay chỉ cần 1 lần bấm “Cập nhật ngay” (sau đó là 1 xác nhận của hệ thống).",
     "Không nhắc lại cùng một bản liên tục: đã nhắc bản nào thì 12 giờ sau mới nhắc lại; đang trong quá trình cài thì không hiện popup mới."
