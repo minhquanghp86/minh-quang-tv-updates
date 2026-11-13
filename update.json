@@ -1,15 +1,16 @@
 {
-  "versionCode": 349,
-  "versionName": "2.50.0",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.50.0.apk",
-  "notes": "Bản 2.50.0",
-  "size": 7768113,
-  "sha256": "1851a4137da49826926ee7b44cb311e71697eb4bc01a571dd6768c224da63e01",
+  "versionCode": 352,
+  "versionName": "2.50.3",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.50.3.apk",
+  "notes": "Fix không phát được kênh sau khi dùng voice + nút Xóa phím đã gán",
+  "size": 7768913,
+  "sha256": "f265297956c86db607be43648c1b703801ecd7e0f3f2dfc65407d7e36f8302ab",
   "changelog": [
-    "Gán phím remote làm lại 2 trang: (1) danh sách “phím nào → hành động gì” + nút Thêm phím mới, chạm vào dòng để Đổi hành động/Bỏ gán; (2) trang lấy mã phím — bấm 1 phím là dừng nhận ngay, hiện đầy đủ keyCode/scanCode/device rồi dùng ▲▼◀▶ chọn Gán phím… / Hủy và bấm OK.",
-    "Bỏ gán cứng: app không còn tự gán MENU cho Cài đặt hay Lịch phát sóng (và không còn hiện tượng một phím vừa mở Cài đặt vừa mở EPG). Chỉ giữ các phím Android mặc định; muốn MENU mở Lịch phát sóng thì gán trong màn Gán phím.",
-    "Gán phím lưu kèm keyCode/scanCode/device, giữ nguyên qua các lần cập nhật; cũng được đưa vào Sao lưu/Khôi phục cấu hình.",
-    "Chống lặp: remote gửi 2 sự kiện cho cùng 1 phím (keyCode thật + keyCode=0 kèm scanCode) nay chỉ chạy hành động 1 lần."
+    "Sửa lỗi sau khi dùng giọng nói không kênh nào phát được (OMX.amlogic.avc.decoder.awesome: Failed to initialize):",
+    "createPlayer() giải phóng hẳn player đang chờ (PendingRelease) trước khi tạo mới; player giữ lại khi mở Google voice chỉ giữ tối đa 5s.",
+    "Khi gặp DECODER_INIT_FAILED: tháo player, chờ 2s rồi thử lại; nếu vẫn kẹt thì tự khởi động lại app để hệ thống thu hồi codec (kèm thông báo), thay vì lặp retry vô hạn.",
+    "Nút Xóa trên từng dòng phím đã gán trong màn *Gán phím remote*.",
+    "Không cần khởi động lại box thủ công khi gặp lỗi giải mã."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
