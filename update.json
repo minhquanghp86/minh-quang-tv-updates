@@ -1,13 +1,13 @@
 {
-  "versionCode": 316,
-  "versionName": "2.46.6",
-  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.46.6.apk",
-  "notes": "Bản 2.46.6",
-  "size": 7714441,
-  "sha256": "0ba69dd41e30e265c1bcf7c85e0bd4939934506ac168111ca77fc165b6c9692b",
+  "versionCode": 317,
+  "versionName": "2.46.7",
+  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.46.7.apk",
+  "notes": "2.46.7: popup kiểu iOS + logo danh sách kênh cùng kích thước",
+  "size": 7715969,
+  "sha256": "082ef9d2248bc26f85d6d4e0b161cb8199ebbd5eddd550b3c25eafc9440d8f50",
   "changelog": [
-    "Bỏ bước xác nhận thừa khi cập nhật: sau khi tải xong, app mở trình cài đặt hệ thống ngay — không còn hộp thoại “Đang cài đặt… / Cài đặt ngay” của app và không còn hẹn giờ tự cài song song. Từ nay chỉ cần 1 lần bấm “Cập nhật ngay” (sau đó là 1 xác nhận của hệ thống).",
-    "Không nhắc lại cùng một bản liên tục: đã nhắc bản nào thì 12 giờ sau mới nhắc lại; đang trong quá trình cài thì không hiện popup mới."
+    "Hộp thoại kiểu iOS cho toàn bộ app: nền #1C1C1E bo 22dp, viền mảnh, tiêu đề trắng, nút chữ xanh (#3D8BFD), không in hoa, hiệu ứng fade; áp dụng qua alertDialogTheme nên mọi AlertDialog (cập nhật, xoá dữ liệu, chọn thư mục, danh sách lệnh…) đều đồng bộ.",
+    "Logo trong Danh sách kênh cùng kích thước: khung vuông 56dp cố định cho mọi logo (padding 5dp, bo 12dp); logo rộng thu vào giữa, logo vuông vừa khung → không còn ô to/nhỏ khác nhau. Danh sách “Sắp xếp” cũng dùng khung 50dp."
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
