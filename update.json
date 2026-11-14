@@ -1,13 +1,12 @@
 {
   "versionCode": 365,
   "versionName": "2.52.2",
-  "apkUrl": "http://192.168.10.126:8899/minh-quang-tv-2.52.2.apk",
-  "notes": "WIP: màu focus xanh + sắp xếp kênh (nhập số vị trí cần xác nhận)",
-  "size": 7773620,
-  "sha256": "63e56ba7cec267f3f9d261cc8983047e9d29d5056aa7e77050dcc6c54d6680e8",
+  "apkUrl": "https://raw.githubusercontent.com/minhquanghp86/minh-quang-tv-updates/main/minh-quang-tv-2.52.2.apk",
+  "notes": "Bản 2.52.2",
+  "size": 7773630,
+  "sha256": "d4b1408db1f927ff7c913dc413c4a0b6e118c98a17bca208c57f0ba1864ea5db",
   "changelog": [
-    "Màu focus xanh nõn chuối",
-    "Nhấn giữ kênh: Di chuyển / Nhập số vị trí (WIP)"
+    "Bản 2.52.2"
   ],
   "changelogUrl": "https://minhquanghp86.github.io/minh-quang-tv-updates/"
 }
